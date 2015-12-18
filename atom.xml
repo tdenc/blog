@@ -4,7 +4,7 @@
   
   <link href="/blog/atom.xml" rel="self"/>
   <link href="http://tdenc.github.io/blog/"/>
-  <updated>2015-12-04T12:21:04.000Z</updated>
+  <updated>2015-12-18T13:48:44.000Z</updated>
   <id>http://tdenc.github.io/blog/</id>
   
   <author>
@@ -13,6 +13,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[ニコニコ書籍フィード作成ページ作った]]></title>
+    <link href="http://tdenc.github.io/blog/2015/12/18/nicobookfeed/"/>
+    <id>http://tdenc.github.io/blog/2015/12/18/nicobookfeed/</id>
+    <published>2015-12-18T13:01:08.000Z</published>
+    <updated>2015-12-18T13:48:44.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="https://nicobookfeed.appspot.com/" target="_blank" rel="external">ニコニコ書籍フィード作成</a><br>使い方：ぽちぽち選んで，ぽちっとなを押して，表示されるページをフィードリーダーに登録（ﾎﾟﾁｰ</p>
+<p>※ 大人な人は末尾にr18をつけると幸せになれるかもしれません（R18書籍はサムネでピンクな近藤さんが表示されるかもしれませんが，きちんと見たい人は根性でなんとかしてください）。子どもはつけないでください。</p>
+<p>ノリで作ったけど結構便利かも。無料書籍のみフィードリーダーで情報を得たい人とかもいるだろうし。ページデザインについては触れちゃダメです。禁則事項です。</p>
+<p>どうせ作るならなんか新しいこと勉強したいなと思って<a href="https://cloud.google.com/appengine/" target="_blank" rel="external">Google App Engine</a>使ってみました。何年も前にアカウント作ったっきりずっと放置してたｗ</p>
+<p><a href="https://www.heroku.com/" target="_blank" rel="external">Heroku</a>の新しい無料枠がアレだったのでこっちを使ってみたのだけど，使ってみた感想としては，まあサクッと作れて便利といえば便利。特に躓きそうな点もなく。ただ，Pythonのバージョンが未だに2なのがちょっとなぁ…。</p>
+<p>GAEさん，はよPython3に対応してください。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="https://nicobookfeed.appspot.com/" target="_blank" rel="external">ニコニコ書籍フィード作成</a><br>使い方：ぽちぽち選んで，ぽちっとなを押して，表示されるページをフィードリーダーに登録]]>
+    </summary>
+    
+      <category term="Google App Engine" scheme="http://tdenc.github.io/blog/tags/Google-App-Engine/"/>
+    
+      <category term="ニコニコ書籍" scheme="http://tdenc.github.io/blog/tags/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E6%9B%B8%E7%B1%8D/"/>
+    
+      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[おひっこし]]></title>
