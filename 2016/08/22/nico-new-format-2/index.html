@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>つんでれんこのニコニコ新仕様への対応 | Blog</title>
+  <title>【20160825更新】つんでれんこのニコニコ新仕様への対応 | Blog</title>
   <meta name="author" content="窓屋">
   
   <meta name="description" content="【追記(8/19)】投稿可能な動画ファイルのサイズが増加しますにもあるようにニコニコに仕様変更がありました。おそらく最も重要な部分は「投稿容量に関わらず全てniconico側でエンコードし複数画質を生成しております。」というところです。この仕様変更に従い，これまでは条件を満たせばサーバでの再エンコー">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="つんでれんこのニコニコ新仕様への対応"/>
+  <meta property="og:title" content="【20160825更新】つんでれんこのニコニコ新仕様への対応"/>
   <meta property="og:site_name" content="Blog"/>
 
   
@@ -57,7 +57,7 @@
       
       
   
-    <h1 class="title">つんでれんこのニコニコ新仕様への対応</h1>
+    <h1 class="title">【20160825更新】つんでれんこのニコニコ新仕様への対応</h1>
   
 
     </header>
@@ -93,6 +93,7 @@
 <li>エンコード方法については，従来のYouTube用のプリセットを流用しています。<ul>
 <li>まずCRFエンコード(CRF値は18）をします。オリジナルと比べてあまり劣化しない程度にビットレートを調整してエンコードします。CRF値が18なのは気まぐれです（詳細モードでCRF値を直接入力することで変更可能です。user_setting.batでの指定も可能です）</li>
 <li>ファイルサイズが1.5GB（正確には上記の通り1,495MB）に収まればエンコードは終了します。</li>
+<li><strong>バージョン2.80以降は，ビットレートが2000kbpsを下回った場合は2000kbpsを目標に2passエンコに切り替わります。</strong></li>
 <li>CRFエンコでファイルサイズが1.5GBを超えてしまったら，1.5GBを超えないように2pass（もしくは3pass）エンコードを行います。</li>
 </ul>
 </li>
@@ -178,7 +179,7 @@
       </li>
     
       <li>
-        <a href="/blog/2016/08/22/nico-new-format-2/">つんでれんこのニコニコ新仕様への対応</a>
+        <a href="/blog/2016/08/22/nico-new-format-2/">【20160825更新】つんでれんこのニコニコ新仕様への対応</a>
       </li>
     
       <li>
