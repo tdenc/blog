@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog</title>
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="http://tdenc.github.io/blog/"/>
+  <updated>2016-09-11T14:02:20.000Z</updated>
+  <id>http://tdenc.github.io/blog/</id>
+  
+  <author>
+    <name>窓屋</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TDEnc2 バージョン2.26</title>
+    <link href="http://tdenc.github.io/blog/2016/09/11/tdenc2-226/"/>
+    <id>http://tdenc.github.io/blog/2016/09/11/tdenc2-226/</id>
+    <published>2016-09-11T14:00:44.000Z</published>
+    <updated>2016-09-11T14:02:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.26を公開しました。<br>ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。<br><a href="http://tdenc.com/TDEnc2" target="_blank" rel="external">こちら</a>からどうぞ。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;TDEnc2のバージョン2.26を公開しました。&lt;br&gt;ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。&lt;br&gt;&lt;a href=&quot;http://tdenc.com/TDEnc2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/
+    
+    </summary>
+    
+      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="TDEnc2" scheme="http://tdenc.github.io/blog/tags/TDEnc2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>つんでれんこバージョン2.87</title>
+    <link href="http://tdenc.github.io/blog/2016/09/06/tdenc-287/"/>
+    <id>http://tdenc.github.io/blog/2016/09/06/tdenc-287/</id>
+    <published>2016-09-06T12:58:11.000Z</published>
+    <updated>2016-09-06T13:04:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.87をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。<br>バージョン2.85と2.86の記事書くの忘れてたけど気にしてはいけない。<br>そんなものは最初からなかった。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;つんでれんこバージョン2.87をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.85と2.86の記事書くの忘れてた
+    
+    </summary>
+    
+      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>つんでれんこバージョン2.84</title>
+    <link href="http://tdenc.github.io/blog/2016/08/29/tdenc-284/"/>
+    <id>http://tdenc.github.io/blog/2016/08/29/tdenc-284/</id>
+    <published>2016-08-29T01:07:51.000Z</published>
+    <updated>2016-08-29T01:10:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.84をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。<br>バージョン2.83…聞いたことない子ですね（ごめんなさい）。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;つんでれんこバージョン2.84をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.83…聞いたことない子ですね（ごめ
+    
+    </summary>
+    
+      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>つんでれんこバージョン2.83</title>
+    <link href="http://tdenc.github.io/blog/2016/08/28/tdenc-283/"/>
+    <id>http://tdenc.github.io/blog/2016/08/28/tdenc-283/</id>
+    <published>2016-08-28T09:10:14.000Z</published>
+    <updated>2016-08-28T09:13:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.83をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。<br>バージョン2.82なんてものもなかった（ごめんなさい）。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;つんでれんこバージョン2.83をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.82なんてものもなかった（ごめんな
+    
+    </summary>
+    
+      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>つんでれんこバージョン2.82</title>
+    <link href="http://tdenc.github.io/blog/2016/08/28/tdenc-282/"/>
+    <id>http://tdenc.github.io/blog/2016/08/28/tdenc-282/</id>
+    <published>2016-08-28T05:23:23.000Z</published>
+    <updated>2016-08-28T05:27:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.82をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。<br>バージョン2.81なんてなかった。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;つんでれんこバージョン2.82をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.81なんてなかった。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>つんでれんこバージョン2.80</title>
+    <link href="http://tdenc.github.io/blog/2016/08/25/tdenc-280/"/>
+    <id>http://tdenc.github.io/blog/2016/08/25/tdenc-280/</id>
+    <published>2016-08-25T00:01:19.000Z</published>
+    <updated>2016-08-25T00:02:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.80をリリースしました。<br>もう勘弁して下さい。<br>※リリースに伴うあれこれは<a href="http://tdenc.com/blog/2016/08/22/nico-new-format-2/" target="_blank" rel="external">こちら</a>を参照して下さい。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;つんでれんこバージョン2.80をリリースしました。&lt;br&gt;もう勘弁して下さい。&lt;br&gt;※リリースに伴うあれこれは&lt;a href=&quot;http://tdenc.com/blog/2016/08/22/nico-new-format-2/&quot; target=&quot;_blank&quot; rel
+    
+    </summary>
+    
+      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>つんでれんこバージョン2.79</title>
+    <link href="http://tdenc.github.io/blog/2016/08/22/tdenc-279/"/>
+    <id>http://tdenc.github.io/blog/2016/08/22/tdenc-279/</id>
+    <published>2016-08-22T05:53:08.000Z</published>
+    <updated>2016-08-22T05:55:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.79をリリースしました。リリースに伴うあれこれは<a href="http://tdenc.com/blog/2016/08/22/nico-new-format-2/" target="_blank" rel="external">こちら</a>を参照して下さい。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;つんでれんこバージョン2.79をリリースしました。リリースに伴うあれこれは&lt;a href=&quot;http://tdenc.com/blog/2016/08/22/nico-new-format-2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;
+    
+    </summary>
+    
+      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【20160906更新】つんでれんこのニコニコ新仕様への対応</title>
+    <link href="http://tdenc.github.io/blog/2016/08/22/nico-new-format-2/"/>
+    <id>http://tdenc.github.io/blog/2016/08/22/nico-new-format-2/</id>
+    <published>2016-08-22T01:58:20.000Z</published>
+    <updated>2016-09-06T12:56:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://blog.nicovideo.jp/niconews/ni062609.html" target="_blank" rel="external">【追記(8/19)】投稿可能な動画ファイルのサイズが増加します</a>にもあるようにニコニコに仕様変更がありました。おそらく最も重要な部分は「投稿容量に関わらず全てniconico側でエンコードし複数画質を生成しております。」というところです。この仕様変更に従い，これまでは条件を満たせばサーバでの再エンコードを回避できたのですが，これができなくなりました。この仕様変更に対応するために，後ほどつんでれんこ2.79をリリースする予定です（もしかするとバグの判明などで2.80以降をリリースするかもしれません）。</p>
+<p>新仕様への対応ですが，注意点がいくつかあります。</p>
+<ul>
+<li>つんでれんこ2.79以降で新仕様に対応するためには，つんでれんこのサイト選択のところで大文字のNを選んで下さい。</li>
+<li>ニコニコ新仕様が対象のアカウントは一部のみです。適用者以外は従来通り小文字のnを選んで下さい。</li>
+<li>新仕様対応モードでエンコードしても<strong>ファイルサイズに関わらずサーバで必ずエンコードされます</strong>。そのため，ニコニコでブラウザで見る際は<strong>必ず劣化します</strong>。</li>
+</ul>
+<p>上で<strong>必ず劣化する</strong>と書きましたが，一定条件を満たせば<strong>多少は劣化度合いを抑えることができます</strong>。</p>
+<ul>
+<li>オリジナルファイルを高解像度で作成する（まだ検証は進んでいませんが，最低でも1280 x 720は必要です）。</li>
+<li>動画の長さに関しては15分以下の動画が一番劣化度合いの少ないエンコードパラメータになるようです。</li>
+<li>映像ビットレートは2Mbps以上にする。</li>
+<li>音声のサンプリングレートは44.1kHzに，ビットレートは192kbps以上にする。</li>
+<li>フレームレートについては公式からのお知らせはありませんが，おそらく30fpsもしくは24fpsにしたほうがよい気がします（確証はありません）。</li>
+</ul>
+<p>以上の条件で出力したファイルが1.5GB以内なら，<strong>つんでれんこにかけないでそのまま投稿した方がよいと思います</strong>。もしサーバエンコードでエラーが出たら，使用コーデックを変えるなどしてみてください。もし出力ファイルが1.5GBを超えたら，そのファイルをつんでれんこにかけると，1.5GB以内に抑えるようにエンコードします。</p>
+<p>つんでれんこの新仕様への対応方法は以下のとおりです。</p>
+<ul>
+<li><del>新仕様向けのエンコードではつんでれんこでは解像度のリサイズはしません。720pで投稿したい場合は720pで，4kで投稿したい場合は4kで事前にファイルを作成して下さい。</del> <strong>バージョン2.87でNモードでもリサイズが可能になりました。有効(y)にすると縦720ピクセルにリサイズします（質問レベルが「すこし」の時は自動でリサイズが有効になります。縦ピクセルのサイズはuser_setting.batで変更可能です）。</strong></li>
+<li>音声に関しては256kbpsで固定しました（user_setting.batで値を変えることができます）。</li>
+<li>ファイルサイズは1.5GBが上限ですが，余裕を持って1,495MBにしてあります（user_setting.batで値を変えることができます）。</li>
+<li>サーバエンコードでの劣化を防ぐ目的で，2.79からデノイズ機能を実装しました。<ul>
+<li>質問モードで詳細モードを選ぶと選択肢が出ます。詳細モード以外では自動で設定します。</li>
+<li>自動設定については，ニコニコの旧仕様向けのときは無効になります。YouTubeとニコニコ新仕様向けのときは有効になります。</li>
+<li>デノイズのモードについてはuser_setting.batで指定が可能ですが，よくわからない場合は弄らないで下さい。</li>
+</ul>
+</li>
+<li>エンコード方法については，従来のYouTube用のプリセットを流用しています。<ul>
+<li>まずCRFエンコード(CRF値は18）をします。オリジナルと比べてあまり劣化しない程度にビットレートを調整してエンコードします。CRF値が18なのは気まぐれです（詳細モードでCRF値を直接入力することで変更可能です。user_setting.batでの指定も可能です）</li>
+<li>ファイルサイズが1.5GB（正確には上記の通り1,495MB）に収まればエンコードは終了します。</li>
+<li><strong>バージョン2.80以降は，ビットレートが2000kbpsを下回った場合は2000kbpsを目標に2passエンコに切り替わります。</strong></li>
+<li>CRFエンコでファイルサイズが1.5GBを超えてしまったら，1.5GBを超えないように2pass（もしくは3pass）エンコードを行います。</li>
+</ul>
+</li>
+<li>1.5GBをターゲットにビットレートをギリギリまで使い込みたい場合は，質問レベルおおめモードでCRFエンコを無効に（nを選択）してください。<ul>
+<li>音声256kbpsを引いた残りのすべてを映像エンコードに使用します。</li>
+<li>なお，動画によってはビットレートを使いきらない場合があります（例えば動画時間が短かったり動きが少ない映像だったりすると指定ビットレートを使い切ることができずにファイルサイズが1.5GBに届かないことがあります）。</li>
+</ul>
+</li>
+</ul>
+<p>なぜデノイズを実装したかという点についてですが，他の方々の検証でも触れられてはいますが，再エンコードではどうやら2Mbps前後に再エンコードされるので場合によってはビットレート不足が起きることがあるからです。足りないビットレートをやりくりするには，絵の情報量を減らすことがある程度有効なので，とりあえず実装してみました（私個人はデノイズがあまり好きではないのですが…）。</p>
+<p>なお，TDEnc2の対応はしばらく先になります…。申し訳ないです…。リアルのスケジュール的にどうしても，ユーザー数の多いつんでれんこの方を優先させました…。TDEnc2はかなり先になってしまうと思いますが，時間ができ次第対応させるつもりです。よろしくお願いします。</p>
+<p>今回の仕様変更に色々と思うことがなくはないのですが，とりあえずそれは別記事に起こします。実装に疲れた…。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://blog.nicovideo.jp/niconews/ni062609.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【追記(8/19)】投稿可能な動画ファイルのサイズが増加します&lt;/a&gt;にもあるようにニコニコに仕
+    
+    </summary>
+    
+      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【追記あり】ニコニコの動画対応フォーマット変更について</title>
+    <link href="http://tdenc.github.io/blog/2016/08/10/nico-new-format/"/>
+    <id>http://tdenc.github.io/blog/2016/08/10/nico-new-format/</id>
+    <published>2016-08-10T11:47:02.000Z</published>
+    <updated>2016-08-13T10:42:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>なんかこんなお知らせが来てるのをさっき知りました。</p>
+<p><a href="http://blog.nicovideo.jp/niconews/ni062609.html" target="_blank" rel="external">投稿可能な動画ファイルのサイズが増加します</a></p>
+<p>相変わらず色々とわかりにくいお知らせですね…。タイトルや第1文目はファイルサイズのことしか書いていないのに，読み進めていくと解像度の変更とか色々あってこんがらがる…。とりあえずこのお知らせから予想される事態を色々考えてみます。</p>
+<h1 id="動画投稿に関してのプレミアムアカウントの優遇がほぼなくなる？">動画投稿に関してのプレミアムアカウントの優遇がほぼなくなる？</h1><p>「対象ユーザーは順次増加し、最終的に全会員が対象となる予定です」と書いてあるので，多分そういうことでしょう。適用される順番は優遇されるっぽいですが，将来的にはどのユーザーも同じ条件で投稿できるようになるっぽいですね。</p>
+<p>良いことだと言えば良いことではあるんですが，開発の側面からいうと，どのユーザーIDに適用されたかがわからないと，対応が非常に面倒です。現時点では，新基準適用者用のプリセットを別途作成してサイトにおいておき，各ユーザーがそれぞれダウンロードして置き換える，的な対応しか思いつかない…。これって，ユーザーにとっては手間ですよねえ，どうしたもんか。</p>
+<h1 id="「ご投稿いただいた動画は自動で複数の画質にエンコードされます」が気になる">「ご投稿いただいた動画は自動で複数の画質にエンコードされます」が気になる</h1><p>今までは，一定条件を満たせばサーバエンコードがされない仕様なのがニコニコの特徴でしたが，この1文がどうも引っかかります。というのも，この文章だと，YouTube方式みたいに必ずエンコードが入る仕様への変更とも読み取れてしまうからです。</p>
+<p>これまでも，エコノミー時間帯用あるいはモバイル端末用の動画が別途準備されていたのですが，1.5GBの動画をそのまま再エンコードなしで再生させるとも考えづらく，どういう実装になるのか現時点ではよくわかりませんね。もしかしたら，「100MBまでの動画は再エンコードなしで再生，100MBより容量が大きい（1.5GBまで）場合は強制再エンコード」みたいな感じになるんでしょうかね。</p>
+<p>どうなるにせよ，多分ニコニコインフォからの情報は限られたものになるような気がするので，頭が痛い…。エコノミー回避のビットレートが変更になったときも何度も投稿して調べたんですけど，ああいうのってサーバにも負担になるし，できれば情報を出してほしいんですけどね。</p>
+<h1 id="解像度の上限に制限が入る">解像度の上限に制限が入る</h1><p>プレミアムアカウントは今まで上限なしだったのが，4096x2160までという制限が入るようです。フレームレートにも制限が入るようになるみたい。うーん…。</p>
+<h1 id="謎の1文「100MB以上の投稿動画も一律約100MBとして使用量に加算いたします」">謎の1文「100MB以上の投稿動画も一律約100MBとして使用量に加算いたします」</h1><p>やっぱり投稿動画が100MBに再エンコードされるのかしら？そうでもない限り，なんでこんな仕様にするのか謎。もしそうなら，100MBがなにかしらのボーダーライン（上で述べたような再エンコード回避的な）になるんでしょうか。</p>
+<h1 id="で，つんでれんこはどうするの？">で，つんでれんこはどうするの？</h1><p>最終版リリースしましたって言ったな，あれは嘘だ。</p>
+<p>対応したいけど，でも現時点では情報足りなくてどうすればいいのかわかんない^q^<br>とりあえず「1.5GB！やったね，たえちゃん！容量が増えるよ！」的に喜びたいところだけど，再エンコード関連の部分がはっきりしない限り，ぬか喜びになる可能性もあるわけで…。今後追加情報が出て杞憂に終わればいいんですけど…。</p>
+<p>ちなみに今入院中です＼(^o^)／</p>
+<h1 id="2016年8月13日追記">2016年8月13日追記</h1><h2 id="[追記1]_運営に今後のこと少し聞いてみた">[追記1] 運営に今後のこと少し聞いてみた</h2><p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/koizuka" target="_blank" rel="external">@koizuka</a> お答えできる範囲で構わないのですが，投稿可能な動画に変更がある件，今後，例えば開発者ブログなどで，ニコニコインフォよりももう少し詳細な仕様説明などが公開される予定などはありますか？</p>&mdash; まどや☆マギカ (@tdenc) <a href="https://twitter.com/tdenc/status/764316350751715328" target="_blank" rel="external">2016年8月13日</a></blockquote></p>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/tdenc" target="_blank" rel="external">@tdenc</a> 予定は聞いてないけどリクエストしておくかなー</p>&mdash; Akihiko Koizuka (@koizuka) <a href="https://twitter.com/koizuka/status/764316556159397888" target="_blank" rel="external">2016年8月13日</a></blockquote></p>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/koizuka" target="_blank" rel="external">@koizuka</a> リクエスト，出していただけると本当に助かります。自分だけじゃなくて，他の人からも結構要望が出ていたりしますので。よろしくお願いします。</p>&mdash; まどや☆マギカ (@tdenc) <a href="https://twitter.com/tdenc/status/764316957373980672" target="_blank" rel="external">2016年8月13日</a></blockquote></p>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br>今後のことちょっと聞いてみたらリクエストの検討してくれるというとても丁寧な対応。さすが戀塚さん。<br>そんなわけで，つんでれんこの対応は，今後の公式発表をもう少し待ってから考えます。また，対象アカウントの方のアップロード報告なども確認してから動き出すので，おそらくすぐに対応できるわけではないこと，ご了承下さい。</p>
+<h2 id="[追記2]_退院しました">[追記2] 退院しました</h2><p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">え、まどさん少年院に入ってるの？</p>&mdash; Chikuzen (@mtfmk) <a href="https://twitter.com/mtfmk/status/763376032963448832" target="_blank" rel="external">2016年8月10日</a></blockquote></p>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br>そっちの意味の入院じゃねえｗ 白衣のお姉さんがいるとこ！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;なんかこんなお知らせが来てるのをさっき知りました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.nicovideo.jp/niconews/ni062609.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;投稿可能な動画ファイルのサイズ
+    
+    </summary>
+    
+      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+      <category term="ニコニコ" scheme="http://tdenc.github.io/blog/tags/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>イヤホン(XBA-300)を買った</title>
+    <link href="http://tdenc.github.io/blog/2016/06/11/xba300/"/>
+    <id>http://tdenc.github.io/blog/2016/06/11/xba300/</id>
+    <published>2016-06-11T10:47:26.000Z</published>
+    <updated>2016-06-11T12:12:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>tdenc.com用に運用していたVPS解約したことで発生したお小遣いを使って何を買おうかずっと迷っていたんですが，気に入るディスプレイも中々出てこないので，久々にイヤホンを新調しました。買ったのはこいつ↓</p>
+<p><a href="http://www.sony.jp/headphone/products/XBA-300/" target="_blank" rel="external">XBA-300|ヘッドホン|ソニー</a></p>
+<p>普段はヘッドホン派なんですがさすがにこの時期は暑くなるので外ではイヤホンになるわけで…。で，これまでは低音重視コスパ大正義なダイナミック型をよく使っていたんですが，今回はお金もあるしたまには気分を変えてみようということで久々にバランスド・アーマチュア型を聞いてみようかなあと。</p>
+<p>んでeイヤホンに行ってひたすら聞きまくって決めたのがXBA-300。解像度いいっすねこれ。とにかく中高音域がヤバい感じに仕上がってる。細かい。最初は低音が弱めかなあと思ったけど，イヤーピース調整したらきちんと聞こえるようになりました。大きくはないけど，バランスいいです。音に特徴がない，面白みがないとか批判する人もいるイヤホンだけど，今回はモニターな音が欲しかったのでこれで大満足。まあこの値段でこれくらいの音が出せていれば十分すぎると思います。</p>
+<p>とりあえずこれで響け!ユーフォニアムのサントラを早く聞きたい。聞きたいけど最終回まだ見れていない…。見れていないけど聞きたい…。うぅ…。金管どんな音するんだろう…。</p>
+<p>とまあユーフォは置いといて，ソニーさんは水素水ならぬ<a href="http://av.watch.impress.co.jp/docs/series/dal/691795.html" target="_blank" rel="external">色素SDカード</a>とか作ってる暇があるならこういうイヤホン増やして下さい。こういうのならお金出しますから。VPS解約で余ったお金，あと4万くらいあるし。というかもうイヤホンはダイナミック型に戻れないような気がするのでXBA-400出して下さいお願いします。</p>
+<p>にしてもXBA-300のイヤホンポーチ，もうちょいなんとかならんかったのだろうか…。しょぼすぎて思わず二度見するレベルだったんだけど…。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;tdenc.com用に運用していたVPS解約したことで発生したお小遣いを使って何を買おうかずっと迷っていたんですが，気に入るディスプレイも中々出てこないので，久々にイヤホンを新調しました。買ったのはこいつ↓&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sony.j
+    
+    </summary>
+    
+      <category term="趣味" scheme="http://tdenc.github.io/blog/categories/%E8%B6%A3%E5%91%B3/"/>
+    
+    
+      <category term="イヤホン" scheme="http://tdenc.github.io/blog/tags/%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>旧ダウンロードページについて</title>
+    <link href="http://tdenc.github.io/blog/2016/06/06/download/"/>
+    <id>http://tdenc.github.io/blog/2016/06/06/download/</id>
+    <published>2016-06-06T06:25:25.000Z</published>
+    <updated>2016-06-06T06:34:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>どうやらつんでれんこを紹介する記事とかで<a href="http://tdenc.com" target="_blank" rel="external">http://tdenc.com</a>ではなく<a href="http://tdenc.com/download" target="_blank" rel="external">http://tdenc.com/download</a>への直リンクを貼っているケースがあって，そこに飛んで404のページが表示されてしまって「ダウンロード出来ない」と悩む人がいるようなので，<a href="http://tdenc.com/download" target="_blank" rel="external">http://tdenc.com/download</a>にアクセスしたときに新しいダウンロードページに誘導するようなページを作りました。downloadというレポジトリをGitHubに作ってGitHub Pages機能を使って対処。…こんなことのためにレポジトリを増やすとか，なんだか無理矢理感半端ないけど面倒くさいしこれでいいのだ。</p>
+<p>404になっちゃうのは事前に分かってはいたんですが，そういう場合<a href="http://tdenc.com" target="_blank" rel="external">tdenc.com</a>の方にアクセスしてくれるだろうと淡い期待を抱いていたわけで，でもまあ世の中そんな上手く自分の思うように行かないよねーっていう。手間を惜しんだらいかんですね。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;どうやらつんでれんこを紹介する記事とかで&lt;a href=&quot;http://tdenc.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://tdenc.com&lt;/a&gt;ではなく&lt;a href=&quot;http://tdenc.com/download&quot;
+    
+    </summary>
+    
+      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+    
+      <category term="TDEnc2" scheme="http://tdenc.github.io/blog/tags/TDEnc2/"/>
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Herokuの無料枠の料金体系が2016年6月1日から変わった</title>
+    <link href="http://tdenc.github.io/blog/2016/06/03/heroku-new-free-dyno/"/>
+    <id>http://tdenc.github.io/blog/2016/06/03/heroku-new-free-dyno/</id>
+    <published>2016-06-03T10:25:19.000Z</published>
+    <updated>2016-06-03T11:27:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Herokuからメールが届いていたので読んでみたら，「2016年6月1日から無料枠の料金体系が変わったよ。アカウントに変更を適用したよ」とのことだったのでちょっと調べてみました。ちょうど1年前くらいに無料枠の体系が変わったんですが，また変わったんですねー。色々模索しているんでしょうね。</p>
+<p>詳しくは<a href="https://blog.heroku.com/archives/2016/5/18/announcing_heroku_free_ssl_beta_and_flexible_dyno_hours#flexible-free-dyno-hours" target="_blank" rel="external">Flexible Free Dyno Hours</a>を読んでもらうとして，超簡単に要約すると，Herokuにクレカ登録している人は1ヶ月につき1000 dyno hours，登録していない人は1ヶ月につき550 dyno hoursが付与されるとのことです。で，重要なのは，このdyno hoursは<strong>アカウントごとに付与</strong>され，複数のアプリを運用している場合はこのdyno hoursを分け合う形になるという点かなあ。</p>
+<p>1年前の無料枠の変更時に導入された「18時間稼働＆6時間スリープ」はどうやらなくなったようです。つまり(クレカを登録しているのなら)1つだけのアプリを運用するなら24/7の稼働ができるようになったので，常駐botを運用しやすくなった反面，旧体系の無料枠で複数アプリを運用していた人にはかなりきつい変更と言えそうです。さんすぅできないのバレるの嫌なので計算式は出しません（ぉぃ <a href="https://dashboard.heroku.com/account/billing" target="_blank" rel="external">Billing</a>のところで消費dyno hoursが見れるので1ヶ月でどれくらい消費することになるかは自分で計算してみてください。</p>
+<p>自分としては，5月末までVPSで運用していたbotの引っ越し先をどうしようか悩んでいたのでまさに渡りに船という感じで，さっそくhubotを引越ししました。Google App Engine用にPython2で書き直していたのがどうしても上手く行かなかったのでちょうどよかった…ｗ</p>
+<p>にしてもしばらくHeroku離れている間に随分便利な機能増えているんですね。今回初めて<a href="https://devcenter.heroku.com/articles/pipelines" target="_blank" rel="external">Pipelines</a>使ってみたんですけどヤバいっすね。<a href="https://devcenter.heroku.com/articles/github-integration-review-apps" target="_blank" rel="external">Review Apps</a>のGitHubのPR連携とか便利すぎて興奮しすぎて鼻血出る。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Herokuからメールが届いていたので読んでみたら，「2016年6月1日から無料枠の料金体系が変わったよ。アカウントに変更を適用したよ」とのことだったのでちょっと調べてみました。ちょうど1年前くらいに無料枠の体系が変わったんですが，また変わったんですねー。色々模索しているん
+    
+    </summary>
+    
+      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+    
+      <category term="Heroku" scheme="http://tdenc.github.io/blog/tags/Heroku/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>サーバのお引っ越し完了</title>
+    <link href="http://tdenc.github.io/blog/2016/05/31/vps2github2/"/>
+    <id>http://tdenc.github.io/blog/2016/05/31/vps2github2/</id>
+    <published>2016-05-31T12:27:41.000Z</published>
+    <updated>2016-05-31T13:42:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>VPSを解約して，GitHubへの移行を完了させました。今後は<a href="http://tdenc.com" target="_blank" rel="external">tdenc.com</a>にアクセスするとGitHub Pagesにアクセスすることになります。移行時にGitHubにpushするCNAMEについて勘違いをしていたせいで20分間くらい404になっちゃっいました。すみません。</p>
+<p>旧バージョンからのアップデートが間に合わなかった方は，自動アップデートがうまく機能しなくなっていると思いますので，新バージョンを手動で落として下さい。つんでれんこは<a href="/TDEnc">ここ</a>，TDEnc2は<a href="/TDEnc2">ここ</a>から最新版が落とせます。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;VPSを解約して，GitHubへの移行を完了させました。今後は&lt;a href=&quot;http://tdenc.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;tdenc.com&lt;/a&gt;にアクセスするとGitHub Pagesにアクセスすることになります。
+    
+    </summary>
+    
+      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+    
+      <category term="GitHub" scheme="http://tdenc.github.io/blog/tags/GitHub/"/>
+    
+      <category term="TDEnc2" scheme="http://tdenc.github.io/blog/tags/TDEnc2/"/>
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TDEnc2 バージョン2.25</title>
+    <link href="http://tdenc.github.io/blog/2016/05/21/tdenc2-225/"/>
+    <id>http://tdenc.github.io/blog/2016/05/21/tdenc2-225/</id>
+    <published>2016-05-21T08:06:07.000Z</published>
+    <updated>2016-05-21T08:15:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.25を公開しました。<br>大体1年ぶりの更新ですが，画質の変更とかは特にありません。</p>
+<p>サイトの引っ越しの関係で自動更新機能の変更をする必要があったので，その部分に関わるところだけです。経緯は<a href="http://tdenc.github.io/blog/2016/05/21/vps2github/">こちら</a>を参照して下さい。Windows版の方はx264を更新したり，メッセージ変更に関連した変更とかもあるのですが，こっちはそういうのはないです(ごめんなさい)。バグ修正とかは，そのうち…，いつか…。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;TDEnc2のバージョン2.25を公開しました。&lt;br&gt;大体1年ぶりの更新ですが，画質の変更とかは特にありません。&lt;/p&gt;
+&lt;p&gt;サイトの引っ越しの関係で自動更新機能の変更をする必要があったので，その部分に関わるところだけです。経緯は&lt;a href=&quot;http://tden
+    
+    </summary>
+    
+      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="TDEnc2" scheme="http://tdenc.github.io/blog/tags/TDEnc2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>つんでれんこバージョン2.78</title>
+    <link href="http://tdenc.github.io/blog/2016/05/21/tdenc-278/"/>
+    <id>http://tdenc.github.io/blog/2016/05/21/tdenc-278/</id>
+    <published>2016-05-21T07:39:09.000Z</published>
+    <updated>2016-05-21T08:09:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>つんでれんこのバージョン2.78を公開しました。<br>2年半ぶりの更新ですが，中身はあんまりないです。</p>
+<p>最近(といってもバズったのは随分前な気が…)つんでれんこのメッセージ(口調)を変えたものをリリースする人をちらほら見るんですが，message.batを直接書き換えるとアップデートのときに色々と面倒なんですよね。なので，message.batはdefault_message.batにファイル名を変え，user_message.batというのを新しく作りました。今後メッセージを変えるときは，user_message.batの方を弄り，default_message.batの方はそのままにして下さい(defaultの方を弄ると不具合の原因となります)。</p>
+<p>自動更新機能を使ってつんでれんこをアップデートすると，旧バージョンのuser_message.batはuser_message_old.batというファイルに変わりますので，更新前に口調を変更した人は，以前の口調に戻したいときはoldの方のファイルと新しいuser_message.batを比較しながら再度調整してください。あまりメッセージの変更はないので，oldの方のファイル名から_oldの部分を削ればいいケースがほとんどだと思いますが，一応中身を確認したほうがいいとは思います。</p>
+<p>バージョン2.78には自動更新機能関係の変更も含まれていますが，その経緯は<a href="http://tdenc.github.io/blog/2016/05/21/vps2github/">こちら</a>を参照して下さい。それ以外は，久々にx264を更新したくらいです。画質に影響があるのはそれくらいです。</p>
+<p>それにしても，口調を簡単に変更できるように変更したのがバージョン2.37で，リリース日は2010年4月29日なんですよね。5年以上も経ってからバズるっていうのもなんだか不思議なもんですね。修造版とかはかなり早くから出ていて，そこらへんはやっぱりニコニコだなぁという気がします。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;つんでれんこのバージョン2.78を公開しました。&lt;br&gt;2年半ぶりの更新ですが，中身はあんまりないです。&lt;/p&gt;
+&lt;p&gt;最近(といってもバズったのは随分前な気が…)つんでれんこのメッセージ(口調)を変えたものをリリースする人をちらほら見るんですが，message.batを直
+    
+    </summary>
+    
+      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tdenc.com の引っ越しの告知と新バージョンリリースについて</title>
+    <link href="http://tdenc.github.io/blog/2016/05/21/vps2github/"/>
+    <id>http://tdenc.github.io/blog/2016/05/21/vps2github/</id>
+    <published>2016-05-21T06:09:28.000Z</published>
+    <updated>2016-05-21T08:41:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://tdenc.github.io/blog/2015/12/04/migration/">おひっこし</a>でも告知していたのですが，<a href="http://tdenc.com" target="_blank" rel="external">tdenc.com</a>をVPSで運用するのをやめて<a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a>で回していくことにしました。VPSの管理をする時間がない…。</p>
+<p>引っ越しの実施は今月末です。ドメインは引き続き同じものを受け継ぎますので，サイトへのアクセスは今までどおり<a href="http://tdenc.com" target="_blank" rel="external">tdenc.com</a>で大丈夫です。中身だけ入れ替わります。6月1日前後を境に入れ替わります。</p>
+<p>それに伴い，自動アップデートの仕様を変更する必要があったので，つんでれんこ(Windows用)とTDEnc2(Mac用)もそれぞれ新バージョンをリリースしました。あとで個別に記事書きます。あんまり中身のない更新ですが，とりあえず今月末までにはアップデートをお願いします(新しく実装した自動更新機能のバグが心配な方は少し様子見して月末にアップデートするといいかもしれません)。とりあえず今月末までにアップデートをしないと，それ以降は自動更新が機能しなくなります。円環の理に導かれます。</p>
+<p>この変更でツールもサイトもどっちもGitHubに完全に依存することになるので，GitHubが死んだらうちも死にます。仕方ないね。まあでも死ぬのはうちだけじゃないしね。皆一緒なら怖くないしね。皆で痛みを分かち合うことでダメージを減らして他人とのキズナがうんたらかんたら(ry</p>
+<p>ところで，これ何年ぶりの更新だろう…と思ってリリースログ見たら，つんでれんこは2年半ぶり，TDEnc2もほぼ1年ぶりなんすね。随分と長い放置プレイ…。Twitter対応とかそのうちしたいけど，今後も仕様変更とかありそうだし，バージョン3あたりで実装できたらなあと思っております。</p>
+<p>あと，なんかバグ報告とか使い方に関する質問への対応とかたまに来ているのですが，諸々対応できなくてすみません。TwitterのDMとかもほぼ放置状態なので，相互フォロー以外からのDMは受け取らない設定にしようかなと思います。とりあえず，「ツイートしていない＝忙しい」ということなので，あまり返信を期待しないでのんびり待っていただけるとうれしいです。</p>
+<p>所属しているSlackとかも全く見れていないんですが，そのうち復帰します…。取り急ぎ生存報告も兼ねて。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://tdenc.github.io/blog/2015/12/04/migration/&quot;&gt;おひっこし&lt;/a&gt;でも告知していたのですが，&lt;a href=&quot;http://tdenc.com&quot; target=&quot;_blank&quot; rel=&quot;externa
+    
+    </summary>
+    
+      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+    
+      <category term="GitHub" scheme="http://tdenc.github.io/blog/tags/GitHub/"/>
+    
+      <category term="TDEnc2" scheme="http://tdenc.github.io/blog/tags/TDEnc2/"/>
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ニコニコ書籍フィード作成ページ作った</title>
+    <link href="http://tdenc.github.io/blog/2015/12/18/nicobookfeed/"/>
+    <id>http://tdenc.github.io/blog/2015/12/18/nicobookfeed/</id>
+    <published>2015-12-18T13:01:08.000Z</published>
+    <updated>2015-12-18T13:48:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://nicobookfeed.appspot.com/" target="_blank" rel="external">ニコニコ書籍フィード作成</a><br>使い方：ぽちぽち選んで，ぽちっとなを押して，表示されるページをフィードリーダーに登録（ﾎﾟﾁｰ</p>
+<p>※ 大人な人は末尾にr18をつけると幸せになれるかもしれません（R18書籍はサムネでピンクな近藤さんが表示されるかもしれませんが，きちんと見たい人は根性でなんとかしてください）。子どもはつけないでください。</p>
+<p>ノリで作ったけど結構便利かも。無料書籍のみフィードリーダーで情報を得たい人とかもいるだろうし。ページデザインについては触れちゃダメです。禁則事項です。</p>
+<p>どうせ作るならなんか新しいこと勉強したいなと思って<a href="https://cloud.google.com/appengine/" target="_blank" rel="external">Google App Engine</a>使ってみました。何年も前にアカウント作ったっきりずっと放置してたｗ</p>
+<p><a href="https://www.heroku.com/" target="_blank" rel="external">Heroku</a>の新しい無料枠がアレだったのでこっちを使ってみたのだけど，使ってみた感想としては，まあサクッと作れて便利といえば便利。特に躓きそうな点もなく。ただ，Pythonのバージョンが未だに2なのがちょっとなぁ…。</p>
+<p>GAEさん，はよPython3に対応してください。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://nicobookfeed.appspot.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ニコニコ書籍フィード作成&lt;/a&gt;&lt;br&gt;使い方：ぽちぽち選んで，ぽちっとなを押して，表示されるページをフィードリーダーに登録
+    
+    </summary>
+    
+      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+    
+      <category term="Google App Engine" scheme="http://tdenc.github.io/blog/tags/Google-App-Engine/"/>
+    
+      <category term="ニコニコ書籍" scheme="http://tdenc.github.io/blog/tags/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E6%9B%B8%E7%B1%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>おひっこし</title>
+    <link href="http://tdenc.github.io/blog/2015/12/04/migration/"/>
+    <id>http://tdenc.github.io/blog/2015/12/04/migration/</id>
+    <published>2015-12-04T04:13:13.000Z</published>
+    <updated>2015-12-04T12:21:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://tdenc.com" target="_blank" rel="external">tdenc.com</a> はVPSを借りて<a href="https://wordpress.org/" target="_blank" rel="external">WordPress</a>を利用して運用していたのですが，特にWordPressに拘っているわけではないし，VPSの保守にも飽きてきたし，せっかくなので<a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a>を積極的に利用してみようと思って引っ越しを計画中。しばらくは<a href="http://tdenc.github.io">tdenc.github.io</a>のまま運用し，特に問題がなければそのうち独自ドメインの設定をして完全に移行する予定です。</p>
+<p>ついでにニコニコのブロマガも使い勝手が中々良くならないので，ブログもGitHubに持ってきてみました。GitHub完全依存になりつつあるので，GitHubが死んだらヤヴァイ…。でもまあここまで大きくなったら（テンポることはあっても）潰れることはないだろうと楽観視していますが。</p>
+<p>ちなみにサイト・ブログの構築・管理は全部<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>でやってみました。Vimで書いてコマンド一発でデプロイできる幸せ。世の中便利ですねえ。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://tdenc.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;tdenc.com&lt;/a&gt; はVPSを借りて&lt;a href=&quot;https://wordpress.org/&quot; target=&quot;_blank&quot; rel=&quot;ext
+    
+    </summary>
+    
+      <category term="雑談" scheme="http://tdenc.github.io/blog/categories/%E9%9B%91%E8%AB%87/"/>
+    
+    
+      <category term="GitHub Pages" scheme="http://tdenc.github.io/blog/tags/GitHub-Pages/"/>
+    
+      <category term="Hexo" scheme="http://tdenc.github.io/blog/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
