@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://tdenc.github.io/blog/"/>
-  <updated>2016-09-18T05:39:57.000Z</updated>
+  <updated>2016-09-18T05:53:16.000Z</updated>
   <id>http://tdenc.github.io/blog/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="http://tdenc.github.io/blog/2016/09/18/tdenc-288/"/>
     <id>http://tdenc.github.io/blog/2016/09/18/tdenc-288/</id>
     <published>2016-09-18T05:26:10.000Z</published>
-    <updated>2016-09-18T05:39:57.000Z</updated>
+    <updated>2016-09-18T05:53:16.000Z</updated>
     
     <content type="html"><![CDATA[<p>つんでれんこバージョン2.88をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。</p>
 <p>Flash Playerのバージョンアップにより，つんでれんこが再生確認する際に使用していたローカルのプレイヤーがデフォルト設定では使用できなくなりました。この問題を解決するには，<a href="https://www43.atwiki.jp/tdenc/pages/13.html#id_a6913724" target="_blank" rel="external">このような対処</a>をする必要があります。</p>
 <p>ただ，これを全ユーザーにやってもらうのもどうかなーと思ったので，YouTubeも既にHTML5に移行しましたし，ニコニコもそのうちHTML5に移行するとのことなので，つんでれんこの再生確認画面でもHTML5を使用することにしました。一応設定ファイル（settingフォルダのuser_setting.bat）を弄ることでFlash Playerに戻すことも可能ですが，基本的にはHTML5の方を使用することをおすすめします（デフォルトで使用しているブラウザがHTML5に対応していないという場合はどうしようもないですが…）。</p>
-<p>もちろん（ニコニコがFlash Playerに移行するまでは）ニコニコで再生するときと若干見え方が違ってくる場合もあるので，きちんと事前に確認をしたい人は非公開でアップロードしてみるなどの方法で確認するのが確実だと思います。</p>
+<p>もちろん（ニコニコがHTML5に移行するまでは）ニコニコで再生するときと若干見え方が違ってくる場合もあるので，きちんと事前に確認をしたい人は非公開でアップロードしてみるなどの方法で確認するのが確実だと思います。</p>
 ]]></content>
     
     <summary type="html">
