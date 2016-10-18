@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://tdenc.github.io/blog/"/>
-  <updated>2016-10-15T05:12:30.000Z</updated>
+  <updated>2016-10-18T11:51:20.000Z</updated>
   <id>http://tdenc.github.io/blog/</id>
   
   <author>
@@ -14,6 +14,64 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>つんでれんこのTwitter対応について</title>
+    <link href="http://tdenc.github.io/blog/2016/10/18/hello-twitter/"/>
+    <id>http://tdenc.github.io/blog/2016/10/18/hello-twitter/</id>
+    <published>2016-10-18T10:26:27.000Z</published>
+    <updated>2016-10-18T11:51:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">つんでれんこのTwitter対応，気が向いたらやるつもりだったけど気が向いたのでそのうちやります</p>&mdash; まどや☆マギカ (@tdenc) <a href="https://twitter.com/tdenc/status/787515133899583488" target="_blank" rel="external">2016年10月16日</a></blockquote></p>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Twitterに動画を投稿したことがある人は既に経験しているかもしれませんが，Twitterに投稿するMP4は一定の条件を満たしていないと弾かれます。つんでれんこを使ってTwitterに投稿して失敗する人をエゴサで何度も見かけていたのでそのうち対応したいなぁとは思っていたのですが，なかなかまとまった時間が取れず，またTwitter側の仕様に変更がある可能性もあるのである程度時間が経ってから対応した方が良さそうだと考え，ずっと先延ばしにしていました。気が向いたらやればいいかなーと。</p>
+<p>で，なんとなく気が向いたので次のバージョン2.91で実装することにしました。どういうふうにしようかなーとしばらく考えたのですが，サーバでの再エンコード前提のエンコードになるので，従来のYouTube用（もしくはニコニコ新仕様用）のプリセットをちょこっと弄り，あまり小難しいことはしないことにしました。簡単にまとめると以下のような感じです。</p>
+<ul>
+<li>Twitter用にエンコードする際は，サイト選択のところでtを選ぶ。</li>
+<li>Twitter用のエンコードは，Twitterの公表しているスペックに基本的に準拠する。<ul>
+<li>映像はH.264/AVC，音声はAAC-LC。</li>
+<li>ファイル容量の上限は512MB（余裕を持って510MB）。</li>
+<li>動画の長さの上限は2分20秒（余裕を持って2分19秒）。</li>
+</ul>
+</li>
+<li>動画の長さが2分20秒以上の場合は，特にトリミングなどはせず，警告を出してそのまま終了する（動画を短くしてから再度挑戦して下さい）。</li>
+<li>質問レベルによって微妙にエンコード設定を変えることはできるが，よくわからない場合は「すこし」がおすすめ。<ul>
+<li>映像エンコードはまず品質基準エンコード（CRF）を試み，ビットレートが膨れすぎる場合は2pass（もしくは3pass）エンコードに切り替わる。</li>
+<li>デノイズもする（元絵を壊さない程度に）。</li>
+<li>音声エンコードは192kbpsを目標としたVBRエンコード（設定ファイルから変更可能。詳しくは後述）。</li>
+</ul>
+</li>
+<li>リサイズを自動（a）にするとよしなに設定するので自動がおすすめ（質問のレベルの選択によってはリサイズの質問は出ません）。<ul>
+<li>基本的には縦720pixelsにリサイズする。</li>
+<li>720pixelsより小さい場合はリサイズしない（ニコニコ新仕様向けのようなアップコンバートはしない）。</li>
+</ul>
+</li>
+</ul>
+<p>以上が基本ですが，設定ファイル（settingフォルダ内のuser_setting.bat）を弄るとデフォルト値を弄ることもできます。例えば音声ビットレートは256kbpsとかに変えることも可能ですが，問題が起きる可能性もあるので基本的にはあまり弄らないほうが良いと思います（どうせサーバ側で再エンコされますし）。</p>
+<p>一応バージョン2.91で実装予定ですが，開発途中版を<a href="https://github.com/tdenc/TDEnc/archive/devel.zip" target="_blank" rel="external">ここ</a>からダウンロードできます（zipを伸張したときに文字化けする可能性もあるので，そういうときは7zipなどのようなソフトウェアでzipを伸張してください。なんか最近はGitHub側がきちんと対応してくれてるっぽくて，Windowsのエクスプローラーで伸張しても大丈夫っぽいですが）。結構難産で，<strong>テストが大変なのでテストに協力してくださる方を募集していたりします</strong>。</p>
+<ul>
+<li>つんでれんこでTwitter用エンコードしたものをTwitterに正常にアップロードできるか。</li>
+<li>アップロードしたものはブラウザできちんと再生できるか。</li>
+<li>ニコニコ用，YouTube用のエンコードはこれまで通りきちんとできるか（というのも，Twitter用エンコードを実装した際に内部を結構弄ったせいで今まできちんと動いていたものが動かなくなっている可能性があるので）。</li>
+</ul>
+<p>もし何か問題を見つけましたら，Twitterで<a href="https://twitter.com/tdenc" target="_blank" rel="external">@tdenc</a>まで連絡いただけるととても助かります。動画の長さや解像度，つんでれんこの質問への返答，具体的な問題点を併記してくださるとありがたいです。よろしくお願いします。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;つんでれんこのTwitter対応，気が向いたらやるつもりだったけど気が向いたのでそのうちやります&lt;/p&gt;&amp;mdash; まどや☆マ
+    
+    </summary>
+    
+      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+    
+      <category term="Twitter" scheme="http://tdenc.github.io/blog/tags/Twitter/"/>
+    
+      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
   
   <entry>
     <title>つんでれんこバージョン2.90</title>
@@ -549,39 +607,6 @@
     
       <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
-    
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>tdenc.com の引っ越しの告知と新バージョンリリースについて</title>
-    <link href="http://tdenc.github.io/blog/2016/05/21/vps2github/"/>
-    <id>http://tdenc.github.io/blog/2016/05/21/vps2github/</id>
-    <published>2016-05-21T06:09:28.000Z</published>
-    <updated>2016-05-21T08:41:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="http://tdenc.github.io/blog/2015/12/04/migration/">おひっこし</a>でも告知していたのですが，<a href="http://tdenc.com" target="_blank" rel="external">tdenc.com</a>をVPSで運用するのをやめて<a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a>で回していくことにしました。VPSの管理をする時間がない…。</p>
-<p>引っ越しの実施は今月末です。ドメインは引き続き同じものを受け継ぎますので，サイトへのアクセスは今までどおり<a href="http://tdenc.com" target="_blank" rel="external">tdenc.com</a>で大丈夫です。中身だけ入れ替わります。6月1日前後を境に入れ替わります。</p>
-<p>それに伴い，自動アップデートの仕様を変更する必要があったので，つんでれんこ(Windows用)とTDEnc2(Mac用)もそれぞれ新バージョンをリリースしました。あとで個別に記事書きます。あんまり中身のない更新ですが，とりあえず今月末までにはアップデートをお願いします(新しく実装した自動更新機能のバグが心配な方は少し様子見して月末にアップデートするといいかもしれません)。とりあえず今月末までにアップデートをしないと，それ以降は自動更新が機能しなくなります。円環の理に導かれます。</p>
-<p>この変更でツールもサイトもどっちもGitHubに完全に依存することになるので，GitHubが死んだらうちも死にます。仕方ないね。まあでも死ぬのはうちだけじゃないしね。皆一緒なら怖くないしね。皆で痛みを分かち合うことでダメージを減らして他人とのキズナがうんたらかんたら(ry</p>
-<p>ところで，これ何年ぶりの更新だろう…と思ってリリースログ見たら，つんでれんこは2年半ぶり，TDEnc2もほぼ1年ぶりなんすね。随分と長い放置プレイ…。Twitter対応とかそのうちしたいけど，今後も仕様変更とかありそうだし，バージョン3あたりで実装できたらなあと思っております。</p>
-<p>あと，なんかバグ報告とか使い方に関する質問への対応とかたまに来ているのですが，諸々対応できなくてすみません。TwitterのDMとかもほぼ放置状態なので，相互フォロー以外からのDMは受け取らない設定にしようかなと思います。とりあえず，「ツイートしていない＝忙しい」ということなので，あまり返信を期待しないでのんびり待っていただけるとうれしいです。</p>
-<p>所属しているSlackとかも全く見れていないんですが，そのうち復帰します…。取り急ぎ生存報告も兼ねて。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://tdenc.github.io/blog/2015/12/04/migration/&quot;&gt;おひっこし&lt;/a&gt;でも告知していたのですが，&lt;a href=&quot;http://tdenc.com&quot; target=&quot;_blank&quot; rel=&quot;externa
-    
-    </summary>
-    
-      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
-    
-    
-      <category term="GitHub" scheme="http://tdenc.github.io/blog/tags/GitHub/"/>
-    
-      <category term="TDEnc2" scheme="http://tdenc.github.io/blog/tags/TDEnc2/"/>
     
       <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
