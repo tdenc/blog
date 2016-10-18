@@ -4,9 +4,9 @@
   
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://tdenc.github.io/blog/"/>
+  <link href="http://tdenc.com/blog/"/>
   <updated>2016-10-18T11:51:20.000Z</updated>
-  <id>http://tdenc.github.io/blog/</id>
+  <id>http://tdenc.com/blog/</id>
   
   <author>
     <name>窓屋</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>つんでれんこのTwitter対応について</title>
-    <link href="http://tdenc.github.io/blog/2016/10/18/hello-twitter/"/>
-    <id>http://tdenc.github.io/blog/2016/10/18/hello-twitter/</id>
+    <link href="http://tdenc.com/blog/2016/10/18/hello-twitter/"/>
+    <id>http://tdenc.com/blog/2016/10/18/hello-twitter/</id>
     <published>2016-10-18T10:26:27.000Z</published>
     <updated>2016-10-18T11:51:20.000Z</updated>
     
@@ -64,98 +64,99 @@
     
     </summary>
     
-      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+      <category term="開発" scheme="http://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
     
     
-      <category term="Twitter" scheme="http://tdenc.github.io/blog/tags/Twitter/"/>
+      <category term="Twitter" scheme="http://tdenc.com/blog/tags/Twitter/"/>
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>つんでれんこバージョン2.90</title>
-    <link href="http://tdenc.github.io/blog/2016/10/15/tdenc-290/"/>
-    <id>http://tdenc.github.io/blog/2016/10/15/tdenc-290/</id>
+    <link href="http://tdenc.com/blog/2016/10/15/tdenc-290/"/>
+    <id>http://tdenc.com/blog/2016/10/15/tdenc-290/</id>
     <published>2016-10-15T05:10:51.000Z</published>
     <updated>2016-10-15T05:12:30.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.90をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.90をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。</p>
 <p>一部のツールのダウンロードが失敗する問題，MUXエンコモードでニコニコ新仕様向けのエンコが失敗する問題に対処。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.90をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;一部のツールのダウンロードが失敗する問題，MUX
+      &lt;p&gt;つんでれんこバージョン2.90をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;一部のツールのダウンロードが失敗する問題，MUXエンコモードでニコニコ新仕様向けのエンコが失敗する問題に対処。
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>TDEnc2 バージョン2.28</title>
-    <link href="http://tdenc.github.io/blog/2016/10/14/tdenc2-228/"/>
-    <id>http://tdenc.github.io/blog/2016/10/14/tdenc2-228/</id>
+    <link href="http://tdenc.com/blog/2016/10/14/tdenc2-228/"/>
+    <id>http://tdenc.com/blog/2016/10/14/tdenc2-228/</id>
     <published>2016-10-14T11:41:57.000Z</published>
     <updated>2016-10-14T11:44:35.000Z</updated>
     
-    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.28を公開しました。ダウンロードは<a href="http://tdenc.com/TDEnc2/" target="_blank" rel="external">こちら</a>。</p>
+    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.28を公開しました。ダウンロードは<a href="http://tdenc.com/TDEnc2/">こちら</a>。</p>
 <p>バージョン2.26，2.27のバグ修正です。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;TDEnc2のバージョン2.28を公開しました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;バージョン2.26，2.27のバグ修正です。&lt;/
+      &lt;p&gt;TDEnc2のバージョン2.28を公開しました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc2/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;バージョン2.26，2.27のバグ修正です。&lt;/p&gt;
+
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="TDEnc2" scheme="http://tdenc.github.io/blog/tags/TDEnc2/"/>
+      <category term="TDEnc2" scheme="http://tdenc.com/blog/tags/TDEnc2/"/>
     
   </entry>
   
   <entry>
     <title>つんでれんこバージョン2.89</title>
-    <link href="http://tdenc.github.io/blog/2016/10/14/tdenc-289/"/>
-    <id>http://tdenc.github.io/blog/2016/10/14/tdenc-289/</id>
+    <link href="http://tdenc.com/blog/2016/10/14/tdenc-289/"/>
+    <id>http://tdenc.com/blog/2016/10/14/tdenc-289/</id>
     <published>2016-10-14T11:37:35.000Z</published>
     <updated>2016-10-15T10:37:21.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.89をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.89をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。</p>
 <p>ニコニコ新仕様向けのエンコードにおいてもサンプリングレートを選択できるようにしました（質問レベルが「おおめ」のときのみ選択できます）。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.89をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;ニコニコ新仕様向けのエンコードにおいてもサンプリ
+      &lt;p&gt;つんでれんこバージョン2.89をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;ニコニコ新仕様向けのエンコードにおいてもサンプリングレートを選択できるようにしました（質問レベルが「おおめ」の
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>つんでれんこバージョン2.88</title>
-    <link href="http://tdenc.github.io/blog/2016/09/18/tdenc-288/"/>
-    <id>http://tdenc.github.io/blog/2016/09/18/tdenc-288/</id>
+    <link href="http://tdenc.com/blog/2016/09/18/tdenc-288/"/>
+    <id>http://tdenc.com/blog/2016/09/18/tdenc-288/</id>
     <published>2016-09-18T05:26:10.000Z</published>
     <updated>2016-09-18T05:53:16.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.88をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.88をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。</p>
 <p>Flash Playerのバージョンアップにより，つんでれんこが再生確認する際に使用していたローカルのプレイヤーがデフォルト設定では使用できなくなりました。この問題を解決するには，<a href="https://www43.atwiki.jp/tdenc/pages/13.html#id_a6913724" target="_blank" rel="external">このような対処</a>をする必要があります。</p>
 <p>ただ，これを全ユーザーにやってもらうのもどうかなーと思ったので，YouTubeも既にHTML5に移行しましたし，ニコニコもそのうちHTML5に移行するとのことなので，つんでれんこの再生確認画面でもHTML5を使用することにしました。一応設定ファイル（settingフォルダのuser_setting.bat）を弄ることでFlash Playerに戻すことも可能ですが，基本的にはHTML5の方を使用することをおすすめします（デフォルトで使用しているブラウザがHTML5に対応していないという場合はどうしようもないですが…）。</p>
 <p>もちろん（ニコニコがHTML5に移行するまでは）ニコニコで再生するときと若干見え方が違ってくる場合もあるので，きちんと事前に確認をしたい人は非公開でアップロードしてみるなどの方法で確認するのが確実だと思います。</p>
@@ -163,184 +164,188 @@
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.88をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Flash Playerのバージョンアップにより
+      &lt;p&gt;つんでれんこバージョン2.88をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Flash Playerのバージョンアップにより，つんでれんこが再生確認する際に使用していたローカルのプレイヤ
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>TDEnc2 バージョン2.26</title>
-    <link href="http://tdenc.github.io/blog/2016/09/11/tdenc2-226/"/>
-    <id>http://tdenc.github.io/blog/2016/09/11/tdenc2-226/</id>
+    <link href="http://tdenc.com/blog/2016/09/11/tdenc2-226/"/>
+    <id>http://tdenc.com/blog/2016/09/11/tdenc2-226/</id>
     <published>2016-09-11T14:00:44.000Z</published>
     <updated>2016-09-11T14:02:20.000Z</updated>
     
-    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.26を公開しました。<br>ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。<br><a href="http://tdenc.com/TDEnc2" target="_blank" rel="external">こちら</a>からどうぞ。</p>
+    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.26を公開しました。<br>ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。<br><a href="http://tdenc.com/TDEnc2">こちら</a>からどうぞ。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;TDEnc2のバージョン2.26を公開しました。&lt;br&gt;ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。&lt;br&gt;&lt;a href=&quot;http://tdenc.com/TDEnc2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/
+      &lt;p&gt;TDEnc2のバージョン2.26を公開しました。&lt;br&gt;ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。&lt;br&gt;&lt;a href=&quot;http://tdenc.com/TDEnc2&quot;&gt;こちら&lt;/a&gt;からどうぞ。&lt;/p&gt;
+
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="TDEnc2" scheme="http://tdenc.github.io/blog/tags/TDEnc2/"/>
+      <category term="TDEnc2" scheme="http://tdenc.com/blog/tags/TDEnc2/"/>
     
   </entry>
   
   <entry>
     <title>つんでれんこバージョン2.87</title>
-    <link href="http://tdenc.github.io/blog/2016/09/06/tdenc-287/"/>
-    <id>http://tdenc.github.io/blog/2016/09/06/tdenc-287/</id>
+    <link href="http://tdenc.com/blog/2016/09/06/tdenc-287/"/>
+    <id>http://tdenc.com/blog/2016/09/06/tdenc-287/</id>
     <published>2016-09-06T12:58:11.000Z</published>
     <updated>2016-09-06T13:04:06.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.87をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。<br>バージョン2.85と2.86の記事書くの忘れてたけど気にしてはいけない。<br>そんなものは最初からなかった。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.87をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。<br>バージョン2.85と2.86の記事書くの忘れてたけど気にしてはいけない。<br>そんなものは最初からなかった。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.87をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.85と2.86の記事書くの忘れてた
+      &lt;p&gt;つんでれんこバージョン2.87をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.85と2.86の記事書くの忘れてたけど気にしてはいけない。&lt;br&gt;そんなものは最初からなかった。
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>つんでれんこバージョン2.84</title>
-    <link href="http://tdenc.github.io/blog/2016/08/29/tdenc-284/"/>
-    <id>http://tdenc.github.io/blog/2016/08/29/tdenc-284/</id>
+    <link href="http://tdenc.com/blog/2016/08/29/tdenc-284/"/>
+    <id>http://tdenc.com/blog/2016/08/29/tdenc-284/</id>
     <published>2016-08-29T01:07:51.000Z</published>
     <updated>2016-08-29T01:10:23.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.84をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。<br>バージョン2.83…聞いたことない子ですね（ごめんなさい）。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.84をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。<br>バージョン2.83…聞いたことない子ですね（ごめんなさい）。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.84をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.83…聞いたことない子ですね（ごめ
+      &lt;p&gt;つんでれんこバージョン2.84をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.83…聞いたことない子ですね（ごめんなさい）。&lt;/p&gt;
+
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>つんでれんこバージョン2.83</title>
-    <link href="http://tdenc.github.io/blog/2016/08/28/tdenc-283/"/>
-    <id>http://tdenc.github.io/blog/2016/08/28/tdenc-283/</id>
+    <link href="http://tdenc.com/blog/2016/08/28/tdenc-283/"/>
+    <id>http://tdenc.com/blog/2016/08/28/tdenc-283/</id>
     <published>2016-08-28T09:10:14.000Z</published>
     <updated>2016-08-28T09:13:51.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.83をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。<br>バージョン2.82なんてものもなかった（ごめんなさい）。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.83をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。<br>バージョン2.82なんてものもなかった（ごめんなさい）。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.83をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.82なんてものもなかった（ごめんな
+      &lt;p&gt;つんでれんこバージョン2.83をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.82なんてものもなかった（ごめんなさい）。&lt;/p&gt;
+
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>つんでれんこバージョン2.82</title>
-    <link href="http://tdenc.github.io/blog/2016/08/28/tdenc-282/"/>
-    <id>http://tdenc.github.io/blog/2016/08/28/tdenc-282/</id>
+    <link href="http://tdenc.com/blog/2016/08/28/tdenc-282/"/>
+    <id>http://tdenc.com/blog/2016/08/28/tdenc-282/</id>
     <published>2016-08-28T05:23:23.000Z</published>
     <updated>2016-08-28T05:27:01.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.82をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/" target="_blank" rel="external">こちら</a>。<br>バージョン2.81なんてなかった。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.82をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。<br>バージョン2.81なんてなかった。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.82をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.81なんてなかった。&lt;/p&gt;
+      &lt;p&gt;つんでれんこバージョン2.82をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.81なんてなかった。&lt;/p&gt;
 
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>つんでれんこバージョン2.80</title>
-    <link href="http://tdenc.github.io/blog/2016/08/25/tdenc-280/"/>
-    <id>http://tdenc.github.io/blog/2016/08/25/tdenc-280/</id>
+    <link href="http://tdenc.com/blog/2016/08/25/tdenc-280/"/>
+    <id>http://tdenc.com/blog/2016/08/25/tdenc-280/</id>
     <published>2016-08-25T00:01:19.000Z</published>
     <updated>2016-08-25T00:02:51.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.80をリリースしました。<br>もう勘弁して下さい。<br>※リリースに伴うあれこれは<a href="http://tdenc.com/blog/2016/08/22/nico-new-format-2/" target="_blank" rel="external">こちら</a>を参照して下さい。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.80をリリースしました。<br>もう勘弁して下さい。<br>※リリースに伴うあれこれは<a href="http://tdenc.com/blog/2016/08/22/nico-new-format-2/">こちら</a>を参照して下さい。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.80をリリースしました。&lt;br&gt;もう勘弁して下さい。&lt;br&gt;※リリースに伴うあれこれは&lt;a href=&quot;http://tdenc.com/blog/2016/08/22/nico-new-format-2/&quot; target=&quot;_blank&quot; rel
+      &lt;p&gt;つんでれんこバージョン2.80をリリースしました。&lt;br&gt;もう勘弁して下さい。&lt;br&gt;※リリースに伴うあれこれは&lt;a href=&quot;http://tdenc.com/blog/2016/08/22/nico-new-format-2/&quot;&gt;こちら&lt;/a&gt;を参照して下さい。&lt;/p
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>つんでれんこバージョン2.79</title>
-    <link href="http://tdenc.github.io/blog/2016/08/22/tdenc-279/"/>
-    <id>http://tdenc.github.io/blog/2016/08/22/tdenc-279/</id>
+    <link href="http://tdenc.com/blog/2016/08/22/tdenc-279/"/>
+    <id>http://tdenc.com/blog/2016/08/22/tdenc-279/</id>
     <published>2016-08-22T05:53:08.000Z</published>
     <updated>2016-08-22T05:55:26.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.79をリリースしました。リリースに伴うあれこれは<a href="http://tdenc.com/blog/2016/08/22/nico-new-format-2/" target="_blank" rel="external">こちら</a>を参照して下さい。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.79をリリースしました。リリースに伴うあれこれは<a href="http://tdenc.com/blog/2016/08/22/nico-new-format-2/">こちら</a>を参照して下さい。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.79をリリースしました。リリースに伴うあれこれは&lt;a href=&quot;http://tdenc.com/blog/2016/08/22/nico-new-format-2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;こちら&lt;/a&gt;
+      &lt;p&gt;つんでれんこバージョン2.79をリリースしました。リリースに伴うあれこれは&lt;a href=&quot;http://tdenc.com/blog/2016/08/22/nico-new-format-2/&quot;&gt;こちら&lt;/a&gt;を参照して下さい。&lt;/p&gt;
+
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>【20160906更新】つんでれんこのニコニコ新仕様への対応</title>
-    <link href="http://tdenc.github.io/blog/2016/08/22/nico-new-format-2/"/>
-    <id>http://tdenc.github.io/blog/2016/08/22/nico-new-format-2/</id>
+    <link href="http://tdenc.com/blog/2016/08/22/nico-new-format-2/"/>
+    <id>http://tdenc.com/blog/2016/08/22/nico-new-format-2/</id>
     <published>2016-08-22T01:58:20.000Z</published>
     <updated>2016-09-06T12:56:15.000Z</updated>
     
@@ -395,17 +400,17 @@
     
     </summary>
     
-      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+      <category term="開発" scheme="http://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>【追記あり】ニコニコの動画対応フォーマット変更について</title>
-    <link href="http://tdenc.github.io/blog/2016/08/10/nico-new-format/"/>
-    <id>http://tdenc.github.io/blog/2016/08/10/nico-new-format/</id>
+    <link href="http://tdenc.com/blog/2016/08/10/nico-new-format/"/>
+    <id>http://tdenc.com/blog/2016/08/10/nico-new-format/</id>
     <published>2016-08-10T11:47:02.000Z</published>
     <updated>2016-08-13T10:42:41.000Z</updated>
     
@@ -439,19 +444,19 @@
     
     </summary>
     
-      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+      <category term="開発" scheme="http://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
-      <category term="ニコニコ" scheme="http://tdenc.github.io/blog/tags/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3/"/>
+      <category term="ニコニコ" scheme="http://tdenc.com/blog/tags/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3/"/>
     
   </entry>
   
   <entry>
     <title>イヤホン(XBA-300)を買った</title>
-    <link href="http://tdenc.github.io/blog/2016/06/11/xba300/"/>
-    <id>http://tdenc.github.io/blog/2016/06/11/xba300/</id>
+    <link href="http://tdenc.com/blog/2016/06/11/xba300/"/>
+    <id>http://tdenc.com/blog/2016/06/11/xba300/</id>
     <published>2016-06-11T10:47:26.000Z</published>
     <updated>2016-06-11T12:12:10.000Z</updated>
     
@@ -471,43 +476,43 @@
     
     </summary>
     
-      <category term="趣味" scheme="http://tdenc.github.io/blog/categories/%E8%B6%A3%E5%91%B3/"/>
+      <category term="趣味" scheme="http://tdenc.com/blog/categories/%E8%B6%A3%E5%91%B3/"/>
     
     
-      <category term="イヤホン" scheme="http://tdenc.github.io/blog/tags/%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3/"/>
+      <category term="イヤホン" scheme="http://tdenc.com/blog/tags/%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3/"/>
     
   </entry>
   
   <entry>
     <title>旧ダウンロードページについて</title>
-    <link href="http://tdenc.github.io/blog/2016/06/06/download/"/>
-    <id>http://tdenc.github.io/blog/2016/06/06/download/</id>
+    <link href="http://tdenc.com/blog/2016/06/06/download/"/>
+    <id>http://tdenc.com/blog/2016/06/06/download/</id>
     <published>2016-06-06T06:25:25.000Z</published>
     <updated>2016-06-06T06:34:04.000Z</updated>
     
-    <content type="html"><![CDATA[<p>どうやらつんでれんこを紹介する記事とかで<a href="http://tdenc.com" target="_blank" rel="external">http://tdenc.com</a>ではなく<a href="http://tdenc.com/download" target="_blank" rel="external">http://tdenc.com/download</a>への直リンクを貼っているケースがあって，そこに飛んで404のページが表示されてしまって「ダウンロード出来ない」と悩む人がいるようなので，<a href="http://tdenc.com/download" target="_blank" rel="external">http://tdenc.com/download</a>にアクセスしたときに新しいダウンロードページに誘導するようなページを作りました。downloadというレポジトリをGitHubに作ってGitHub Pages機能を使って対処。…こんなことのためにレポジトリを増やすとか，なんだか無理矢理感半端ないけど面倒くさいしこれでいいのだ。</p>
-<p>404になっちゃうのは事前に分かってはいたんですが，そういう場合<a href="http://tdenc.com" target="_blank" rel="external">tdenc.com</a>の方にアクセスしてくれるだろうと淡い期待を抱いていたわけで，でもまあ世の中そんな上手く自分の思うように行かないよねーっていう。手間を惜しんだらいかんですね。</p>
+    <content type="html"><![CDATA[<p>どうやらつんでれんこを紹介する記事とかで<a href="http://tdenc.com">http://tdenc.com</a>ではなく<a href="http://tdenc.com/download">http://tdenc.com/download</a>への直リンクを貼っているケースがあって，そこに飛んで404のページが表示されてしまって「ダウンロード出来ない」と悩む人がいるようなので，<a href="http://tdenc.com/download">http://tdenc.com/download</a>にアクセスしたときに新しいダウンロードページに誘導するようなページを作りました。downloadというレポジトリをGitHubに作ってGitHub Pages機能を使って対処。…こんなことのためにレポジトリを増やすとか，なんだか無理矢理感半端ないけど面倒くさいしこれでいいのだ。</p>
+<p>404になっちゃうのは事前に分かってはいたんですが，そういう場合<a href="http://tdenc.com">tdenc.com</a>の方にアクセスしてくれるだろうと淡い期待を抱いていたわけで，でもまあ世の中そんな上手く自分の思うように行かないよねーっていう。手間を惜しんだらいかんですね。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;どうやらつんでれんこを紹介する記事とかで&lt;a href=&quot;http://tdenc.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://tdenc.com&lt;/a&gt;ではなく&lt;a href=&quot;http://tdenc.com/download&quot;
+      &lt;p&gt;どうやらつんでれんこを紹介する記事とかで&lt;a href=&quot;http://tdenc.com&quot;&gt;http://tdenc.com&lt;/a&gt;ではなく&lt;a href=&quot;http://tdenc.com/download&quot;&gt;http://tdenc.com/download&lt;/a&gt;へ
     
     </summary>
     
-      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+      <category term="開発" scheme="http://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
     
     
-      <category term="TDEnc2" scheme="http://tdenc.github.io/blog/tags/TDEnc2/"/>
+      <category term="TDEnc2" scheme="http://tdenc.com/blog/tags/TDEnc2/"/>
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>Herokuの無料枠の料金体系が2016年6月1日から変わった</title>
-    <link href="http://tdenc.github.io/blog/2016/06/03/heroku-new-free-dyno/"/>
-    <id>http://tdenc.github.io/blog/2016/06/03/heroku-new-free-dyno/</id>
+    <link href="http://tdenc.com/blog/2016/06/03/heroku-new-free-dyno/"/>
+    <id>http://tdenc.com/blog/2016/06/03/heroku-new-free-dyno/</id>
     <published>2016-06-03T10:25:19.000Z</published>
     <updated>2016-06-03T11:27:25.000Z</updated>
     
@@ -524,50 +529,50 @@
     
     </summary>
     
-      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+      <category term="開発" scheme="http://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
     
     
-      <category term="Heroku" scheme="http://tdenc.github.io/blog/tags/Heroku/"/>
+      <category term="Heroku" scheme="http://tdenc.com/blog/tags/Heroku/"/>
     
   </entry>
   
   <entry>
     <title>サーバのお引っ越し完了</title>
-    <link href="http://tdenc.github.io/blog/2016/05/31/vps2github2/"/>
-    <id>http://tdenc.github.io/blog/2016/05/31/vps2github2/</id>
+    <link href="http://tdenc.com/blog/2016/05/31/vps2github2/"/>
+    <id>http://tdenc.com/blog/2016/05/31/vps2github2/</id>
     <published>2016-05-31T12:27:41.000Z</published>
     <updated>2016-05-31T13:42:43.000Z</updated>
     
-    <content type="html"><![CDATA[<p>VPSを解約して，GitHubへの移行を完了させました。今後は<a href="http://tdenc.com" target="_blank" rel="external">tdenc.com</a>にアクセスするとGitHub Pagesにアクセスすることになります。移行時にGitHubにpushするCNAMEについて勘違いをしていたせいで20分間くらい404になっちゃっいました。すみません。</p>
+    <content type="html"><![CDATA[<p>VPSを解約して，GitHubへの移行を完了させました。今後は<a href="http://tdenc.com">tdenc.com</a>にアクセスするとGitHub Pagesにアクセスすることになります。移行時にGitHubにpushするCNAMEについて勘違いをしていたせいで20分間くらい404になっちゃっいました。すみません。</p>
 <p>旧バージョンからのアップデートが間に合わなかった方は，自動アップデートがうまく機能しなくなっていると思いますので，新バージョンを手動で落として下さい。つんでれんこは<a href="/TDEnc">ここ</a>，TDEnc2は<a href="/TDEnc2">ここ</a>から最新版が落とせます。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;VPSを解約して，GitHubへの移行を完了させました。今後は&lt;a href=&quot;http://tdenc.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;tdenc.com&lt;/a&gt;にアクセスするとGitHub Pagesにアクセスすることになります。
+      &lt;p&gt;VPSを解約して，GitHubへの移行を完了させました。今後は&lt;a href=&quot;http://tdenc.com&quot;&gt;tdenc.com&lt;/a&gt;にアクセスするとGitHub Pagesにアクセスすることになります。移行時にGitHubにpushするCNAMEについて勘違いをし
     
     </summary>
     
-      <category term="開発" scheme="http://tdenc.github.io/blog/categories/%E9%96%8B%E7%99%BA/"/>
+      <category term="開発" scheme="http://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
     
     
-      <category term="GitHub" scheme="http://tdenc.github.io/blog/tags/GitHub/"/>
+      <category term="GitHub" scheme="http://tdenc.com/blog/tags/GitHub/"/>
     
-      <category term="TDEnc2" scheme="http://tdenc.github.io/blog/tags/TDEnc2/"/>
+      <category term="TDEnc2" scheme="http://tdenc.com/blog/tags/TDEnc2/"/>
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
   <entry>
     <title>TDEnc2 バージョン2.25</title>
-    <link href="http://tdenc.github.io/blog/2016/05/21/tdenc2-225/"/>
-    <id>http://tdenc.github.io/blog/2016/05/21/tdenc2-225/</id>
+    <link href="http://tdenc.com/blog/2016/05/21/tdenc2-225/"/>
+    <id>http://tdenc.com/blog/2016/05/21/tdenc2-225/</id>
     <published>2016-05-21T08:06:07.000Z</published>
     <updated>2016-05-21T08:15:10.000Z</updated>
     
     <content type="html"><![CDATA[<p>TDEnc2のバージョン2.25を公開しました。<br>大体1年ぶりの更新ですが，画質の変更とかは特にありません。</p>
-<p>サイトの引っ越しの関係で自動更新機能の変更をする必要があったので，その部分に関わるところだけです。経緯は<a href="http://tdenc.github.io/blog/2016/05/21/vps2github/">こちら</a>を参照して下さい。Windows版の方はx264を更新したり，メッセージ変更に関連した変更とかもあるのですが，こっちはそういうのはないです(ごめんなさい)。バグ修正とかは，そのうち…，いつか…。</p>
+<p>サイトの引っ越しの関係で自動更新機能の変更をする必要があったので，その部分に関わるところだけです。経緯は<a href="http://tdenc.github.io/blog/2016/05/21/vps2github/" target="_blank" rel="external">こちら</a>を参照して下さい。Windows版の方はx264を更新したり，メッセージ変更に関連した変更とかもあるのですが，こっちはそういうのはないです(ごめんなさい)。バグ修正とかは，そのうち…，いつか…。</p>
 ]]></content>
     
     <summary type="html">
@@ -577,24 +582,24 @@
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="TDEnc2" scheme="http://tdenc.github.io/blog/tags/TDEnc2/"/>
+      <category term="TDEnc2" scheme="http://tdenc.com/blog/tags/TDEnc2/"/>
     
   </entry>
   
   <entry>
     <title>つんでれんこバージョン2.78</title>
-    <link href="http://tdenc.github.io/blog/2016/05/21/tdenc-278/"/>
-    <id>http://tdenc.github.io/blog/2016/05/21/tdenc-278/</id>
+    <link href="http://tdenc.com/blog/2016/05/21/tdenc-278/"/>
+    <id>http://tdenc.com/blog/2016/05/21/tdenc-278/</id>
     <published>2016-05-21T07:39:09.000Z</published>
     <updated>2016-05-21T08:09:36.000Z</updated>
     
     <content type="html"><![CDATA[<p>つんでれんこのバージョン2.78を公開しました。<br>2年半ぶりの更新ですが，中身はあんまりないです。</p>
 <p>最近(といってもバズったのは随分前な気が…)つんでれんこのメッセージ(口調)を変えたものをリリースする人をちらほら見るんですが，message.batを直接書き換えるとアップデートのときに色々と面倒なんですよね。なので，message.batはdefault_message.batにファイル名を変え，user_message.batというのを新しく作りました。今後メッセージを変えるときは，user_message.batの方を弄り，default_message.batの方はそのままにして下さい(defaultの方を弄ると不具合の原因となります)。</p>
 <p>自動更新機能を使ってつんでれんこをアップデートすると，旧バージョンのuser_message.batはuser_message_old.batというファイルに変わりますので，更新前に口調を変更した人は，以前の口調に戻したいときはoldの方のファイルと新しいuser_message.batを比較しながら再度調整してください。あまりメッセージの変更はないので，oldの方のファイル名から_oldの部分を削ればいいケースがほとんどだと思いますが，一応中身を確認したほうがいいとは思います。</p>
-<p>バージョン2.78には自動更新機能関係の変更も含まれていますが，その経緯は<a href="http://tdenc.github.io/blog/2016/05/21/vps2github/">こちら</a>を参照して下さい。それ以外は，久々にx264を更新したくらいです。画質に影響があるのはそれくらいです。</p>
+<p>バージョン2.78には自動更新機能関係の変更も含まれていますが，その経緯は<a href="http://tdenc.github.io/blog/2016/05/21/vps2github/" target="_blank" rel="external">こちら</a>を参照して下さい。それ以外は，久々にx264を更新したくらいです。画質に影響があるのはそれくらいです。</p>
 <p>それにしても，口調を簡単に変更できるように変更したのがバージョン2.37で，リリース日は2010年4月29日なんですよね。5年以上も経ってからバズるっていうのもなんだか不思議なもんですね。修造版とかはかなり早くから出ていて，そこらへんはやっぱりニコニコだなぁという気がします。</p>
 ]]></content>
     
@@ -605,10 +610,10 @@
     
     </summary>
     
-      <category term="リリース" scheme="http://tdenc.github.io/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
-      <category term="つんでれんこ" scheme="http://tdenc.github.io/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
