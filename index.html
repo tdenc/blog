@@ -52,11 +52,45 @@
     <header>
       
         <div class="icon"></div>
+        <time datetime="2016-10-20T12:47:57.000Z"><a href="/blog/2016/10/20/tdenc-291/">2016-10-20</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/blog/2016/10/20/tdenc-291/">つんでれんこバージョン2.91</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>つんでれんこバージョン2.91をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。</p>
+<p>Twitterに対応しました。他にも細かい修正・コードの整理が入っています。<br>Twitter用にエンコードする際には<a href="2016/10/18/hello-twitter">こちら</a>を参考にして下さい。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
         <time datetime="2016-10-18T10:26:27.000Z"><a href="/blog/2016/10/18/hello-twitter/">2016-10-18</a></time>
       
       
   
-    <h1 class="title"><a href="/blog/2016/10/18/hello-twitter/">つんでれんこのTwitter対応について</a></h1>
+    <h1 class="title"><a href="/blog/2016/10/18/hello-twitter/">【2016/10/20修正】つんでれんこのTwitter対応について</a></h1>
   
 
     </header>
@@ -68,6 +102,10 @@
 <p>Twitterに動画を投稿したことがある人は既に経験しているかもしれませんが，Twitterに投稿するMP4は一定の条件を満たしていないと弾かれます。つんでれんこを使ってTwitterに投稿して失敗する人をエゴサで何度も見かけていたのでそのうち対応したいなぁとは思っていたのですが，なかなかまとまった時間が取れず，またTwitter側の仕様に変更がある可能性もあるのである程度時間が経ってから対応した方が良さそうだと考え，ずっと先延ばしにしていました。気が向いたらやればいいかなーと。</p>
 <p>で，なんとなく気が向いたので次のバージョン2.91で実装することにしました。どういうふうにしようかなーとしばらく考えたのですが，サーバでの再エンコード前提のエンコードになるので，従来のYouTube用（もしくはニコニコ新仕様用）のプリセットをちょこっと弄り，あまり小難しいことはしないことにしました。簡単にまとめると以下のような感じです。</p>
 <ul>
+<li>つんでれんこでエンコードしたものを上げてもTwitterのサーバで再エンコードが入る。<ul>
+<li>投稿直後は低画質のものが再生され，しばらくすると画質が改善したものが再生される仕様の模様。</li>
+</ul>
+</li>
 <li>Twitter用にエンコードする際は，サイト選択のところでtを選ぶ。</li>
 <li>Twitter用のエンコードは，Twitterの公表しているスペックに基本的に準拠する。<ul>
 <li>映像はH.264/AVC，音声はAAC-LC。</li>
@@ -382,39 +420,6 @@
 
 
 
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2016-08-28T05:23:23.000Z"><a href="/blog/2016/08/28/tdenc-282/">2016-08-28</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/blog/2016/08/28/tdenc-282/">つんでれんこバージョン2.82</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>つんでれんこバージョン2.82をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。<br>バージョン2.81なんてなかった。</p>
-
-      
-    </div>
-    <footer>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
-
 
 <nav id="pagination">
   
@@ -437,7 +442,11 @@
   <ul class="entry">
     
       <li>
-        <a href="/blog/2016/10/18/hello-twitter/">つんでれんこのTwitter対応について</a>
+        <a href="/blog/2016/10/20/tdenc-291/">つんでれんこバージョン2.91</a>
+      </li>
+    
+      <li>
+        <a href="/blog/2016/10/18/hello-twitter/">【2016/10/20修正】つんでれんこのTwitter対応について</a>
       </li>
     
       <li>
@@ -452,10 +461,6 @@
         <a href="/blog/2016/10/14/tdenc-289/">つんでれんこバージョン2.89</a>
       </li>
     
-      <li>
-        <a href="/blog/2016/09/18/tdenc-288/">つんでれんこバージョン2.88</a>
-      </li>
-    
   </ul>
 </div>
 
@@ -465,7 +470,7 @@
   <h3 class="title">Categories</h3>
   <ul class="entry">
   
-    <li><a href="/blog/categories/リリース/">リリース</a><small>13</small></li>
+    <li><a href="/blog/categories/リリース/">リリース</a><small>14</small></li>
   
     <li><a href="/blog/categories/趣味/">趣味</a><small>1</small></li>
   

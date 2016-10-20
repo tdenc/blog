@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>つんでれんこのTwitter対応について | Blog</title>
+  <title>【2016/10/20修正】つんでれんこのTwitter対応について | Blog</title>
   <meta name="author" content="窓屋">
   
   <meta name="description" content="つんでれんこのTwitter対応，気が向いたらやるつもりだったけど気が向いたのでそのうちやります&amp;mdash; まどや☆マギカ (@tdenc) 2016年10月16日
@@ -14,7 +14,7 @@ Twitterに動画を投稿したことがある人は既に経験しているか�
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="つんでれんこのTwitter対応について"/>
+  <meta property="og:title" content="【2016/10/20修正】つんでれんこのTwitter対応について"/>
   <meta property="og:site_name" content="Blog"/>
 
   
@@ -60,7 +60,7 @@ Twitterに動画を投稿したことがある人は既に経験しているか�
       
       
   
-    <h1 class="title">つんでれんこのTwitter対応について</h1>
+    <h1 class="title">【2016/10/20修正】つんでれんこのTwitter対応について</h1>
   
 
     </header>
@@ -72,6 +72,10 @@ Twitterに動画を投稿したことがある人は既に経験しているか�
 <p>Twitterに動画を投稿したことがある人は既に経験しているかもしれませんが，Twitterに投稿するMP4は一定の条件を満たしていないと弾かれます。つんでれんこを使ってTwitterに投稿して失敗する人をエゴサで何度も見かけていたのでそのうち対応したいなぁとは思っていたのですが，なかなかまとまった時間が取れず，またTwitter側の仕様に変更がある可能性もあるのである程度時間が経ってから対応した方が良さそうだと考え，ずっと先延ばしにしていました。気が向いたらやればいいかなーと。</p>
 <p>で，なんとなく気が向いたので次のバージョン2.91で実装することにしました。どういうふうにしようかなーとしばらく考えたのですが，サーバでの再エンコード前提のエンコードになるので，従来のYouTube用（もしくはニコニコ新仕様用）のプリセットをちょこっと弄り，あまり小難しいことはしないことにしました。簡単にまとめると以下のような感じです。</p>
 <ul>
+<li>つんでれんこでエンコードしたものを上げてもTwitterのサーバで再エンコードが入る。<ul>
+<li>投稿直後は低画質のものが再生され，しばらくすると画質が改善したものが再生される仕様の模様。</li>
+</ul>
+</li>
 <li>Twitter用にエンコードする際は，サイト選択のところでtを選ぶ。</li>
 <li>Twitter用のエンコードは，Twitterの公表しているスペックに基本的に準拠する。<ul>
 <li>映像はH.264/AVC，音声はAAC-LC。</li>
@@ -165,7 +169,11 @@ Twitterに動画を投稿したことがある人は既に経験しているか�
   <ul class="entry">
     
       <li>
-        <a href="/blog/2016/10/18/hello-twitter/">つんでれんこのTwitter対応について</a>
+        <a href="/blog/2016/10/20/tdenc-291/">つんでれんこバージョン2.91</a>
+      </li>
+    
+      <li>
+        <a href="/blog/2016/10/18/hello-twitter/">【2016/10/20修正】つんでれんこのTwitter対応について</a>
       </li>
     
       <li>
@@ -180,10 +188,6 @@ Twitterに動画を投稿したことがある人は既に経験しているか�
         <a href="/blog/2016/10/14/tdenc-289/">つんでれんこバージョン2.89</a>
       </li>
     
-      <li>
-        <a href="/blog/2016/09/18/tdenc-288/">つんでれんこバージョン2.88</a>
-      </li>
-    
   </ul>
 </div>
 
@@ -193,7 +197,7 @@ Twitterに動画を投稿したことがある人は既に経験しているか�
   <h3 class="title">Categories</h3>
   <ul class="entry">
   
-    <li><a href="/blog/categories/リリース/">リリース</a><small>13</small></li>
+    <li><a href="/blog/categories/リリース/">リリース</a><small>14</small></li>
   
     <li><a href="/blog/categories/趣味/">趣味</a><small>1</small></li>
   

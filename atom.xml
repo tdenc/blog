@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://tdenc.com/blog/"/>
-  <updated>2016-10-18T11:51:20.000Z</updated>
+  <updated>2016-10-20T12:51:27.000Z</updated>
   <id>http://tdenc.com/blog/</id>
   
   <author>
@@ -16,11 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>つんでれんこのTwitter対応について</title>
+    <title>つんでれんこバージョン2.91</title>
+    <link href="http://tdenc.com/blog/2016/10/20/tdenc-291/"/>
+    <id>http://tdenc.com/blog/2016/10/20/tdenc-291/</id>
+    <published>2016-10-20T12:47:57.000Z</published>
+    <updated>2016-10-20T12:51:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.91をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。</p>
+<p>Twitterに対応しました。他にも細かい修正・コードの整理が入っています。<br>Twitter用にエンコードする際には<a href="2016/10/18/hello-twitter">こちら</a>を参考にして下さい。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;つんでれんこバージョン2.91をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Twitterに対応しました。他にも細かい修正・コードの整理が入っています。&lt;br&gt;Twitter用にエンコー
+    
+    </summary>
+    
+      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【2016/10/20修正】つんでれんこのTwitter対応について</title>
     <link href="http://tdenc.com/blog/2016/10/18/hello-twitter/"/>
     <id>http://tdenc.com/blog/2016/10/18/hello-twitter/</id>
     <published>2016-10-18T10:26:27.000Z</published>
-    <updated>2016-10-18T11:51:20.000Z</updated>
+    <updated>2016-10-20T12:54:23.000Z</updated>
     
     <content type="html"><![CDATA[<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">つんでれんこのTwitter対応，気が向いたらやるつもりだったけど気が向いたのでそのうちやります</p>&mdash; まどや☆マギカ (@tdenc) <a href="https://twitter.com/tdenc/status/787515133899583488" target="_blank" rel="external">2016年10月16日</a></blockquote></p>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -28,6 +53,10 @@
 <p>Twitterに動画を投稿したことがある人は既に経験しているかもしれませんが，Twitterに投稿するMP4は一定の条件を満たしていないと弾かれます。つんでれんこを使ってTwitterに投稿して失敗する人をエゴサで何度も見かけていたのでそのうち対応したいなぁとは思っていたのですが，なかなかまとまった時間が取れず，またTwitter側の仕様に変更がある可能性もあるのである程度時間が経ってから対応した方が良さそうだと考え，ずっと先延ばしにしていました。気が向いたらやればいいかなーと。</p>
 <p>で，なんとなく気が向いたので次のバージョン2.91で実装することにしました。どういうふうにしようかなーとしばらく考えたのですが，サーバでの再エンコード前提のエンコードになるので，従来のYouTube用（もしくはニコニコ新仕様用）のプリセットをちょこっと弄り，あまり小難しいことはしないことにしました。簡単にまとめると以下のような感じです。</p>
 <ul>
+<li>つんでれんこでエンコードしたものを上げてもTwitterのサーバで再エンコードが入る。<ul>
+<li>投稿直後は低画質のものが再生され，しばらくすると画質が改善したものが再生される仕様の模様。</li>
+</ul>
+</li>
 <li>Twitter用にエンコードする際は，サイト選択のところでtを選ぶ。</li>
 <li>Twitter用のエンコードは，Twitterの公表しているスペックに基本的に準拠する。<ul>
 <li>映像はH.264/AVC，音声はAAC-LC。</li>
@@ -586,34 +615,6 @@
     
     
       <category term="TDEnc2" scheme="http://tdenc.com/blog/tags/TDEnc2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>つんでれんこバージョン2.78</title>
-    <link href="http://tdenc.com/blog/2016/05/21/tdenc-278/"/>
-    <id>http://tdenc.com/blog/2016/05/21/tdenc-278/</id>
-    <published>2016-05-21T07:39:09.000Z</published>
-    <updated>2016-05-21T08:09:36.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>つんでれんこのバージョン2.78を公開しました。<br>2年半ぶりの更新ですが，中身はあんまりないです。</p>
-<p>最近(といってもバズったのは随分前な気が…)つんでれんこのメッセージ(口調)を変えたものをリリースする人をちらほら見るんですが，message.batを直接書き換えるとアップデートのときに色々と面倒なんですよね。なので，message.batはdefault_message.batにファイル名を変え，user_message.batというのを新しく作りました。今後メッセージを変えるときは，user_message.batの方を弄り，default_message.batの方はそのままにして下さい(defaultの方を弄ると不具合の原因となります)。</p>
-<p>自動更新機能を使ってつんでれんこをアップデートすると，旧バージョンのuser_message.batはuser_message_old.batというファイルに変わりますので，更新前に口調を変更した人は，以前の口調に戻したいときはoldの方のファイルと新しいuser_message.batを比較しながら再度調整してください。あまりメッセージの変更はないので，oldの方のファイル名から_oldの部分を削ればいいケースがほとんどだと思いますが，一応中身を確認したほうがいいとは思います。</p>
-<p>バージョン2.78には自動更新機能関係の変更も含まれていますが，その経緯は<a href="http://tdenc.github.io/blog/2016/05/21/vps2github/" target="_blank" rel="external">こちら</a>を参照して下さい。それ以外は，久々にx264を更新したくらいです。画質に影響があるのはそれくらいです。</p>
-<p>それにしても，口調を簡単に変更できるように変更したのがバージョン2.37で，リリース日は2010年4月29日なんですよね。5年以上も経ってからバズるっていうのもなんだか不思議なもんですね。修造版とかはかなり早くから出ていて，そこらへんはやっぱりニコニコだなぁという気がします。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;つんでれんこのバージョン2.78を公開しました。&lt;br&gt;2年半ぶりの更新ですが，中身はあんまりないです。&lt;/p&gt;
-&lt;p&gt;最近(といってもバズったのは随分前な気が…)つんでれんこのメッセージ(口調)を変えたものをリリースする人をちらほら見るんですが，message.batを直
-    
-    </summary>
-    
-      <category term="リリース" scheme="http://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
-    
-      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
