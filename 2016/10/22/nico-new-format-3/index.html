@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>ニコニコ新仕様向けの動画作成方法について | Blog</title>
+  <meta name="author" content="窓屋">
+  
+  <meta name="description" content="ニコニコのエンコサーバの仕様変更が一気に拡大していっているので，なるべく劣化しないようにするにはどうすればいいのかを簡単にまとめます。動画をアップロードする際の参考にして下さい。
+動画作成する段階に気をつけること動画作成のソフトウェアで動画を作成するときに，解像度（映像の縦幅と横幅）を高めに設定して">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="ニコニコ新仕様向けの動画作成方法について"/>
+  <meta property="og:site_name" content="Blog"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/blog/favicon.png" rel="icon">
+  <link rel="alternate" href="/blog/atom.xml" title="Blog" type="application/atom+xml">
+  <link rel="stylesheet" href="/blog/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/blog/">Blog</a></h1>
+  <h2><a href="/blog/"></a></h2>
+</div>
+<nav id="main-nav" class="alignleft">
+  <ul>
+    
+      <li><a href="/blog/archives">Archives</a></li>
+    
+      <li><a href="/blog/atom.xml">RSS</a></li>
+    
+      <li><a href="/">Top</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div>
+</header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2016-10-22T10:19:42.000Z"><a href="/blog/2016/10/22/nico-new-format-3/">2016-10-22</a></time>
+      
+      
+  
+    <h1 class="title">ニコニコ新仕様向けの動画作成方法について</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p><a href="http://blog.nicovideo.jp/niconews/ni064293.html" target="_blank" rel="external">ニコニコのエンコサーバの仕様変更が一気に拡大していっている</a>ので，なるべく劣化しないようにするにはどうすればいいのかを簡単にまとめます。動画をアップロードする際の参考にして下さい。</p>
+<h1 id="動画作成する段階に気をつけること">動画作成する段階に気をつけること</h1><p>動画作成のソフトウェアで動画を作成するときに，<strong>解像度（映像の縦幅と横幅）を高めに設定</strong>して下さい。もちろん解像度を高く設定すると，動画作成の際にソフトウェアの動作が重くなったり，出力したファイルの容量が大きくなったりするので，ほどほどに設定したほうがよいと思います。<strong>FullHD（1920x1080）やHD（1280x720）</strong>あたりが，一般的なパソコンで扱いやすい大きさかなと思います。</p>
+<p>AVIなどの形式でファイルを出力する際は，<strong>可逆圧縮コーデックを使用</strong>することをお勧めします。解像度が高いと映像のデータ量が多くなるので，非圧縮形式などだとファイル容量が非常に大きくなります（また，つんでれんこで読めないなどの問題にも繋がったりします）。<strong>Ut Video Codecなどの可逆圧縮コーデックをパソコンにインストールした後，動画作成ソフトウェアで動画を作成する際に，映像形式として（先程インストールした）可逆圧縮形式を選んで動画ファイルを書き出す</strong>と，劣化なしでファイル容量を大幅に減らすことができます。</p>
+<h1 id="つんでれんこやTDEnc2を使う際に気をつけること">つんでれんこやTDEnc2を使う際に気をつけること</h1><p><a href="http://tdenc.com/TDEnc">つんでれんこ</a>は<strong>バージョン2.79以降</strong>で，<a href="http://tdenc.com/TDEnc2">TDEnc2（Mac版つんでれんこ）</a>は<strong>バージョン2.26以降</strong>でニコニコの新仕様に対応しています。バージョンが古い場合は，<strong>つんでれんこやTDEnc2を最新版にアップデート</strong>してください。</p>
+<p>つんでれんこやTDEnc2でニコニコ新仕様向けにエンコードするには，アップロード先のサイトを選ぶときに適切な選択肢を選んで下さい。<strong>つんでれんこは（小文字のnではなく）大文字のN</strong>，<strong>TDEnc2は選択肢2番</strong>が，新仕様向けの選択肢です（この選択肢は今後のバージョンアップで多少変わる可能性はありますが，とりあえずこの記事執筆時点ではこうなっています）。</p>
+<p>「ニコニコ側で1.5GBまで対応してくれるんだからエンコードしなくてもいいんじゃないか？」というように思うかもしれませんが，<strong>許容容量が大きいからと言ってエンコードしなくてもいいというような単純な話ではないことが，多くのユーザーの検証で明らかになっています</strong>。<a href="http://dic.nicovideo.jp/id/5439193" target="_blank" rel="external">ニコニコ大百科</a>に色々な情報がまとまっているので，気になる人は見てみて下さい。結構気をつけないと，思っている以上に低画質低音質な動画が作成されます。</p>
+<p>※以上はつんでれんこを用いた場合の動画作成方法です。つんでれんこ以外にニコニコの新仕様に対応したとものとしては<a href="http://rigaya34589.blog135.fc2.com/blog-category-5.html" target="_blank" rel="external">x264guiEx</a>がありますので，そちらを使いたい場合はそちらを利用してMP4を作成してください。</p>
+<h1 id="動画をアップロードした後に気をつけること">動画をアップロードした後に気をつけること</h1><p>仕様変更によって（これまでは一定条件を満たせばサーバ側で再エンコされなかったのですが）今後は必ずサーバで再エンコードされるようになります。なので，アップロード後にブラウザで画質や音質を確認することをお勧めします。どうしても画質や音質に納得が行かない場合は，運営に改善要望を出すか，他のサイトにアップロードするなどの対応も考える方が現実的かなと思います。</p>
+<p>気をつけることは，<strong>画質や音質は必ずブラウザで確認</strong>するという点です。ダウンロードツールなどを利用してニコニコのサーバから動画ファイルをダウンロードし，それを他の動画プレイヤーなどを用いて確認する方法では適切な確認ができません。ダウンロードツールが接続するサーバによっては，実際にブラウザで見るときとは異なるファイルが落ちてくる場合があるからです。</p>
+<h1 id="まとめ">まとめ</h1><ol>
+<li><strong>高解像度</strong>で動画を作成する（できれば可逆圧縮コーデックを用いて書き出す）。</li>
+<li>最新版のつんでれんこで<strong>大文字のN</strong>を選ぶ（TDEnc2の場合は<strong>選択肢2番</strong>を選ぶ）。</li>
+<li>アップロード後に画質と音質を<strong>ブラウザで確認</strong>する（サーバ再エンコによって必ず劣化するので）。</li>
+<li>（オプション）納得行かない場合は運営に改善要望を出したり他サイトにアップロードしたりする。</li>
+</ol>
+
+      
+    </div>
+    <footer>
+      
+        
+  
+  <div class="categories">
+    <a href="/blog/categories/雑談/">雑談</a>
+  </div>
+
+        
+  
+  <div class="tags">
+    <a href="/blog/tags/つんでれんこ/">つんでれんこ</a>, <a href="/blog/tags/エンコード/">エンコード</a>, <a href="/blog/tags/ニコニコ/">ニコニコ</a>
+  </div>
+
+        
+  <div class="addthis addthis_toolbox addthis_default_style">
+    
+      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+    
+    
+      <a class="addthis_button_tweet"></a>
+    
+    
+      <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    
+    
+    <a class="addthis_counter addthis_pill_style"></a>
+  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
+
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+<section id="comment">
+  <h1 class="title">Comments</h1>
+
+  
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+  
+</section>
+
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:tdenc.com/blog">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">Recent Posts</h3>
+  <ul class="entry">
+    
+      <li>
+        <a href="/blog/2016/10/22/nico-new-format-3/">ニコニコ新仕様向けの動画作成方法について</a>
+      </li>
+    
+      <li>
+        <a href="/blog/2016/10/20/tdenc-291/">つんでれんこバージョン2.91</a>
+      </li>
+    
+      <li>
+        <a href="/blog/2016/10/18/hello-twitter/">【2016/10/20修正】つんでれんこのTwitter対応について</a>
+      </li>
+    
+      <li>
+        <a href="/blog/2016/10/15/tdenc-290/">つんでれんこバージョン2.90</a>
+      </li>
+    
+      <li>
+        <a href="/blog/2016/10/14/tdenc2-228/">TDEnc2 バージョン2.28</a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">Categories</h3>
+  <ul class="entry">
+  
+    <li><a href="/blog/categories/リリース/">リリース</a><small>14</small></li>
+  
+    <li><a href="/blog/categories/趣味/">趣味</a><small>1</small></li>
+  
+    <li><a href="/blog/categories/開発/">開発</a><small>8</small></li>
+  
+    <li><a href="/blog/categories/雑談/">雑談</a><small>2</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tagcloud">
+  <h3 class="title">Tag Cloud</h3>
+  <div class="entry">
+    <a href="/blog/tags/GitHub/" style="font-size: 13.33px;">GitHub</a> <a href="/blog/tags/GitHub-Pages/" style="font-size: 10px;">GitHub Pages</a> <a href="/blog/tags/Google-App-Engine/" style="font-size: 10px;">Google App Engine</a> <a href="/blog/tags/Heroku/" style="font-size: 10px;">Heroku</a> <a href="/blog/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/blog/tags/TDEnc2/" style="font-size: 16.67px;">TDEnc2</a> <a href="/blog/tags/Twitter/" style="font-size: 10px;">Twitter</a> <a href="/blog/tags/つんでれんこ/" style="font-size: 20px;">つんでれんこ</a> <a href="/blog/tags/イヤホン/" style="font-size: 10px;">イヤホン</a> <a href="/blog/tags/エンコード/" style="font-size: 10px;">エンコード</a> <a href="/blog/tags/ニコニコ/" style="font-size: 13.33px;">ニコニコ</a> <a href="/blog/tags/ニコニコ書籍/" style="font-size: 10px;">ニコニコ書籍</a>
+  </div>
+</div>
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignright">
+  
+  &copy; 2016 窓屋
+  
+</div>
+<div class="clearfix"></div>
+</footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/blog/js/jquery.imagesloaded.min.js"></script>
+<script src="/blog/js/gallery.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'tdenc';
+
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+</body>
+</html>
