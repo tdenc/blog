@@ -46,17 +46,17 @@
     <link href="http://tdenc.com/blog/2016/10/27/tdenc-292/"/>
     <id>http://tdenc.com/blog/2016/10/27/tdenc-292/</id>
     <published>2016-10-27T11:15:06.000Z</published>
-    <updated>2016-10-28T13:39:52.000Z</updated>
+    <updated>2016-11-09T12:57:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.92をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.92をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
 <p>全プレアカが新仕様対象者になったので，旧仕様のプレアカエンコを無効化しました。一応設定ファイル（user_setting.bat）を弄れば復活するようにしていますが，基本的に実験目的でのみご使用下さい。もしくは<a href="https://twitter.com/tdenc/status/770252142514810880" target="_blank" rel="external">イケないこと</a>をするときに使うとか（ヒント：水曜日の定期メンテ）。</p>
-<p>つんでれんこを用いたニコニコ新仕様対策は<a href="https://tdenc.com/blog/2016/10/22/nico-new-format-3/">こちら</a>を参考にして下さい。</p>
+<p>つんでれんこを用いたニコニコ新仕様対策は<a href="/blog/2016/10/22/nico-new-format-3/">こちら</a>を参考にして下さい。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.92をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;全プレアカが新仕様対象者になったので，旧仕様のプレアカエンコを無効化しました。一応設定ファイル（user_se
+      &lt;p&gt;つんでれんこバージョン2.92をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;全プレアカが新仕様対象者になったので，旧仕様のプレアカエンコを無効化しました。一応設定ファイル（user_setting.bat）を弄れば復活
     
     </summary>
     
@@ -72,12 +72,12 @@
     <link href="http://tdenc.com/blog/2016/10/22/nico-new-format-3/"/>
     <id>http://tdenc.com/blog/2016/10/22/nico-new-format-3/</id>
     <published>2016-10-22T10:19:42.000Z</published>
-    <updated>2016-10-22T11:43:57.000Z</updated>
+    <updated>2016-11-09T12:54:04.000Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://blog.nicovideo.jp/niconews/ni064293.html" target="_blank" rel="external">ニコニコのエンコサーバの仕様変更が一気に拡大していっている</a>ので，なるべく劣化しないようにするにはどうすればいいのかを簡単にまとめます。動画をアップロードする際の参考にして下さい。</p>
 <h1 id="動画作成する段階に気をつけること">動画作成する段階に気をつけること</h1><p>動画作成のソフトウェアで動画を作成するときに，<strong>解像度（映像の縦幅と横幅）を高めに設定</strong>して下さい。もちろん解像度を高く設定すると，動画作成の際にソフトウェアの動作が重くなったり，出力したファイルの容量が大きくなったりするので，ほどほどに設定したほうがよいと思います。<strong>FullHD（1920x1080）やHD（1280x720）</strong>あたりが，一般的なパソコンで扱いやすい大きさかなと思います。</p>
 <p>AVIなどの形式でファイルを出力する際は，<strong>可逆圧縮コーデックを使用</strong>することをお勧めします。解像度が高いと映像のデータ量が多くなるので，非圧縮形式などだとファイル容量が非常に大きくなります（また，つんでれんこで読めないなどの問題にも繋がったりします）。<a href="http://umezawa.dyndns.info/wordpress/?cat=28" target="_blank" rel="external">Ut Video Codec</a>などの<strong>可逆圧縮コーデックをパソコンにインストールした後，動画作成ソフトウェアで動画を作成する際に，映像形式として（先程インストールした）可逆圧縮形式を選んで動画ファイルを書き出す</strong>と，劣化なしでファイル容量を大幅に減らすことができます。</p>
-<h1 id="つんでれんこやTDEnc2を使う際に気をつけること">つんでれんこやTDEnc2を使う際に気をつけること</h1><p><a href="http://tdenc.com/TDEnc">つんでれんこ</a>は<strong>バージョン2.79以降</strong>で，<a href="http://tdenc.com/TDEnc2">TDEnc2（Mac版つんでれんこ）</a>は<strong>バージョン2.26以降</strong>でニコニコの新仕様に対応しています。バージョンが古い場合は，<strong>つんでれんこやTDEnc2を最新版にアップデート</strong>してください。</p>
+<h1 id="つんでれんこやTDEnc2を使う際に気をつけること">つんでれんこやTDEnc2を使う際に気をつけること</h1><p><a href="/TDEnc/">つんでれんこ</a>は<strong>バージョン2.79以降</strong>で，<a href="/TDEnc2/">TDEnc2（Mac版つんでれんこ）</a>は<strong>バージョン2.26以降</strong>でニコニコの新仕様に対応しています。バージョンが古い場合は，<strong>つんでれんこやTDEnc2を最新版にアップデート</strong>してください。</p>
 <p>つんでれんこやTDEnc2でニコニコ新仕様向けにエンコードするには，アップロード先のサイトを選ぶときに適切な選択肢を選んで下さい。<strong>つんでれんこは（小文字のnではなく）大文字のN</strong>，<strong>TDEnc2は選択肢2番</strong>が，新仕様向けの選択肢です（この選択肢は今後のバージョンアップで多少変わる可能性はありますが，とりあえずこの記事執筆時点ではこうなっています）。</p>
 <p>「ニコニコ側で1.5GBまで対応してくれるんだからエンコードしなくてもいいんじゃないか？」というように思うかもしれませんが，<strong>許容容量が大きいからと言ってエンコードしなくてもいいというような単純な話ではないことが，多くのユーザーの検証で明らかになっています</strong>。<a href="http://dic.nicovideo.jp/id/5439193" target="_blank" rel="external">ニコニコ大百科</a>に色々な情報がまとまっているので，気になる人は見てみて下さい。結構気をつけないと，思っている以上に低画質低音質な動画が作成されます。</p>
 <p>※以上はつんでれんこを用いた場合の動画作成方法です。つんでれんこ以外にニコニコの新仕様に対応したとものとしては<a href="http://rigaya34589.blog135.fc2.com/blog-category-5.html" target="_blank" rel="external">x264guiEx</a>がありますので，そちらを使いたい場合はそちらを利用してMP4を作成してください。</p>
@@ -113,16 +113,16 @@
     <link href="http://tdenc.com/blog/2016/10/20/tdenc-291/"/>
     <id>http://tdenc.com/blog/2016/10/20/tdenc-291/</id>
     <published>2016-10-20T12:47:57.000Z</published>
-    <updated>2016-10-20T13:06:37.000Z</updated>
+    <updated>2016-11-09T12:56:40.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.91をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。</p>
-<p>Twitterに対応しました。他にも細かい修正・コードの整理が入っています。<br>Twitter用にエンコードする際には<a href="http://tdenc.com/blog/2016/10/18/hello-twitter">こちら</a>を参考にして下さい。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.91をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
+<p>Twitterに対応しました。他にも細かい修正・コードの整理が入っています。<br>Twitter用にエンコードする際には<a href="/blog/2016/10/18/hello-twitter">こちら</a>を参考にして下さい。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.91をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Twitterに対応しました。他にも細かい修正・コードの整理が入っています。&lt;br&gt;Twitter用にエンコー
+      &lt;p&gt;つんでれんこバージョン2.91をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Twitterに対応しました。他にも細かい修正・コードの整理が入っています。&lt;br&gt;Twitter用にエンコードする際には&lt;a href=&quot;/
     
     </summary>
     
@@ -200,16 +200,17 @@
     <link href="http://tdenc.com/blog/2016/10/15/tdenc-290/"/>
     <id>http://tdenc.com/blog/2016/10/15/tdenc-290/</id>
     <published>2016-10-15T05:10:51.000Z</published>
-    <updated>2016-10-15T05:12:30.000Z</updated>
+    <updated>2016-11-09T12:56:04.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.90をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.90をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
 <p>一部のツールのダウンロードが失敗する問題，MUXエンコモードでニコニコ新仕様向けのエンコが失敗する問題に対処。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.90をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;一部のツールのダウンロードが失敗する問題，MUXエンコモードでニコニコ新仕様向けのエンコが失敗する問題に対処。
+      &lt;p&gt;つんでれんこバージョン2.90をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;一部のツールのダウンロードが失敗する問題，MUXエンコモードでニコニコ新仕様向けのエンコが失敗する問題に対処。&lt;/p&gt;
+
     
     </summary>
     
@@ -225,15 +226,15 @@
     <link href="http://tdenc.com/blog/2016/10/14/tdenc2-228/"/>
     <id>http://tdenc.com/blog/2016/10/14/tdenc2-228/</id>
     <published>2016-10-14T11:41:57.000Z</published>
-    <updated>2016-10-14T11:44:35.000Z</updated>
+    <updated>2016-11-09T12:57:50.000Z</updated>
     
-    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.28を公開しました。ダウンロードは<a href="http://tdenc.com/TDEnc2/">こちら</a>。</p>
+    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.28を公開しました。ダウンロードは<a href="/TDEnc2/">こちら</a>。</p>
 <p>バージョン2.26，2.27のバグ修正です。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;TDEnc2のバージョン2.28を公開しました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc2/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+      &lt;p&gt;TDEnc2のバージョン2.28を公開しました。ダウンロードは&lt;a href=&quot;/TDEnc2/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;バージョン2.26，2.27のバグ修正です。&lt;/p&gt;
 
     
@@ -251,16 +252,16 @@
     <link href="http://tdenc.com/blog/2016/10/14/tdenc-289/"/>
     <id>http://tdenc.com/blog/2016/10/14/tdenc-289/</id>
     <published>2016-10-14T11:37:35.000Z</published>
-    <updated>2016-10-15T10:37:21.000Z</updated>
+    <updated>2016-11-09T12:55:49.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.89をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.89をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
 <p>ニコニコ新仕様向けのエンコードにおいてもサンプリングレートを選択できるようにしました（質問レベルが「おおめ」のときのみ選択できます）。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.89をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;ニコニコ新仕様向けのエンコードにおいてもサンプリングレートを選択できるようにしました（質問レベルが「おおめ」の
+      &lt;p&gt;つんでれんこバージョン2.89をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;ニコニコ新仕様向けのエンコードにおいてもサンプリングレートを選択できるようにしました（質問レベルが「おおめ」のときのみ選択できます）。&lt;/p&gt;
     
     </summary>
     
@@ -276,9 +277,9 @@
     <link href="http://tdenc.com/blog/2016/09/18/tdenc-288/"/>
     <id>http://tdenc.com/blog/2016/09/18/tdenc-288/</id>
     <published>2016-09-18T05:26:10.000Z</published>
-    <updated>2016-09-18T05:53:16.000Z</updated>
+    <updated>2016-11-09T12:55:39.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.88をリリースしました。ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.88をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
 <p>Flash Playerのバージョンアップにより，つんでれんこが再生確認する際に使用していたローカルのプレイヤーがデフォルト設定では使用できなくなりました。この問題を解決するには，<a href="https://www43.atwiki.jp/tdenc/pages/13.html#id_a6913724" target="_blank" rel="external">このような対処</a>をする必要があります。</p>
 <p>ただ，これを全ユーザーにやってもらうのもどうかなーと思ったので，YouTubeも既にHTML5に移行しましたし，ニコニコもそのうちHTML5に移行するとのことなので，つんでれんこの再生確認画面でもHTML5を使用することにしました。一応設定ファイル（settingフォルダのuser_setting.bat）を弄ることでFlash Playerに戻すことも可能ですが，基本的にはHTML5の方を使用することをおすすめします（デフォルトで使用しているブラウザがHTML5に対応していないという場合はどうしようもないですが…）。</p>
 <p>もちろん（ニコニコがHTML5に移行するまでは）ニコニコで再生するときと若干見え方が違ってくる場合もあるので，きちんと事前に確認をしたい人は非公開でアップロードしてみるなどの方法で確認するのが確実だと思います。</p>
@@ -286,8 +287,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.88をリリースしました。ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Flash Playerのバージョンアップにより，つんでれんこが再生確認する際に使用していたローカルのプレイヤ
+      &lt;p&gt;つんでれんこバージョン2.88をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Flash Playerのバージョンアップにより，つんでれんこが再生確認する際に使用していたローカルのプレイヤーがデフォルト設定では使用できな
     
     </summary>
     
@@ -303,14 +304,14 @@
     <link href="http://tdenc.com/blog/2016/09/11/tdenc2-226/"/>
     <id>http://tdenc.com/blog/2016/09/11/tdenc2-226/</id>
     <published>2016-09-11T14:00:44.000Z</published>
-    <updated>2016-09-11T14:02:20.000Z</updated>
+    <updated>2016-11-09T12:57:15.000Z</updated>
     
-    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.26を公開しました。<br>ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。<br><a href="http://tdenc.com/TDEnc2">こちら</a>からどうぞ。</p>
+    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.26を公開しました。<br>ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。<br><a href="/TDEnc2/">こちら</a>からどうぞ。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;TDEnc2のバージョン2.26を公開しました。&lt;br&gt;ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。&lt;br&gt;&lt;a href=&quot;http://tdenc.com/TDEnc2&quot;&gt;こちら&lt;/a&gt;からどうぞ。&lt;/p&gt;
+      &lt;p&gt;TDEnc2のバージョン2.26を公開しました。&lt;br&gt;ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。&lt;br&gt;&lt;a href=&quot;/TDEnc2/&quot;&gt;こちら&lt;/a&gt;からどうぞ。&lt;/p&gt;
 
     
     </summary>
@@ -327,14 +328,15 @@
     <link href="http://tdenc.com/blog/2016/09/06/tdenc-287/"/>
     <id>http://tdenc.com/blog/2016/09/06/tdenc-287/</id>
     <published>2016-09-06T12:58:11.000Z</published>
-    <updated>2016-09-06T13:04:06.000Z</updated>
+    <updated>2016-11-09T12:55:28.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.87をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。<br>バージョン2.85と2.86の記事書くの忘れてたけど気にしてはいけない。<br>そんなものは最初からなかった。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.87をリリースしました。<br>ダウンロードは<a href="/TDEnc/">こちら</a>。<br>バージョン2.85と2.86の記事書くの忘れてたけど気にしてはいけない。<br>そんなものは最初からなかった。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.87をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.85と2.86の記事書くの忘れてたけど気にしてはいけない。&lt;br&gt;そんなものは最初からなかった。
+      &lt;p&gt;つんでれんこバージョン2.87をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.85と2.86の記事書くの忘れてたけど気にしてはいけない。&lt;br&gt;そんなものは最初からなかった。&lt;/p&gt;
+
     
     </summary>
     
@@ -350,14 +352,14 @@
     <link href="http://tdenc.com/blog/2016/08/29/tdenc-284/"/>
     <id>http://tdenc.com/blog/2016/08/29/tdenc-284/</id>
     <published>2016-08-29T01:07:51.000Z</published>
-    <updated>2016-08-29T01:10:23.000Z</updated>
+    <updated>2016-11-09T12:56:22.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.84をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。<br>バージョン2.83…聞いたことない子ですね（ごめんなさい）。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.84をリリースしました。<br>ダウンロードは<a href="/TDEnc/">こちら</a>。<br>バージョン2.83…聞いたことない子ですね（ごめんなさい）。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.84をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.83…聞いたことない子ですね（ごめんなさい）。&lt;/p&gt;
+      &lt;p&gt;つんでれんこバージョン2.84をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.83…聞いたことない子ですね（ごめんなさい）。&lt;/p&gt;
 
     
     </summary>
@@ -374,14 +376,14 @@
     <link href="http://tdenc.com/blog/2016/08/28/tdenc-283/"/>
     <id>http://tdenc.com/blog/2016/08/28/tdenc-283/</id>
     <published>2016-08-28T09:10:14.000Z</published>
-    <updated>2016-08-28T09:13:51.000Z</updated>
+    <updated>2016-11-09T12:55:15.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.83をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。<br>バージョン2.82なんてものもなかった（ごめんなさい）。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.83をリリースしました。<br>ダウンロードは<a href="/TDEnc/">こちら</a>。<br>バージョン2.82なんてものもなかった（ごめんなさい）。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.83をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.82なんてものもなかった（ごめんなさい）。&lt;/p&gt;
+      &lt;p&gt;つんでれんこバージョン2.83をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.82なんてものもなかった（ごめんなさい）。&lt;/p&gt;
 
     
     </summary>
@@ -398,14 +400,14 @@
     <link href="http://tdenc.com/blog/2016/08/28/tdenc-282/"/>
     <id>http://tdenc.com/blog/2016/08/28/tdenc-282/</id>
     <published>2016-08-28T05:23:23.000Z</published>
-    <updated>2016-08-28T05:27:01.000Z</updated>
+    <updated>2016-11-09T12:55:05.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.82をリリースしました。<br>ダウンロードは<a href="http://tdenc.com/TDEnc/">こちら</a>。<br>バージョン2.81なんてなかった。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.82をリリースしました。<br>ダウンロードは<a href="/TDEnc/">こちら</a>。<br>バージョン2.81なんてなかった。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.82をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;http://tdenc.com/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.81なんてなかった。&lt;/p&gt;
+      &lt;p&gt;つんでれんこバージョン2.82をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.81なんてなかった。&lt;/p&gt;
 
     
     </summary>
@@ -422,14 +424,15 @@
     <link href="http://tdenc.com/blog/2016/08/25/tdenc-280/"/>
     <id>http://tdenc.com/blog/2016/08/25/tdenc-280/</id>
     <published>2016-08-25T00:01:19.000Z</published>
-    <updated>2016-08-25T00:02:51.000Z</updated>
+    <updated>2016-11-09T12:54:52.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.80をリリースしました。<br>もう勘弁して下さい。<br>※リリースに伴うあれこれは<a href="http://tdenc.com/blog/2016/08/22/nico-new-format-2/">こちら</a>を参照して下さい。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.80をリリースしました。<br>もう勘弁して下さい。<br>※リリースに伴うあれこれは<a href="/blog/2016/08/22/nico-new-format-2/">こちら</a>を参照して下さい。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.80をリリースしました。&lt;br&gt;もう勘弁して下さい。&lt;br&gt;※リリースに伴うあれこれは&lt;a href=&quot;http://tdenc.com/blog/2016/08/22/nico-new-format-2/&quot;&gt;こちら&lt;/a&gt;を参照して下さい。&lt;/p
+      &lt;p&gt;つんでれんこバージョン2.80をリリースしました。&lt;br&gt;もう勘弁して下さい。&lt;br&gt;※リリースに伴うあれこれは&lt;a href=&quot;/blog/2016/08/22/nico-new-format-2/&quot;&gt;こちら&lt;/a&gt;を参照して下さい。&lt;/p&gt;
+
     
     </summary>
     
@@ -445,14 +448,14 @@
     <link href="http://tdenc.com/blog/2016/08/22/tdenc-279/"/>
     <id>http://tdenc.com/blog/2016/08/22/tdenc-279/</id>
     <published>2016-08-22T05:53:08.000Z</published>
-    <updated>2016-08-22T05:55:26.000Z</updated>
+    <updated>2016-11-09T12:54:41.000Z</updated>
     
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.79をリリースしました。リリースに伴うあれこれは<a href="http://tdenc.com/blog/2016/08/22/nico-new-format-2/">こちら</a>を参照して下さい。</p>
+    <content type="html"><![CDATA[<p>つんでれんこバージョン2.79をリリースしました。リリースに伴うあれこれは<a href="/blog/2016/08/22/nico-new-format-2/">こちら</a>を参照して下さい。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;つんでれんこバージョン2.79をリリースしました。リリースに伴うあれこれは&lt;a href=&quot;http://tdenc.com/blog/2016/08/22/nico-new-format-2/&quot;&gt;こちら&lt;/a&gt;を参照して下さい。&lt;/p&gt;
+      &lt;p&gt;つんでれんこバージョン2.79をリリースしました。リリースに伴うあれこれは&lt;a href=&quot;/blog/2016/08/22/nico-new-format-2/&quot;&gt;こちら&lt;/a&gt;を参照して下さい。&lt;/p&gt;
 
     
     </summary>
@@ -465,11 +468,11 @@
   </entry>
   
   <entry>
-    <title>【20160906更新】つんでれんこのニコニコ新仕様への対応</title>
+    <title>【20161109更新】つんでれんこのニコニコ新仕様への対応</title>
     <link href="http://tdenc.com/blog/2016/08/22/nico-new-format-2/"/>
     <id>http://tdenc.com/blog/2016/08/22/nico-new-format-2/</id>
     <published>2016-08-22T01:58:20.000Z</published>
-    <updated>2016-09-06T12:56:15.000Z</updated>
+    <updated>2016-11-09T12:52:10.000Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://blog.nicovideo.jp/niconews/ni062609.html" target="_blank" rel="external">【追記(8/19)】投稿可能な動画ファイルのサイズが増加します</a>にもあるようにニコニコに仕様変更がありました。おそらく最も重要な部分は「投稿容量に関わらず全てniconico側でエンコードし複数画質を生成しております。」というところです。この仕様変更に従い，これまでは条件を満たせばサーバでの再エンコードを回避できたのですが，これができなくなりました。この仕様変更に対応するために，後ほどつんでれんこ2.79をリリースする予定です（もしかするとバグの判明などで2.80以降をリリースするかもしれません）。</p>
 <p>新仕様への対応ですが，注意点がいくつかあります。</p>
@@ -489,7 +492,7 @@
 <p>以上の条件で出力したファイルが1.5GB以内なら，<strong>つんでれんこにかけないでそのまま投稿した方がよいと思います</strong>。もしサーバエンコードでエラーが出たら，使用コーデックを変えるなどしてみてください。もし出力ファイルが1.5GBを超えたら，そのファイルをつんでれんこにかけると，1.5GB以内に抑えるようにエンコードします。</p>
 <p>つんでれんこの新仕様への対応方法は以下のとおりです。</p>
 <ul>
-<li><del>新仕様向けのエンコードではつんでれんこでは解像度のリサイズはしません。720pで投稿したい場合は720pで，4kで投稿したい場合は4kで事前にファイルを作成して下さい。</del> <strong>バージョン2.87でNモードでもリサイズが可能になりました。有効(y)にすると縦720ピクセルにリサイズします（質問レベルが「すこし」の時は自動でリサイズが有効になります。縦ピクセルのサイズはuser_setting.batで変更可能です）。</strong></li>
+<li><del>新仕様向けのエンコードではつんでれんこでは解像度のリサイズはしません。720pで投稿したい場合は720pで，4kで投稿したい場合は4kで事前にファイルを作成して下さい。バージョン2.87でNモードでもリサイズが可能になりました。有効(y)にすると縦720ピクセルにリサイズします（質問レベルが「すこし」の時は自動でリサイズが有効になります。縦ピクセルのサイズはuser_setting.batで変更可能です）。</del> <strong>バージョン2.94以降は，リサイズを有効にすると動画の長さに合わせて高さを「720ピクセルか540ピクセルか320ピクセル」のいずれかを適切に選ぶようになりました。</strong></li>
 <li>音声に関しては256kbpsで固定しました（user_setting.batで値を変えることができます）。</li>
 <li>ファイルサイズは1.5GBが上限ですが，余裕を持って1,495MBにしてあります（user_setting.batで値を変えることができます）。</li>
 <li>サーバエンコードでの劣化を防ぐ目的で，2.79からデノイズ機能を実装しました。<ul>
