@@ -52,6 +52,39 @@
     <header>
       
         <div class="icon"></div>
+        <time datetime="2016-09-11T14:00:44.000Z"><a href="/blog/2016/09/11/tdenc2-226/">2016-09-11</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/blog/2016/09/11/tdenc2-226/">TDEnc2 バージョン2.26</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>TDEnc2のバージョン2.26を公開しました。<br>ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。<br><a href="/TDEnc2/">こちら</a>からどうぞ。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
         <time datetime="2016-09-06T12:58:11.000Z"><a href="/blog/2016/09/06/tdenc-287/">2016-09-06</a></time>
       
       
@@ -278,7 +311,7 @@
 <p>以上の条件で出力したファイルが1.5GB以内なら，<strong>つんでれんこにかけないでそのまま投稿した方がよいと思います</strong>。もしサーバエンコードでエラーが出たら，使用コーデックを変えるなどしてみてください。もし出力ファイルが1.5GBを超えたら，そのファイルをつんでれんこにかけると，1.5GB以内に抑えるようにエンコードします。</p>
 <p>つんでれんこの新仕様への対応方法は以下のとおりです。</p>
 <ul>
-<li><del>新仕様向けのエンコードではつんでれんこでは解像度のリサイズはしません。720pで投稿したい場合は720pで，4kで投稿したい場合は4kで事前にファイルを作成して下さい。バージョン2.87でNモードでもリサイズが可能になりました。有効(y)にすると縦720ピクセルにリサイズします（質問レベルが「すこし」の時は自動でリサイズが有効になります。縦ピクセルのサイズはuser_setting.batで変更可能です）。</del> <strong>バージョン2.94以降は，リサイズを有効にすると動画の長さに合わせて高さを「720ピクセルか540ピクセルか320ピクセル」のいずれかを適切に選ぶようになりました。</strong></li>
+<li><del>新仕様向けのエンコードではつんでれんこでは解像度のリサイズはしません。720pで投稿したい場合は720pで，4kで投稿したい場合は4kで事前にファイルを作成して下さい。バージョン2.87でNモードでもリサイズが可能になりました。有効(y)にすると縦720ピクセルにリサイズします（質問レベルが「すこし」の時は自動でリサイズが有効になります。縦ピクセルのサイズはuser_setting.batで変更可能です）。</del> <strong>バージョン2.94以降は，リサイズを有効にすると動画の長さに合わせて高さを「720ピクセルか540ピクセルか360ピクセル」のいずれかを適切に選ぶようになりました。</strong></li>
 <li>音声に関しては256kbpsで固定しました（user_setting.batで値を変えることができます）。</li>
 <li>ファイルサイズは1.5GBが上限ですが，余裕を持って1,495MBにしてあります（user_setting.batで値を変えることができます）。</li>
 <li>サーバエンコードでの劣化を防ぐ目的で，2.79からデノイズ機能を実装しました。<ul>
@@ -411,40 +444,6 @@
 
 
 
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2016-06-06T06:25:25.000Z"><a href="/blog/2016/06/06/download/">2016-06-06</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/blog/2016/06/06/download/">旧ダウンロードページについて</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>どうやらつんでれんこを紹介する記事とかで<a href="http://tdenc.com">http://tdenc.com</a>ではなく<a href="http://tdenc.com/download">http://tdenc.com/download</a>への直リンクを貼っているケースがあって，そこに飛んで404のページが表示されてしまって「ダウンロード出来ない」と悩む人がいるようなので，<a href="http://tdenc.com/download">http://tdenc.com/download</a>にアクセスしたときに新しいダウンロードページに誘導するようなページを作りました。downloadというレポジトリをGitHubに作ってGitHub Pages機能を使って対処。…こんなことのためにレポジトリを増やすとか，なんだか無理矢理感半端ないけど面倒くさいしこれでいいのだ。</p>
-<p>404になっちゃうのは事前に分かってはいたんですが，そういう場合<a href="http://tdenc.com">tdenc.com</a>の方にアクセスしてくれるだろうと淡い期待を抱いていたわけで，でもまあ世の中そんな上手く自分の思うように行かないよねーっていう。手間を惜しんだらいかんですね。</p>
-
-      
-    </div>
-    <footer>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
-
 
 <nav id="pagination">
   
@@ -469,6 +468,10 @@
   <ul class="entry">
     
       <li>
+        <a href="/blog/2016/11/10/tdenc-295/">つんでれんこバージョン2.95</a>
+      </li>
+    
+      <li>
         <a href="/blog/2016/11/09/tdenc-294/">つんでれんこバージョン2.94</a>
       </li>
     
@@ -484,10 +487,6 @@
         <a href="/blog/2016/10/20/tdenc-291/">つんでれんこバージョン2.91</a>
       </li>
     
-      <li>
-        <a href="/blog/2016/10/18/hello-twitter/">【2016/10/20修正】つんでれんこのTwitter対応について</a>
-      </li>
-    
   </ul>
 </div>
 
@@ -497,7 +496,7 @@
   <h3 class="title">Categories</h3>
   <ul class="entry">
   
-    <li><a href="/blog/categories/リリース/">リリース</a><small>16</small></li>
+    <li><a href="/blog/categories/リリース/">リリース</a><small>17</small></li>
   
     <li><a href="/blog/categories/趣味/">趣味</a><small>1</small></li>
   
