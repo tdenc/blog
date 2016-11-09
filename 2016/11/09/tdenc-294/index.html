@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Herokuの無料枠の料金体系が2016年6月1日から変わった | Blog</title>
+  <title>つんでれんこバージョン2.94 | Blog</title>
   <meta name="author" content="窓屋">
   
-  <meta name="description" content="Herokuからメールが届いていたので読んでみたら，「2016年6月1日から無料枠の料金体系が変わったよ。アカウントに変更を適用したよ」とのことだったのでちょっと調べてみました。ちょうど1年前くらいに無料枠の体系が変わったんですが，また変わったんですねー。色々模索しているんでしょうね。
-詳しくはFl">
+  <meta name="description" content="つんでれんこバージョン2.94をリリースしました。ダウンロードはこちら。
+主にニコニコ新仕様向けエンコの調整です。動画の時間に合わせて解像度とビットレートを調整しました。ニコニコ側で再エンコードされるときの解像度（15分を越える場合は高さ540ピクセル，30分を越える場合は高さ320ピクセル）にでき">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Herokuの無料枠の料金体系が2016年6月1日から変わった"/>
+  <meta property="og:title" content="つんでれんこバージョン2.94"/>
   <meta property="og:site_name" content="Blog"/>
 
   
@@ -54,21 +54,19 @@
     <header>
       
         <div class="icon"></div>
-        <time datetime="2016-06-03T10:25:19.000Z"><a href="/blog/2016/06/03/heroku-new-free-dyno/">2016-06-03</a></time>
+        <time datetime="2016-11-09T12:31:06.000Z"><a href="/blog/2016/11/09/tdenc-294/">2016-11-09</a></time>
       
       
   
-    <h1 class="title">Herokuの無料枠の料金体系が2016年6月1日から変わった</h1>
+    <h1 class="title">つんでれんこバージョン2.94</h1>
   
 
     </header>
     <div class="entry">
       
-        <p>Herokuからメールが届いていたので読んでみたら，「2016年6月1日から無料枠の料金体系が変わったよ。アカウントに変更を適用したよ」とのことだったのでちょっと調べてみました。ちょうど1年前くらいに無料枠の体系が変わったんですが，また変わったんですねー。色々模索しているんでしょうね。</p>
-<p>詳しくは<a href="https://blog.heroku.com/archives/2016/5/18/announcing_heroku_free_ssl_beta_and_flexible_dyno_hours#flexible-free-dyno-hours" target="_blank" rel="external">Flexible Free Dyno Hours</a>を読んでもらうとして，超簡単に要約すると，Herokuにクレカ登録している人は1ヶ月につき1000 dyno hours，登録していない人は1ヶ月につき550 dyno hoursが付与されるとのことです。で，重要なのは，このdyno hoursは<strong>アカウントごとに付与</strong>され，複数のアプリを運用している場合はこのdyno hoursを分け合う形になるという点かなあ。</p>
-<p>1年前の無料枠の変更時に導入された「18時間稼働＆6時間スリープ」はどうやらなくなったようです。つまり(クレカを登録しているのなら)1つだけのアプリを運用するなら24/7の稼働ができるようになったので，常駐botを運用しやすくなった反面，旧体系の無料枠で複数アプリを運用していた人にはかなりきつい変更と言えそうです。さんすぅできないのバレるの嫌なので計算式は出しません（ぉぃ <a href="https://dashboard.heroku.com/account/billing" target="_blank" rel="external">Billing</a>のところで消費dyno hoursが見れるので1ヶ月でどれくらい消費することになるかは自分で計算してみてください。</p>
-<p>自分としては，5月末までVPSで運用していたbotの引っ越し先をどうしようか悩んでいたのでまさに渡りに船という感じで，さっそくhubotを引越ししました。Google App Engine用にPython2で書き直していたのがどうしても上手く行かなかったのでちょうどよかった…ｗ</p>
-<p>にしてもしばらくHeroku離れている間に随分便利な機能増えているんですね。今回初めて<a href="https://devcenter.heroku.com/articles/pipelines" target="_blank" rel="external">Pipelines</a>使ってみたんですけどヤバいっすね。<a href="https://devcenter.heroku.com/articles/github-integration-review-apps" target="_blank" rel="external">Review Apps</a>のGitHubのPR連携とか便利すぎて興奮しすぎて鼻血出る。</p>
+        <p>つんでれんこバージョン2.94をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
+<p>主にニコニコ新仕様向けエンコの調整です。動画の時間に合わせて解像度とビットレートを調整しました。ニコニコ側で再エンコードされるときの解像度（15分を越える場合は高さ540ピクセル，30分を越える場合は高さ320ピクセル）にできるだけ近づけるように変更してあります（サーバ側でのリサイズによる劣化をなるべく抑えるためです）。これによって15分を越える動画がサーバで再エンコされるときの劣化が多少和らぐと思います。たぶん。</p>
+<p>つんでれんこを用いたニコニコ新仕様対策は<a href="/blog/2016/10/22/nico-new-format-3/">こちら</a>を参考にして下さい。</p>
 
       
     </div>
@@ -77,13 +75,13 @@
         
   
   <div class="categories">
-    <a href="/blog/categories/開発/">開発</a>
+    <a href="/blog/categories/リリース/">リリース</a>
   </div>
 
         
   
   <div class="tags">
-    <a href="/blog/tags/Heroku/">Heroku</a>
+    <a href="/blog/tags/つんでれんこ/">つんでれんこ</a>
   </div>
 
         
