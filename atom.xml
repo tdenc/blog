@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://tdenc.com/blog/"/>
-  <updated>2016-11-09T22:01:50.000Z</updated>
+  <updated>2016-11-12T11:08:20.000Z</updated>
   <id>http://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>つんでれんこユーザーサポート終了のお知らせ</title>
+    <link href="http://tdenc.com/blog/2016/11/12/user-support/"/>
+    <id>http://tdenc.com/blog/2016/11/12/user-support/</id>
+    <published>2016-11-12T10:34:06.000Z</published>
+    <updated>2016-11-12T11:08:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>突然のご報告となりますが，本日（20時）をもちましてつんでれんこのユーザーサポートを終了致します。ニコニコの新仕様への対応やTwitterへの対応のためにここ3ヶ月ほどTwitter検索（エゴサーチ）を用いたユーザーサポートの頻度が上がっておりましたが，どちらのサイトの対応も大体終わり，ちょうどいい機会かなぁと。今後メールでのご質問に対する返信，Twitterのリプライへの対応，エゴサーチを用いたサポート等は，原則的には行わない予定ですが，ご理解いただけると幸いです。</p>
+<p>また，Twitterでは以前からつぶやいていたのですが，今年いっぱいをもちまして，つんでれんこの開発自体も終了する予定です（理由は先程と同じで，ニコニコの新仕様への対応もTwitterへの対応も終わりの目処がついたからです）。この件に関してはまた後日，詳細が決まり次第お知らせ致します。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;突然のご報告となりますが，本日（20時）をもちましてつんでれんこのユーザーサポートを終了致します。ニコニコの新仕様への対応やTwitterへの対応のためにここ3ヶ月ほどTwitter検索（エゴサーチ）を用いたユーザーサポートの頻度が上がっておりましたが，どちらのサイトの対応
+    
+    </summary>
+    
+      <category term="開発" scheme="http://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+    
+      <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
   
   <entry>
     <title>つんでれんこバージョン2.95</title>
@@ -601,36 +625,6 @@
       <category term="つんでれんこ" scheme="http://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
       <category term="ニコニコ" scheme="http://tdenc.com/blog/tags/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>イヤホン(XBA-300)を買った</title>
-    <link href="http://tdenc.com/blog/2016/06/11/xba300/"/>
-    <id>http://tdenc.com/blog/2016/06/11/xba300/</id>
-    <published>2016-06-11T10:47:26.000Z</published>
-    <updated>2016-06-11T12:12:10.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>tdenc.com用に運用していたVPS解約したことで発生したお小遣いを使って何を買おうかずっと迷っていたんですが，気に入るディスプレイも中々出てこないので，久々にイヤホンを新調しました。買ったのはこいつ↓</p>
-<p><a href="http://www.sony.jp/headphone/products/XBA-300/" target="_blank" rel="external">XBA-300|ヘッドホン|ソニー</a></p>
-<p>普段はヘッドホン派なんですがさすがにこの時期は暑くなるので外ではイヤホンになるわけで…。で，これまでは低音重視コスパ大正義なダイナミック型をよく使っていたんですが，今回はお金もあるしたまには気分を変えてみようということで久々にバランスド・アーマチュア型を聞いてみようかなあと。</p>
-<p>んでeイヤホンに行ってひたすら聞きまくって決めたのがXBA-300。解像度いいっすねこれ。とにかく中高音域がヤバい感じに仕上がってる。細かい。最初は低音が弱めかなあと思ったけど，イヤーピース調整したらきちんと聞こえるようになりました。大きくはないけど，バランスいいです。音に特徴がない，面白みがないとか批判する人もいるイヤホンだけど，今回はモニターな音が欲しかったのでこれで大満足。まあこの値段でこれくらいの音が出せていれば十分すぎると思います。</p>
-<p>とりあえずこれで響け!ユーフォニアムのサントラを早く聞きたい。聞きたいけど最終回まだ見れていない…。見れていないけど聞きたい…。うぅ…。金管どんな音するんだろう…。</p>
-<p>とまあユーフォは置いといて，ソニーさんは水素水ならぬ<a href="http://av.watch.impress.co.jp/docs/series/dal/691795.html" target="_blank" rel="external">色素SDカード</a>とか作ってる暇があるならこういうイヤホン増やして下さい。こういうのならお金出しますから。VPS解約で余ったお金，あと4万くらいあるし。というかもうイヤホンはダイナミック型に戻れないような気がするのでXBA-400出して下さいお願いします。</p>
-<p>にしてもXBA-300のイヤホンポーチ，もうちょいなんとかならんかったのだろうか…。しょぼすぎて思わず二度見するレベルだったんだけど…。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;tdenc.com用に運用していたVPS解約したことで発生したお小遣いを使って何を買おうかずっと迷っていたんですが，気に入るディスプレイも中々出てこないので，久々にイヤホンを新調しました。買ったのはこいつ↓&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.sony.j
-    
-    </summary>
-    
-      <category term="趣味" scheme="http://tdenc.com/blog/categories/%E8%B6%A3%E5%91%B3/"/>
-    
-    
-      <category term="イヤホン" scheme="http://tdenc.com/blog/tags/%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3/"/>
     
   </entry>
   
