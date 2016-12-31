@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2016-12-10T12:43:55.000Z</updated>
+  <updated>2016-12-31T08:09:32.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ニコニコ書籍無料新着bot</title>
+    <link href="https://tdenc.com/blog/2016/12/31/nicobookfree/"/>
+    <id>https://tdenc.com/blog/2016/12/31/nicobookfree/</id>
+    <published>2016-12-31T07:30:13.000Z</published>
+    <updated>2016-12-31T08:09:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>ユーザーが少ない電子書籍ストアの，ニッチな需要を満たすものなので誰が欲しがるのか謎ですが，ニコニコ書籍の無料本の新着をツイートするbotを作りました。</p>
+<p><a class="twitter-timeline" data-width="480" data-height="640" data-dnt="true" href="https://twitter.com/nicobookfree" target="_blank" rel="external">Tweets by nicobookfree</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>最初は無料有料関係なく全ての書籍の新着をツイートするものにしようかとも考えたのですが，そうすると結構なTL爆撃をしてしまいそうな気がしたのでとりあえず無料本だけです。たまに抜けが発生します（たぶん）。まれに重複が発生します（たぶん）。</p>
+<p>エロ本新着botとかも作れるし，おそらくそっちのほうが需要があるとは思うんですけどね。ほしいですかね？</p>
+<p>…というか皆さんニコ書って使ってます？長いこと使い続けていた僕は最近使うのやめかけてまして。Kindleに引っ越しを考えてます（ニコ書のAndroidアプリが外部SDカードに対応してくれないので容量的につらい）。Kindle使い始めたらおそらくKindle Unlimited新着botみたいなの作るかもしれないです。作らないかもしれないです。</p>
+<p>ちなみにbotをどうやって作ろうかなーと1日考えて，お金かけたくなかったので<a href="https://developers.google.com/apps-script/" target="_blank" rel="external">Google Apps Script（GAS）</a>を使ってみました。JavaScript書きたくないお。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;ユーザーが少ない電子書籍ストアの，ニッチな需要を満たすものなので誰が欲しがるのか謎ですが，ニコニコ書籍の無料本の新着をツイートするbotを作りました。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;twitter-timeline&quot; data-width=&quot;480&quot; data-heig
+    
+    </summary>
+    
+      <category term="開発" scheme="https://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+    
+      <category term="ニコニコ書籍" scheme="https://tdenc.com/blog/tags/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E6%9B%B8%E7%B1%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>つんでれんこバージョン2.96</title>
@@ -568,30 +597,6 @@
     <summary type="html">
     
       &lt;p&gt;つんでれんこバージョン2.82をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.81なんてなかった。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>つんでれんこバージョン2.80</title>
-    <link href="https://tdenc.com/blog/2016/08/25/tdenc-280/"/>
-    <id>https://tdenc.com/blog/2016/08/25/tdenc-280/</id>
-    <published>2016-08-25T00:01:19.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.80をリリースしました。<br>もう勘弁して下さい。<br>※リリースに伴うあれこれは<a href="/blog/2016/08/22/nico-new-format-2/">こちら</a>を参照して下さい。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;つんでれんこバージョン2.80をリリースしました。&lt;br&gt;もう勘弁して下さい。&lt;br&gt;※リリースに伴うあれこれは&lt;a href=&quot;/blog/2016/08/22/nico-new-format-2/&quot;&gt;こちら&lt;/a&gt;を参照して下さい。&lt;/p&gt;
 
     
     </summary>
