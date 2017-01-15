@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2016-12-31T08:18:39.000Z</updated>
+  <updated>2017-01-15T11:50:05.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TDEnc2 バージョン2.29</title>
+    <link href="https://tdenc.com/blog/2017/01/15/tdenc2-229/"/>
+    <id>https://tdenc.com/blog/2017/01/15/tdenc2-229/</id>
+    <published>2017-01-15T11:34:19.000Z</published>
+    <updated>2017-01-15T11:50:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.29を公開しました。ダウンロードは<a href="/TDEnc2/">こちら</a>。</p>
+<ul>
+<li>様々なバグ修正</li>
+<li>macOS Sierra対応</li>
+<li>Twitter向けエンコ対応</li>
+<li>ニコニコ新仕様向けの最終調整（動画の長さに合わせた最適化）</li>
+</ul>
+<p>予定より半月ばかり遅れてしまいましたが，このバージョンをもってTDEnc2の開発を終了する予定です。開発終了についてのお話は<a href="/blog/2016/11/22/the-end-of-tdenc/">こちら</a>をどうぞ。開発は終了しますが，配付は継続しているので今後もずっとダウンロードは可能です。また，各サイトで仕様変更がない限りは安心してご使用下さい。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;TDEnc2のバージョン2.29を公開しました。ダウンロードは&lt;a href=&quot;/TDEnc2/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;様々なバグ修正&lt;/li&gt;
+&lt;li&gt;macOS Sierra対応&lt;/li&gt;
+&lt;li&gt;Twitter向けエンコ対応&lt;/li&gt;
+&lt;li&gt;
+    
+    </summary>
+    
+      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="TDEnc2" scheme="https://tdenc.com/blog/tags/TDEnc2/"/>
+    
+  </entry>
   
   <entry>
     <title>ニコニコ書籍無料新着bot</title>
@@ -573,30 +608,6 @@
     <summary type="html">
     
       &lt;p&gt;つんでれんこバージョン2.83をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.82なんてものもなかった（ごめんなさい）。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>つんでれんこバージョン2.82</title>
-    <link href="https://tdenc.com/blog/2016/08/28/tdenc-282/"/>
-    <id>https://tdenc.com/blog/2016/08/28/tdenc-282/</id>
-    <published>2016-08-28T05:23:23.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.82をリリースしました。<br>ダウンロードは<a href="/TDEnc/">こちら</a>。<br>バージョン2.81なんてなかった。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;つんでれんこバージョン2.82をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.81なんてなかった。&lt;/p&gt;
 
     
     </summary>
