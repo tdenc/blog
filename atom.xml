@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2017-01-15T12:03:08.000Z</updated>
+  <updated>2017-02-02T12:31:35.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>デレステの特技継続時間 1万回シミュレーション</title>
+    <link href="https://tdenc.com/blog/2017/02/02/skill-duration/"/>
+    <id>https://tdenc.com/blog/2017/02/02/skill-duration/</id>
+    <published>2017-02-02T11:35:46.000Z</published>
+    <updated>2017-02-02T12:31:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>去年の夏にTwitterのフォロワーたちの陰謀でデレステを始めて，たまに長期に休んだり，ガチャガチャしながら遊んでる親指エンジョイ勢なんですが，特技の発動時間についてネット上に色んな情報が上がってはいるものの，じゃあ実際どんな感じで発動するのかという統計的なものは見つからなかったので，シミュレーションするプログラム（1万回試行）を書いて走らせてみました。その結果，なんとなくよさげなデータが得られたのでシェアします。たぶん人によってはそこそこ重宝するデータです（というか自分がすでに使いまくってます）。</p>
+<p><a href="https://docs.google.com/spreadsheets/d/127y-Gq9P_VfBsvq0q2ToM14maYSzLX4IsXj9rN3Pws4/edit#gid=0" target="_blank" rel="external">デレステ特技継続時間（楽曲125秒・タイプボーナスあり）</a></p>
+<p>こっそり自分だけ使ってもまあいいんですけど，どうせなら同じゲーム楽しんでる皆でシェアして皆で一緒にゲーム楽しめればいいかなーと。ちなみにリンク先はGoogle Driveです。このブログもリンク先もアフィリエイトとかは全然ないので誤クリック（タップ）で変なところに飛んだりとかしないので安心してください。</p>
+<p>スプレッドシートにあるデータは，特技レベルはすべてLv10まで上げている前提です。また楽曲のタイプボーナスも反映しています。プログラムを走らせるときにはオプションで指定してレベルもタイプボーナスも調整できるようになっているんですけど，多分ガチ勢がほしがってる情報はこれだと思うので。</p>
+<p>シートは全部で5枚で，それぞれ特技カード1枚だけ，2枚組み合わせ，3枚組み合わせ，4枚組み合わせ，5枚組み合わせになっています。同一特技の組み合わせもあります。色んなデータがありますが，ほとんどの人は「平均（ミリ秒）」のところを見ればいいと思います（データの並びはこの列でソートしてあります）。使い方としては，既に持っているカードの特技をどう組み合わせると特技時間が伸びやすいのかの参考にしたり，とかですかね。そういう場合は，GoogleスプレッドシートやMicrosoft Excelのフィルタ機能を使って自分が持ってる種類の特技だけ表示したりすると使いやすいです。あとは，平均が上位の方の特技を持つカードの入手を目指してガチャガチャしたり，スカウトチケット使うときに誰を選ぶ基準にしたり，とか。</p>
+<p>ちなみに同じタイプを5枚揃えた場合（例えばスコアアップ5枚）の上位陣の最大値が121000ミリ秒になっていますが，これはバグとかではなくて，特技間隔が最短でも4秒なので，曲始まりがどうしても4秒空いてしまうからです（つまり曲始まりの4秒だけ空いて，その後は終始発動しっぱなしという状況です）。</p>
+<p>それではよいデレステライフを。</p>
+<p><strong>限定飛鳥引けなくて吐きそう。カネが尽きた。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;去年の夏にTwitterのフォロワーたちの陰謀でデレステを始めて，たまに長期に休んだり，ガチャガチャしながら遊んでる親指エンジョイ勢なんですが，特技の発動時間についてネット上に色んな情報が上がってはいるものの，じゃあ実際どんな感じで発動するのかという統計的なものは見つからな
+    
+    </summary>
+    
+      <category term="趣味" scheme="https://tdenc.com/blog/categories/%E8%B6%A3%E5%91%B3/"/>
+    
+      <category term="ゲーム" scheme="https://tdenc.com/blog/categories/%E8%B6%A3%E5%91%B3/%E3%82%B2%E3%83%BC%E3%83%A0/"/>
+    
+    
+      <category term="デレステ" scheme="https://tdenc.com/blog/tags/%E3%83%87%E3%83%AC%E3%82%B9%E3%83%86/"/>
+    
+  </entry>
   
   <entry>
     <title>TDEnc2 バージョン2.29</title>
@@ -584,30 +616,6 @@
     <summary type="html">
     
       &lt;p&gt;つんでれんこバージョン2.84をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.83…聞いたことない子ですね（ごめんなさい）。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>つんでれんこバージョン2.83</title>
-    <link href="https://tdenc.com/blog/2016/08/28/tdenc-283/"/>
-    <id>https://tdenc.com/blog/2016/08/28/tdenc-283/</id>
-    <published>2016-08-28T09:10:14.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.83をリリースしました。<br>ダウンロードは<a href="/TDEnc/">こちら</a>。<br>バージョン2.82なんてものもなかった（ごめんなさい）。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;つんでれんこバージョン2.83をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.82なんてものもなかった（ごめんなさい）。&lt;/p&gt;
 
     
     </summary>
