@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2017-02-18T12:03:50.000Z</updated>
+  <updated>2017-02-18T12:04:49.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://tdenc.com/blog/2017/02/18/score-simulation/"/>
     <id>https://tdenc.com/blog/2017/02/18/score-simulation/</id>
     <published>2017-02-18T10:54:24.000Z</published>
-    <updated>2017-02-18T12:03:50.000Z</updated>
+    <updated>2017-02-18T12:04:49.000Z</updated>
     
     <content type="html"><![CDATA[<p><a href="/blog/2017/02/02/skill-duration/">前回</a>の特技継続時間シミュレータを発展させて，実際にどんな特技の組み合わせでどれくらいのスコアが出るのかを計算するシミュレータを書いたので，例のごとく1万回試行した結果をGoogleスプレッドシートで公開します。</p>
 <p><strong>※組み合わせパターンが多いので読み込みに時間がかかります。低スペック端末（スマホとかも）だと固まります。</strong><br><a href="https://docs.google.com/spreadsheets/d/1Q4L0-t5g5_gKJQcTz8aqHhsYVmiAZvRfE0drUIQbG8I/edit?usp=sharing" target="_blank" rel="external">デレステスコアシミュレーション（1万回試行）</a></p>
