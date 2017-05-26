@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2017-02-18T12:04:49.000Z</updated>
+  <updated>2017-05-26T13:53:50.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NicoNico NewFormat Checker バージョン 1.0.3</title>
+    <link href="https://tdenc.com/blog/2017/05/26/nnc-103/"/>
+    <id>https://tdenc.com/blog/2017/05/26/nnc-103/</id>
+    <published>2017-05-26T13:49:33.000Z</published>
+    <updated>2017-05-26T13:53:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>NNCのバージョン1.0.3を公開しました。ダウンロードは<a href="/NNC/">こちら</a>。<br><a href="http://blog.nicovideo.jp/niconews/24412.html" target="_blank" rel="external">投稿動画の高画質（720p）生成条件緩和について</a>への対応です。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;NNCのバージョン1.0.3を公開しました。ダウンロードは&lt;a href=&quot;/NNC/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;&lt;a href=&quot;http://blog.nicovideo.jp/niconews/24412.html&quot; target=&quot;_blank&quot; rel=&quot;exte
+    
+    </summary>
+    
+      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="NNC" scheme="https://tdenc.com/blog/tags/NNC/"/>
+    
+  </entry>
   
   <entry>
     <title>デレステのスコア計算 1万回シミュレーション</title>
@@ -641,30 +664,6 @@
     
     
       <category term="TDEnc2" scheme="https://tdenc.com/blog/tags/TDEnc2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>つんでれんこバージョン2.87</title>
-    <link href="https://tdenc.com/blog/2016/09/06/tdenc-287/"/>
-    <id>https://tdenc.com/blog/2016/09/06/tdenc-287/</id>
-    <published>2016-09-06T12:58:11.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.87をリリースしました。<br>ダウンロードは<a href="/TDEnc/">こちら</a>。<br>バージョン2.85と2.86の記事書くの忘れてたけど気にしてはいけない。<br>そんなものは最初からなかった。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;つんでれんこバージョン2.87をリリースしました。&lt;br&gt;ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;バージョン2.85と2.86の記事書くの忘れてたけど気にしてはいけない。&lt;br&gt;そんなものは最初からなかった。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
