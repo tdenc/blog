@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2017-05-26T13:53:50.000Z</updated>
+  <updated>2017-06-16T14:24:51.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>6月20日でつんでれんこ8周年</title>
+    <link href="https://tdenc.com/blog/2017/06/16/8th_anniversary/"/>
+    <id>https://tdenc.com/blog/2017/06/16/8th_anniversary/</id>
+    <published>2017-06-16T13:47:01.000Z</published>
+    <updated>2017-06-16T14:24:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>6月20日で生誕8周年みたいです。というわけで（？）なんか出す予定です（開発を再開したというわけではなく，なんとなく気が向いた）。</p>
+<p>とりあえずテスト版はここにあります。使ってみて，なにか報告があれば反映するかもしれません（<a href="https://twitter.com/tdenc" target="_blank" rel="external">Twitter</a>にどうぞ）。<br><a href="https://github.com/tdenc/TDEnc/releases/tag/v2.97test" target="_blank" rel="external">つんでれんこ 2.97テスト版</a><br><a href="https://github.com/tdenc/TDEnc2/releases/tag/v2.30test" target="_blank" rel="external">TDEnc2 2.30テスト版</a></p>
+<p>どちらも<a href="http://blog.nicovideo.jp/niconews/24412.html" target="_blank" rel="external">投稿動画の高画質（720p）生成条件緩和について</a>への対応がメインです。今まで自動リサイズでは15分以上の場合は（ニコニコの再エンコ仕様に揃えて）540pにしていましたが，緩和に合わせて720pにするようにしました。あとTwitter関係でちょっとした調整が入っています。</p>
+<p>Mac版の方にはSierraで起動しない問題への対処も含まれていますが，環境によってはやっぱり動かないこともあるようです。ここらへんはまた調整するかもしれません。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;6月20日で生誕8周年みたいです。というわけで（？）なんか出す予定です（開発を再開したというわけではなく，なんとなく気が向いた）。&lt;/p&gt;
+&lt;p&gt;とりあえずテスト版はここにあります。使ってみて，なにか報告があれば反映するかもしれません（&lt;a href=&quot;https://tw
+    
+    </summary>
+    
+    
+      <category term="TDEnc2" scheme="https://tdenc.com/blog/tags/TDEnc2/"/>
+    
+      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+      <category term="開発" scheme="https://tdenc.com/blog/tags/%E9%96%8B%E7%99%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>NicoNico NewFormat Checker バージョン 1.0.3</title>
@@ -640,30 +669,6 @@
     
     
       <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TDEnc2 バージョン2.26</title>
-    <link href="https://tdenc.com/blog/2016/09/11/tdenc2-226/"/>
-    <id>https://tdenc.com/blog/2016/09/11/tdenc2-226/</id>
-    <published>2016-09-11T14:00:44.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.26を公開しました。<br>ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。<br><a href="/TDEnc2/">こちら</a>からどうぞ。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;TDEnc2のバージョン2.26を公開しました。&lt;br&gt;ニコニコの新仕様への対応，バグ修正，依存ツールの更新など盛り沢山です。&lt;br&gt;&lt;a href=&quot;/TDEnc2/&quot;&gt;こちら&lt;/a&gt;からどうぞ。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
-    
-      <category term="TDEnc2" scheme="https://tdenc.com/blog/tags/TDEnc2/"/>
     
   </entry>
   
