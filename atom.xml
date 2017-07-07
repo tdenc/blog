@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2017-06-16T14:24:51.000Z</updated>
+  <updated>2017-07-07T04:49:08.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>つんでれんこ最最終版リリース</title>
+    <link href="https://tdenc.com/blog/2017/07/07/20170707/"/>
+    <id>https://tdenc.com/blog/2017/07/07/20170707/</id>
+    <published>2017-07-07T04:38:31.000Z</published>
+    <updated>2017-07-07T04:49:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今回だけなんだからね！<br>今後もあるなんて勘違いしないでよね！</p>
+<ul>
+<li><a href="https://github.com/tdenc/TDEnc/releases/tag/v2.97" target="_blank" rel="external">つんでれんこ最最終版</a><ul>
+<li>Twitter投稿用動画のフレームレート変換</li>
+<li>画像＋音声からの動画作成機能のバグ修正</li>
+<li>自動リサイズ機能の変更（ニコニコの仕様変更への対応）</li>
+</ul>
+</li>
+<li><a href="https://github.com/tdenc/TDEnc2/releases/tag/v2.30" target="_blank" rel="external">TDEnc2最最終版</a><ul>
+<li>FPS変換機能実装</li>
+<li>Twitter投稿用動画のフレームレート変換</li>
+<li>自動リサイズ機能の変更（ニコニコの仕様変更への対応）</li>
+<li>Sierraで動かない問題に対処</li>
+<li>配付形式をzip形式からdmg形式に変更（Sierra対策のため）</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今回だけなんだからね！&lt;br&gt;今後もあるなんて勘違いしないでよね！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tdenc/TDEnc/releases/tag/v2.97&quot; target=&quot;_blank&quot; rel=&quot;external&quot;
+    
+    </summary>
+    
+    
+      <category term="TDEnc2" scheme="https://tdenc.com/blog/tags/TDEnc2/"/>
+    
+      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+      <category term="リリース" scheme="https://tdenc.com/blog/tags/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>6月20日でつんでれんこ8周年</title>
@@ -635,33 +678,6 @@
     
       &lt;p&gt;つんでれんこバージョン2.89をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;ニコニコ新仕様向けのエンコードにおいてもサンプリングレートを選択できるようにしました（質問レベルが「おおめ」のときのみ選択できます）。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>つんでれんこバージョン2.88</title>
-    <link href="https://tdenc.com/blog/2016/09/18/tdenc-288/"/>
-    <id>https://tdenc.com/blog/2016/09/18/tdenc-288/</id>
-    <published>2016-09-18T05:26:10.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.88をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
-<p>Flash Playerのバージョンアップにより，つんでれんこが再生確認する際に使用していたローカルのプレイヤーがデフォルト設定では使用できなくなりました。この問題を解決するには，<a href="https://www43.atwiki.jp/tdenc/pages/13.html#id_a6913724" target="_blank" rel="external">このような対処</a>をする必要があります。</p>
-<p>ただ，これを全ユーザーにやってもらうのもどうかなーと思ったので，YouTubeも既にHTML5に移行しましたし，ニコニコもそのうちHTML5に移行するとのことなので，つんでれんこの再生確認画面でもHTML5を使用することにしました。一応設定ファイル（settingフォルダのuser_setting.bat）を弄ることでFlash Playerに戻すことも可能ですが，基本的にはHTML5の方を使用することをおすすめします（デフォルトで使用しているブラウザがHTML5に対応していないという場合はどうしようもないですが…）。</p>
-<p>もちろん（ニコニコがHTML5に移行するまでは）ニコニコで再生するときと若干見え方が違ってくる場合もあるので，きちんと事前に確認をしたい人は非公開でアップロードしてみるなどの方法で確認するのが確実だと思います。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;つんでれんこバージョン2.88をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Flash Playerのバージョンアップにより，つんでれんこが再生確認する際に使用していたローカルのプレイヤーがデフォルト設定では使用できな
     
     </summary>
     
