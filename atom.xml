@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2017-07-07T04:49:08.000Z</updated>
+  <updated>2017-11-28T12:14:37.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>つんでれんこのニコニコ（く）対応について</title>
+    <link href="https://tdenc.com/blog/2017/11/28/tdencrescendo/"/>
+    <id>https://tdenc.com/blog/2017/11/28/tdencrescendo/</id>
+    <published>2017-11-28T11:59:56.000Z</published>
+    <updated>2017-11-28T12:14:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>なんだか発表は大荒れ（？）みたいですけど，明るいニュースでも提供しようかなと。</p>
+<p>気が向いたのでつんでれんこをニコニコ（く）に対応させます。一回きりの更新か，開発再開かはまだ決めていません。まとまった時間が取れるかどうかは来年になってみないとわからないので…。</p>
+<p>運営側も色々大変なんだと思いますよ。まあ今回の更新は，運営への応援の気持ちも込めて，ということで。</p>
+<p>それでは，少し早めですが，皆さん良いお年を。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;なんだか発表は大荒れ（？）みたいですけど，明るいニュースでも提供しようかなと。&lt;/p&gt;
+&lt;p&gt;気が向いたのでつんでれんこをニコニコ（く）に対応させます。一回きりの更新か，開発再開かはまだ決めていません。まとまった時間が取れるかどうかは来年になってみないとわからないので…。&lt;
+    
+    </summary>
+    
+      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
   
   <entry>
     <title>つんでれんこ最最終版リリース</title>
@@ -660,31 +687,6 @@
     
     
       <category term="TDEnc2" scheme="https://tdenc.com/blog/tags/TDEnc2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>つんでれんこバージョン2.89</title>
-    <link href="https://tdenc.com/blog/2016/10/14/tdenc-289/"/>
-    <id>https://tdenc.com/blog/2016/10/14/tdenc-289/</id>
-    <published>2016-10-14T11:37:35.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.89をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
-<p>ニコニコ新仕様向けのエンコードにおいてもサンプリングレートを選択できるようにしました（質問レベルが「おおめ」のときのみ選択できます）。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;つんでれんこバージョン2.89をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;ニコニコ新仕様向けのエンコードにおいてもサンプリングレートを選択できるようにしました（質問レベルが「おおめ」のときのみ選択できます）。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
