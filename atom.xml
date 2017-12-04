@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2017-11-28T12:16:48.000Z</updated>
+  <updated>2017-12-04T11:02:37.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【つんでれんこ】アンチウイルスソフトの誤検知について</title>
+    <link href="https://tdenc.com/blog/2017/12/04/misdetect/"/>
+    <id>https://tdenc.com/blog/2017/12/04/misdetect/</id>
+    <published>2017-12-04T10:45:35.000Z</published>
+    <updated>2017-12-04T11:02:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一昨日（？）あたりからつんでれんこが急に使えなくなったというツイートをちらほら見かけるのですが，どうやらウイルス対策ソフトが誤検知を起こしているようです。つんでれんこにウイルスを仕込んでるとかは全くございませんので，安心してご使用下さい。</p>
+<p>今回はノートンのソフトで起きてるみたいですが，以前は他のソフトでもこういうことがありました。その時もすぐに治ったので，今回もすぐに治るんじゃないかと思います。それまでの対策方法ですが，ウイルス対策ソフトの例外機能などを使って，つんでれんこのフォルダを例外指定にすると，誤検知によるファイル削除などは起きなくなるはずです。</p>
+<h1 id="対策方法のまとめ">対策方法のまとめ</h1><ul>
+<li>つんでれんこ側の問題ではなく，ウイルス対策ソフト側の問題なのでその設定を弄る。</li>
+<li>具体的には，例外機能などを使ってつんでれんこのフォルダを例外指定する。</li>
+<li>既にファイルが削除されてしまっている場合はウイルス対策ソフトの復元機能を使うか，つんでれんこ自体を再ダウンロードする（その場合は新しいフォルダの例外指定もお忘れなく）。</li>
+<li>ダウンロードし直して新しいつんでれんこを使う場合は，古いつんでれんこのMP4フォルダなどに捨ててはいけないファイルがないかどうかを念のために確認してください。</li>
+</ul>
+<p>前回の記事で年末の挨拶書いたのに台無しだよ！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一昨日（？）あたりからつんでれんこが急に使えなくなったというツイートをちらほら見かけるのですが，どうやらウイルス対策ソフトが誤検知を起こしているようです。つんでれんこにウイルスを仕込んでるとかは全くございませんので，安心してご使用下さい。&lt;/p&gt;
+&lt;p&gt;今回はノートンのソフ
+    
+    </summary>
+    
+      <category term="お知らせ" scheme="https://tdenc.com/blog/categories/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"/>
+    
+    
+      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
   
   <entry>
     <title>つんでれんこのニコニコ（く）対応について</title>
@@ -661,32 +693,6 @@
     
     
       <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TDEnc2 バージョン2.28</title>
-    <link href="https://tdenc.com/blog/2016/10/14/tdenc2-228/"/>
-    <id>https://tdenc.com/blog/2016/10/14/tdenc2-228/</id>
-    <published>2016-10-14T11:41:57.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>TDEnc2のバージョン2.28を公開しました。ダウンロードは<a href="/TDEnc2/">こちら</a>。</p>
-<p>バージョン2.26，2.27のバグ修正です。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;TDEnc2のバージョン2.28を公開しました。ダウンロードは&lt;a href=&quot;/TDEnc2/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;バージョン2.26，2.27のバグ修正です。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
-    
-      <category term="TDEnc2" scheme="https://tdenc.com/blog/tags/TDEnc2/"/>
     
   </entry>
   
