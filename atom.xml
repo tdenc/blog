@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2017-12-04T11:02:37.000Z</updated>
+  <updated>2017-12-11T07:03:31.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ニコニコ動画1080p仕様への暫定対応版</title>
+    <link href="https://tdenc.com/blog/2017/12/11/1080p/"/>
+    <id>https://tdenc.com/blog/2017/12/11/1080p/</id>
+    <published>2017-12-11T06:42:30.000Z</published>
+    <updated>2017-12-11T07:03:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://blog.nicovideo.jp/niconews/54740.html" target="_blank" rel="external">【PC版ニコニコ動画】1080p動画のテスト運用開始</a></p>
+<p>急に1080p対応が来たので，とりあえず暫定対応版を置いておきます。</p>
+<ul>
+<li><a href="https://github.com/tdenc/TDEnc/releases/tag/1080p" target="_blank" rel="external">つんでれんこ</a></li>
+<li><a href="https://github.com/tdenc/TDEnc/releases/tag/1080p" target="_blank" rel="external">TDEnc2</a></li>
+</ul>
+<p>※ 動作テストは行なっていません（忙しくて…）。<br>※ インフォにある通り，15分以内に動画の長さを抑えて下さい。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://blog.nicovideo.jp/niconews/54740.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【PC版ニコニコ動画】1080p動画のテスト運用開始&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;急に1080p対応が来たの
+    
+    </summary>
+    
+      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="TDEnc2" scheme="https://tdenc.com/blog/tags/TDEnc2/"/>
+    
+      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
   
   <entry>
     <title>【つんでれんこ】アンチウイルスソフトの誤検知について</title>
@@ -665,32 +697,6 @@
     
     
       <category term="Twitter" scheme="https://tdenc.com/blog/tags/Twitter/"/>
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>つんでれんこバージョン2.90</title>
-    <link href="https://tdenc.com/blog/2016/10/15/tdenc-290/"/>
-    <id>https://tdenc.com/blog/2016/10/15/tdenc-290/</id>
-    <published>2016-10-15T05:10:51.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.90をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
-<p>一部のツールのダウンロードが失敗する問題，MUXエンコモードでニコニコ新仕様向けのエンコが失敗する問題に対処。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;つんでれんこバージョン2.90をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;一部のツールのダウンロードが失敗する問題，MUXエンコモードでニコニコ新仕様向けのエンコが失敗する問題に対処。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
     
       <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
