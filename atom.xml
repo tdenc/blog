@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2017-12-11T11:38:22.000Z</updated>
+  <updated>2017-12-11T12:09:47.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://tdenc.com/blog/2017/12/11/1080p/"/>
     <id>https://tdenc.com/blog/2017/12/11/1080p/</id>
     <published>2017-12-11T06:42:30.000Z</published>
-    <updated>2017-12-11T11:38:22.000Z</updated>
+    <updated>2017-12-11T12:09:47.000Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://blog.nicovideo.jp/niconews/54740.html" target="_blank" rel="external">【PC版ニコニコ動画】1080p動画のテスト運用開始</a></p>
 <p>急に1080p対応が来たので，とりあえず暫定対応版を置いておきます。</p>
@@ -31,7 +31,7 @@
 <p>注意事項</p>
 <ul>
 <li>動作テストは行なっていません（忙しくて…）。</li>
-<li>暫定版なので自動アップデート機能は今回はありません。上記リンクからzipファイルを直接落として使って下さい。</li>
+<li>暫定版なので自動アップデート機能は今回はありません。上記リンクからTDEnc.zip（Windows版）やTDEnc2.dmg（Mac版）を直接落として使って下さい。</li>
 <li>インフォにある通り，15分以内に動画の長さを抑えて下さい。</li>
 <li>インフォにある通り，現時点で投稿可能なのはプレミアム会員のみのようです。</li>
 </ul>
