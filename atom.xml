@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2017-12-11T12:09:47.000Z</updated>
+  <updated>2017-12-12T01:19:54.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -16,11 +16,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>NicoNico NewFormat Checker バージョン 1.0.4</title>
+    <link href="https://tdenc.com/blog/2017/12/12/nnc-104/"/>
+    <id>https://tdenc.com/blog/2017/12/12/nnc-104/</id>
+    <published>2017-12-12T01:17:40.000Z</published>
+    <updated>2017-12-12T01:19:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>NNCのバージョン1.0.4を公開しました。ダウンロードは<a href="/NNC/">こちら</a>。<br><a href="http://blog.nicovideo.jp/niconews/54740.html" target="_blank" rel="external">【PC版ニコニコ動画】1080p動画のテスト運用開始</a>への対応です。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;NNCのバージョン1.0.4を公開しました。ダウンロードは&lt;a href=&quot;/NNC/&quot;&gt;こちら&lt;/a&gt;。&lt;br&gt;&lt;a href=&quot;http://blog.nicovideo.jp/niconews/54740.html&quot; target=&quot;_blank&quot; rel=&quot;exte
+    
+    </summary>
+    
+      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="NNC" scheme="https://tdenc.com/blog/tags/NNC/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ニコニコ動画1080p仕様への暫定対応版</title>
     <link href="https://tdenc.com/blog/2017/12/11/1080p/"/>
     <id>https://tdenc.com/blog/2017/12/11/1080p/</id>
     <published>2017-12-11T06:42:30.000Z</published>
-    <updated>2017-12-11T12:09:47.000Z</updated>
+    <updated>2017-12-12T01:20:57.000Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://blog.nicovideo.jp/niconews/54740.html" target="_blank" rel="external">【PC版ニコニコ動画】1080p動画のテスト運用開始</a></p>
 <p>急に1080p対応が来たので，とりあえず暫定対応版を置いておきます。</p>
@@ -641,68 +664,6 @@
     
       <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【2016/10/20修正】つんでれんこのTwitter対応について</title>
-    <link href="https://tdenc.com/blog/2016/10/18/hello-twitter/"/>
-    <id>https://tdenc.com/blog/2016/10/18/hello-twitter/</id>
-    <published>2016-10-18T10:26:27.000Z</published>
-    <updated>2016-12-06T11:14:39.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">つんでれんこのTwitter対応，気が向いたらやるつもりだったけど気が向いたのでそのうちやります</p>&mdash; まどや☆マギカ (@tdenc) <a href="https://twitter.com/tdenc/status/787515133899583488" target="_blank" rel="external">2016年10月16日</a></blockquote></p>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>Twitterに動画を投稿したことがある人は既に経験しているかもしれませんが，Twitterに投稿するMP4は一定の条件を満たしていないと弾かれます。つんでれんこを使ってTwitterに投稿して失敗する人をエゴサで何度も見かけていたのでそのうち対応したいなぁとは思っていたのですが，なかなかまとまった時間が取れず，またTwitter側の仕様に変更がある可能性もあるのである程度時間が経ってから対応した方が良さそうだと考え，ずっと先延ばしにしていました。気が向いたらやればいいかなーと。</p>
-<p>で，なんとなく気が向いたので次のバージョン2.91で実装することにしました。どういうふうにしようかなーとしばらく考えたのですが，サーバでの再エンコード前提のエンコードになるので，従来のYouTube用（もしくはニコニコ新仕様用）のプリセットをちょこっと弄り，あまり小難しいことはしないことにしました。簡単にまとめると以下のような感じです。</p>
-<ul>
-<li>つんでれんこでエンコードしたものを上げてもTwitterのサーバで再エンコードが入る。<ul>
-<li>投稿直後は低画質のものが再生され，しばらくすると画質が改善したものが再生される仕様の模様。</li>
-</ul>
-</li>
-<li>Twitter用にエンコードする際は，サイト選択のところでtを選ぶ。</li>
-<li>Twitter用のエンコードは，Twitterの公表しているスペックに基本的に準拠する。<ul>
-<li>映像はH.264/AVC，音声はAAC-LC。</li>
-<li>ファイル容量の上限は512MB（余裕を持って510MB）。</li>
-<li>動画の長さの上限は2分20秒（余裕を持って2分19秒）。</li>
-</ul>
-</li>
-<li>動画の長さが2分20秒以上の場合は，特にトリミングなどはせず，警告を出してそのまま終了する（動画を短くしてから再度挑戦して下さい）。</li>
-<li>質問レベルによって微妙にエンコード設定を変えることはできるが，よくわからない場合は「すこし」がおすすめ。<ul>
-<li>映像エンコードはまず品質基準エンコード（CRF）を試み，ビットレートが膨れすぎる場合は2pass（もしくは3pass）エンコードに切り替わる。</li>
-<li>デノイズもする（元絵を壊さない程度に）。</li>
-<li>音声エンコードは256kbpsを目標としたVBRエンコード（設定ファイルから変更可能）。</li>
-</ul>
-</li>
-<li>リサイズを自動（a）にするとよしなに設定するので自動がおすすめ（質問のレベルの選択によってはリサイズの質問は出ません）。<ul>
-<li>基本的には縦1080pixelsにリサイズする（Twitterのサーバでは縦720pixelsにリサイズされる模様）。</li>
-<li>1080pixelsより小さい場合はリサイズしない（ニコニコ新仕様向けのようなアップコンバートはしない）。</li>
-</ul>
-</li>
-</ul>
-<p>以上が基本ですが，設定ファイル（settingフォルダ内のuser_setting.bat）を弄るとデフォルト値を弄ることもできます。例えば音声ビットレートは320kbpsとかに変えることも可能ですが，問題が起きる可能性もあるので基本的にはあまり弄らないほうが良いと思います（どうせサーバ側で再エンコされますし）。</p>
-<p>一応バージョン2.91で実装予定ですが，開発途中版を<a href="https://github.com/tdenc/TDEnc/archive/devel.zip" target="_blank" rel="external">ここ</a>からダウンロードできます（zipを伸張したときに文字化けする可能性もあるので，そういうときは7zipなどのようなソフトウェアでzipを伸張してください。なんか最近はGitHub側がきちんと対応してくれてるっぽくて，Windowsのエクスプローラーで伸張しても大丈夫っぽいですが）。結構難産で，<strong>テストが大変なのでテストに協力してくださる方を募集していたりします</strong>。</p>
-<ul>
-<li>つんでれんこでTwitter用エンコードしたものをTwitterに正常にアップロードできるか。</li>
-<li>アップロードしたものはブラウザできちんと再生できるか。</li>
-<li>ニコニコ用，YouTube用のエンコードはこれまで通りきちんとできるか（というのも，Twitter用エンコードを実装した際に内部を結構弄ったせいで今まできちんと動いていたものが動かなくなっている可能性があるので）。</li>
-</ul>
-<p>もし何か問題を見つけましたら，Twitterで<a href="https://twitter.com/tdenc" target="_blank" rel="external">@tdenc</a>まで連絡いただけるととても助かります。動画の長さや解像度，つんでれんこの質問への返答，具体的な問題点を併記してくださるとありがたいです。よろしくお願いします。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;つんでれんこのTwitter対応，気が向いたらやるつもりだったけど気が向いたのでそのうちやります&lt;/p&gt;&amp;mdash; まどや☆マ
-    
-    </summary>
-    
-      <category term="開発" scheme="https://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
-    
-    
-      <category term="Twitter" scheme="https://tdenc.com/blog/tags/Twitter/"/>
     
       <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     

@@ -52,6 +52,76 @@
     <header>
       
         <div class="icon"></div>
+        <time datetime="2016-10-18T10:26:27.000Z"><a href="/blog/2016/10/18/hello-twitter/">2016-10-18</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/blog/2016/10/18/hello-twitter/">【2016/10/20修正】つんでれんこのTwitter対応について</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">つんでれんこのTwitter対応，気が向いたらやるつもりだったけど気が向いたのでそのうちやります</p>&mdash; まどや☆マギカ (@tdenc) <a href="https://twitter.com/tdenc/status/787515133899583488" target="_blank" rel="external">2016年10月16日</a></blockquote></p>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Twitterに動画を投稿したことがある人は既に経験しているかもしれませんが，Twitterに投稿するMP4は一定の条件を満たしていないと弾かれます。つんでれんこを使ってTwitterに投稿して失敗する人をエゴサで何度も見かけていたのでそのうち対応したいなぁとは思っていたのですが，なかなかまとまった時間が取れず，またTwitter側の仕様に変更がある可能性もあるのである程度時間が経ってから対応した方が良さそうだと考え，ずっと先延ばしにしていました。気が向いたらやればいいかなーと。</p>
+<p>で，なんとなく気が向いたので次のバージョン2.91で実装することにしました。どういうふうにしようかなーとしばらく考えたのですが，サーバでの再エンコード前提のエンコードになるので，従来のYouTube用（もしくはニコニコ新仕様用）のプリセットをちょこっと弄り，あまり小難しいことはしないことにしました。簡単にまとめると以下のような感じです。</p>
+<ul>
+<li>つんでれんこでエンコードしたものを上げてもTwitterのサーバで再エンコードが入る。<ul>
+<li>投稿直後は低画質のものが再生され，しばらくすると画質が改善したものが再生される仕様の模様。</li>
+</ul>
+</li>
+<li>Twitter用にエンコードする際は，サイト選択のところでtを選ぶ。</li>
+<li>Twitter用のエンコードは，Twitterの公表しているスペックに基本的に準拠する。<ul>
+<li>映像はH.264/AVC，音声はAAC-LC。</li>
+<li>ファイル容量の上限は512MB（余裕を持って510MB）。</li>
+<li>動画の長さの上限は2分20秒（余裕を持って2分19秒）。</li>
+</ul>
+</li>
+<li>動画の長さが2分20秒以上の場合は，特にトリミングなどはせず，警告を出してそのまま終了する（動画を短くしてから再度挑戦して下さい）。</li>
+<li>質問レベルによって微妙にエンコード設定を変えることはできるが，よくわからない場合は「すこし」がおすすめ。<ul>
+<li>映像エンコードはまず品質基準エンコード（CRF）を試み，ビットレートが膨れすぎる場合は2pass（もしくは3pass）エンコードに切り替わる。</li>
+<li>デノイズもする（元絵を壊さない程度に）。</li>
+<li>音声エンコードは256kbpsを目標としたVBRエンコード（設定ファイルから変更可能）。</li>
+</ul>
+</li>
+<li>リサイズを自動（a）にするとよしなに設定するので自動がおすすめ（質問のレベルの選択によってはリサイズの質問は出ません）。<ul>
+<li>基本的には縦1080pixelsにリサイズする（Twitterのサーバでは縦720pixelsにリサイズされる模様）。</li>
+<li>1080pixelsより小さい場合はリサイズしない（ニコニコ新仕様向けのようなアップコンバートはしない）。</li>
+</ul>
+</li>
+</ul>
+<p>以上が基本ですが，設定ファイル（settingフォルダ内のuser_setting.bat）を弄るとデフォルト値を弄ることもできます。例えば音声ビットレートは320kbpsとかに変えることも可能ですが，問題が起きる可能性もあるので基本的にはあまり弄らないほうが良いと思います（どうせサーバ側で再エンコされますし）。</p>
+<p>一応バージョン2.91で実装予定ですが，開発途中版を<a href="https://github.com/tdenc/TDEnc/archive/devel.zip" target="_blank" rel="external">ここ</a>からダウンロードできます（zipを伸張したときに文字化けする可能性もあるので，そういうときは7zipなどのようなソフトウェアでzipを伸張してください。なんか最近はGitHub側がきちんと対応してくれてるっぽくて，Windowsのエクスプローラーで伸張しても大丈夫っぽいですが）。結構難産で，<strong>テストが大変なのでテストに協力してくださる方を募集していたりします</strong>。</p>
+<ul>
+<li>つんでれんこでTwitter用エンコードしたものをTwitterに正常にアップロードできるか。</li>
+<li>アップロードしたものはブラウザできちんと再生できるか。</li>
+<li>ニコニコ用，YouTube用のエンコードはこれまで通りきちんとできるか（というのも，Twitter用エンコードを実装した際に内部を結構弄ったせいで今まできちんと動いていたものが動かなくなっている可能性があるので）。</li>
+</ul>
+<p>もし何か問題を見つけましたら，Twitterで<a href="https://twitter.com/tdenc" target="_blank" rel="external">@tdenc</a>まで連絡いただけるととても助かります。動画の長さや解像度，つんでれんこの質問への返答，具体的な問題点を併記してくださるとありがたいです。よろしくお願いします。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
         <time datetime="2016-10-15T05:10:51.000Z"><a href="/blog/2016/10/15/tdenc-290/">2016-10-15</a></time>
       
       
@@ -349,39 +419,6 @@
 
 
 
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2016-08-25T00:01:19.000Z"><a href="/blog/2016/08/25/tdenc-280/">2016-08-25</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/blog/2016/08/25/tdenc-280/">つんでれんこバージョン2.80</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>つんでれんこバージョン2.80をリリースしました。<br>もう勘弁して下さい。<br>※リリースに伴うあれこれは<a href="/blog/2016/08/22/nico-new-format-2/">こちら</a>を参照して下さい。</p>
-
-      
-    </div>
-    <footer>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
-
 
 <nav id="pagination">
   
@@ -406,6 +443,10 @@
   <ul class="entry">
     
       <li>
+        <a href="/blog/2017/12/12/nnc-104/">NicoNico NewFormat Checker バージョン 1.0.4</a>
+      </li>
+    
+      <li>
         <a href="/blog/2017/12/11/1080p/">ニコニコ動画1080p仕様への暫定対応版</a>
       </li>
     
@@ -421,10 +462,6 @@
         <a href="/blog/2017/07/07/20170707/">つんでれんこ最最終版リリース</a>
       </li>
     
-      <li>
-        <a href="/blog/2017/06/16/8th_anniversary/">6月20日でつんでれんこ8周年</a>
-      </li>
-    
   </ul>
 </div>
 
@@ -438,7 +475,7 @@
   
     <li><a href="/blog/categories/趣味/ゲーム/">ゲーム</a><small>2</small></li>
   
-    <li><a href="/blog/categories/リリース/">リリース</a><small>21</small></li>
+    <li><a href="/blog/categories/リリース/">リリース</a><small>22</small></li>
   
     <li><a href="/blog/categories/開発/リリース/">リリース</a><small>1</small></li>
   
@@ -456,7 +493,7 @@
 <div class="widget tagcloud">
   <h3 class="title">Tag Cloud</h3>
   <div class="entry">
-    <a href="/blog/tags/GitHub/" style="font-size: 13.33px;">GitHub</a> <a href="/blog/tags/GitHub-Pages/" style="font-size: 10px;">GitHub Pages</a> <a href="/blog/tags/Google-App-Engine/" style="font-size: 10px;">Google App Engine</a> <a href="/blog/tags/Heroku/" style="font-size: 10px;">Heroku</a> <a href="/blog/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/blog/tags/NNC/" style="font-size: 13.33px;">NNC</a> <a href="/blog/tags/TDEnc2/" style="font-size: 16.67px;">TDEnc2</a> <a href="/blog/tags/Twitter/" style="font-size: 10px;">Twitter</a> <a href="/blog/tags/つんでれんこ/" style="font-size: 20px;">つんでれんこ</a> <a href="/blog/tags/イヤホン/" style="font-size: 10px;">イヤホン</a> <a href="/blog/tags/エンコード/" style="font-size: 10px;">エンコード</a> <a href="/blog/tags/デレステ/" style="font-size: 13.33px;">デレステ</a> <a href="/blog/tags/ニコニコ/" style="font-size: 13.33px;">ニコニコ</a> <a href="/blog/tags/ニコニコ書籍/" style="font-size: 13.33px;">ニコニコ書籍</a> <a href="/blog/tags/リリース/" style="font-size: 10px;">リリース</a> <a href="/blog/tags/開発/" style="font-size: 10px;">開発</a>
+    <a href="/blog/tags/GitHub/" style="font-size: 12.5px;">GitHub</a> <a href="/blog/tags/GitHub-Pages/" style="font-size: 10px;">GitHub Pages</a> <a href="/blog/tags/Google-App-Engine/" style="font-size: 10px;">Google App Engine</a> <a href="/blog/tags/Heroku/" style="font-size: 10px;">Heroku</a> <a href="/blog/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/blog/tags/NNC/" style="font-size: 15px;">NNC</a> <a href="/blog/tags/TDEnc2/" style="font-size: 17.5px;">TDEnc2</a> <a href="/blog/tags/Twitter/" style="font-size: 10px;">Twitter</a> <a href="/blog/tags/つんでれんこ/" style="font-size: 20px;">つんでれんこ</a> <a href="/blog/tags/イヤホン/" style="font-size: 10px;">イヤホン</a> <a href="/blog/tags/エンコード/" style="font-size: 10px;">エンコード</a> <a href="/blog/tags/デレステ/" style="font-size: 12.5px;">デレステ</a> <a href="/blog/tags/ニコニコ/" style="font-size: 12.5px;">ニコニコ</a> <a href="/blog/tags/ニコニコ書籍/" style="font-size: 12.5px;">ニコニコ書籍</a> <a href="/blog/tags/リリース/" style="font-size: 10px;">リリース</a> <a href="/blog/tags/開発/" style="font-size: 10px;">開発</a>
   </div>
 </div>
 
