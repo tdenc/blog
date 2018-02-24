@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2017-12-12T01:19:54.000Z</updated>
+  <updated>2018-02-24T13:31:07.000Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,64 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Amazonプライムのコンテンツを捕捉する「検索まど」を作りました</title>
+    <link href="https://tdenc.com/blog/2018/02/24/mado/"/>
+    <id>https://tdenc.com/blog/2018/02/24/mado/</id>
+    <published>2018-02-24T11:40:07.000Z</published>
+    <updated>2018-02-24T13:31:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>きっかけはこのツイート。</p>
+<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Amazonのプライムビデオのアニメ配信まとめとかどっかにないかしら</p>&mdash; まどや＠がんばらない (@tdenc) <a href="https://twitter.com/tdenc/status/952397203460386816?ref_src=twsrc%5Etfw" target="_blank" rel="external">2018年1月14日</a></blockquote></p>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>最初はプライムビデオの新着だけをひたすらツイートするbotを作ったりしたんですけど，だんだん欲が出てきて過去のビデオも集め出したり，リーディングやミュージックにも手を伸ばしたりしてたら，あれよあれよという間に<a href="https://mado.tdenc.com/" target="_blank" rel="external">そこそこの規模のサイト</a>ができていました。</p>
+<p><img src="/blog/images/mado.png" alt=""></p>
+<p>せっかく作ったので紹介記事を書きます。詳しい開発記事はまた別の機会にでも。</p>
+<h1 id="要約">要約</h1><ul>
+<li>Amazonのプライム会員用のコンテンツは新着がわかりにくいし検索もしづらい。</li>
+<li>自動で新着を拾うサイトが欲しかった。</li>
+<li>とにかく検索が快適（快感）なサイトにしたかった。</li>
+<li>作ってみたけどこれ便利すぎない？？？</li>
+<li>ダサいのはそのうちなんとかする。</li>
+</ul>
+<h1 id="Amazon公式の不便さ">Amazon公式の不便さ</h1><p>Amazonはプライム会員向けに大量のコンテンツを抱えているのですが（プライムビデオ，プライムリーディング，プライムミュージック），とにかくその検索性が悪いです。キーワードで検索したときに全然関係ないものが紛れ込んだりしますし，あいまい検索が余計なお節介をすることもしばしばです。</p>
+<p>また新着の確認もしづらいUIになっていて，例えばプライムビデオの新着を確認するためにはまずトップページに飛んで「最近追加された映画」「最近追加されたTV番組」のリンクを辿るしかありません。</p>
+<p>ついでにいうとカテゴリ検索も面倒で，一度検索結果の画面を表示しないとサイドバーにカテゴリの一覧が出てきません。そしてそんなことを繰り返していると気づかないうちにいつの間にかプライム会員以外のコンテンツまで含めた検索結果になっていたりします。</p>
+<h1 id="そこで「検索まど」の登場">そこで「検索まど」の登場</h1><p>ででーん。</p>
+<h2 id="サイトの場所">サイトの場所</h2><p><a href="https://mado.tdenc.com/" target="_blank" rel="external">https://mado.tdenc.com/</a></p>
+<h2 id="作った人">作った人</h2><p>@tdenc と @tottokotkd</p>
+<h2 id="サイトの特徴">サイトの特徴</h2><ul>
+<li>24時間ごとにサイト自動更新</li>
+<li>新着には印（チャイムのアイコン）がつく</li>
+<li>ジャンル絞り込みが簡単にできる</li>
+<li>Amazon公式にはない昇順ソートができたりする</li>
+<li>検索語を入力すると<strong>インクリメンタル検索</strong>ができる</li>
+</ul>
+<p>とにかく<strong>検索の快感</strong>を体験できるように工夫したつもりです。他にもカード上部をクリックすることでシリーズ情報が出たりとか，便利機能がたくさんあるので色々試してみてください。<strong>いっぱい使ってね！！</strong></p>
+<h1 id="今後の予定">今後の予定</h1><ul>
+<li>ダサいのを何とかする</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;きっかけはこのツイート。&lt;/p&gt;
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;Amazonのプライムビデオのアニメ配信まとめとかどっかにないかしら&lt;/p&gt;&amp;mdash;
+    
+    </summary>
+    
+      <category term="開発" scheme="https://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
+    
+    
+      <category term="Amazon" scheme="https://tdenc.com/blog/tags/Amazon/"/>
+    
+      <category term="プライム" scheme="https://tdenc.com/blog/tags/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0/"/>
+    
+      <category term="検索まど" scheme="https://tdenc.com/blog/tags/%E6%A4%9C%E7%B4%A2%E3%81%BE%E3%81%A9/"/>
+    
+  </entry>
   
   <entry>
     <title>NicoNico NewFormat Checker バージョン 1.0.4</title>
@@ -423,7 +481,7 @@
     <link href="https://tdenc.com/blog/2016/12/06/NNC/"/>
     <id>https://tdenc.com/blog/2016/12/06/NNC/</id>
     <published>2016-12-06T11:18:48.000Z</published>
-    <updated>2016-12-06T12:07:49.000Z</updated>
+    <updated>2018-02-24T12:11:50.000Z</updated>
     
     <content type="html"><![CDATA[<p>2016年8月18日からプレアカを対象に少しずつ対象者が拡大してきた<a href="http://dic.nicovideo.jp/id/5439193" target="_blank" rel="external">ニコニコへの投稿に関する新仕様</a>ですが，<a href="http://blog.nicovideo.jp/niconews/ni065283.html" target="_blank" rel="external">2016年12月8日から一般アカも含めた全ユーザーが対象になります</a>。それに先駆けて，「上げられる容量は増えたけど手元にある動画をそのままニコニコに投稿していいのか？」「つんでれんこなどを一度通した方がいいのか？」ということを判断する手助けとなるオモチャを作ったので公開します。</p>
 <p><a href="/NNC/">NNC（NicoNico NewFormat Checker）</a></p>
@@ -440,8 +498,6 @@
     </summary>
     
       <category term="開発" scheme="https://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
       <category term="NNC" scheme="https://tdenc.com/blog/tags/NNC/"/>
@@ -641,31 +697,6 @@
       <category term="エンコード" scheme="https://tdenc.com/blog/tags/%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%89/"/>
     
       <category term="ニコニコ" scheme="https://tdenc.com/blog/tags/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>つんでれんこバージョン2.91</title>
-    <link href="https://tdenc.com/blog/2016/10/20/tdenc-291/"/>
-    <id>https://tdenc.com/blog/2016/10/20/tdenc-291/</id>
-    <published>2016-10-20T12:47:57.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.91をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
-<p>Twitterに対応しました。他にも細かい修正・コードの整理が入っています。<br>Twitter用にエンコードする際には<a href="/blog/2016/10/18/hello-twitter">こちら</a>を参考にして下さい。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;つんでれんこバージョン2.91をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Twitterに対応しました。他にも細かい修正・コードの整理が入っています。&lt;br&gt;Twitter用にエンコードする際には&lt;a href=&quot;/
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
     
   </entry>
   
