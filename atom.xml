@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2018-04-27T08:08:38.714Z</updated>
+  <updated>2018-04-27T08:56:25.639Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>しばらく活動休止します</title>
+    <link href="https://tdenc.com/blog/2018/04/27/recharge/"/>
+    <id>https://tdenc.com/blog/2018/04/27/recharge/</id>
+    <published>2018-04-27T08:11:31.000Z</published>
+    <updated>2018-04-27T08:56:25.639Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="休みます">休みます</h1><p>つんでれんこの開発を終了して（たまに更新はしていましたが），たまに気の向くままにネット上で活動していたのですが。最近頑張りすぎて時間と体力と気力を使いすぎたのでしばらくお休みします。充電期間です。復帰に多分半年くらいかかると思います。延びるかもしれません。</p>
+<p>なんか明日から超会議があるらしいのでとりあえずそれに合わせて急いでがんばって更新しました。バージョン（く）に対応するつもりでいたのですが，これ以上待てないですし，少し距離を置きたいという気持ちもあるので，一旦これでつんでれんことTDEnc2は<a href="https://tdenc.com/blog/2018/04/27/tdenc-tdenc2-298/">完結</a>させます。バージョン2.99は欠番です。</p>
+<p>ほっとくと身を削りながら際限なくがんばってしまう人種なので，しばらくはがんばらないで過ごします。がんばらないで生きていくために5000兆円くらいほしいなあ。</p>
+<p><blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">なんとか超会議前に間に合わせたぞ。ドワンゴ。</p>&mdash; まどや＠がんばらない (@tdenc) <a href="https://twitter.com/tdenc/status/989767180362203136?ref_src=twsrc%5Etfw" target="_blank" rel="external">April 27, 2018</a></blockquote></p>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">義理は果たした</p>&mdash; まどや＠がんばらない (@tdenc) <a href="https://twitter.com/tdenc/status/989767281021341696?ref_src=twsrc%5Etfw" target="_blank" rel="external">April 27, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h1 id="宣伝">宣伝</h1><p>最後に宣伝です。こんなサイトを作りました。</p>
+<p><a href="https://mado.tdenc.com/" target="_blank" rel="external">検索まど</a>（<a href="http://mado.tdenc.com/）" target="_blank" rel="external">http://mado.tdenc.com/）</a></p>
+<p>Amazonのプライムビデオとかのコンテンツの新着をチェックしたり詳細な検索ができたりします。がんばって作った力作なので色んな人に使ってもらえるとうれしいです。</p>
+<p>それではまた会う日までお元気で。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;休みます&quot;&gt;休みます&lt;/h1&gt;&lt;p&gt;つんでれんこの開発を終了して（たまに更新はしていましたが），たまに気の向くままにネット上で活動していたのですが。最近頑張りすぎて時間と体力と気力を使いすぎたのでしばらくお休みします。充電期間です。復帰に多分半年くらいかかると思い
+    
+    </summary>
+    
+      <category term="お知らせ" scheme="https://tdenc.com/blog/categories/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"/>
+    
+    
+      <category term="休みたい" scheme="https://tdenc.com/blog/tags/%E4%BC%91%E3%81%BF%E3%81%9F%E3%81%84/"/>
+    
+  </entry>
   
   <entry>
     <title>つんでれんこ＆TDEnc2完結版（バージョン2.98）</title>
@@ -669,32 +704,6 @@
     
       &lt;p&gt;つんでれんこバージョン2.94をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;主にニコニコ新仕様向けエンコの調整です。動画の時間に合わせて解像度とビットレートを調整しました。ニコニコ側で再エンコードされるときの解像度（1
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
-    
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>つんでれんこバージョン2.92</title>
-    <link href="https://tdenc.com/blog/2016/10/27/tdenc-292/"/>
-    <id>https://tdenc.com/blog/2016/10/27/tdenc-292/</id>
-    <published>2016-10-27T11:15:06.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.92をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
-<p>全プレアカが新仕様対象者になったので，旧仕様のプレアカエンコを無効化しました。一応設定ファイル（user_setting.bat）を弄れば復活するようにしていますが，基本的に実験目的でのみご使用下さい。もしくは<a href="https://twitter.com/tdenc/status/770252142514810880" target="_blank" rel="external">イケないこと</a>をするときに使うとか（ヒント：水曜日の定期メンテ）。</p>
-<p>つんでれんこを用いたニコニコ新仕様対策は<a href="/blog/2016/10/22/nico-new-format-3/">こちら</a>を参考にして下さい。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;つんでれんこバージョン2.92をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;全プレアカが新仕様対象者になったので，旧仕様のプレアカエンコを無効化しました。一応設定ファイル（user_setting.bat）を弄れば復活
     
     </summary>
     
