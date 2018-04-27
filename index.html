@@ -52,6 +52,57 @@
     <header>
       
         <div class="icon"></div>
+        <time datetime="2018-04-27T08:02:48.000Z"><a href="/blog/2018/04/27/tdenc-tdenc2-298/">2018-04-27</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/blog/2018/04/27/tdenc-tdenc2-298/">つんでれんこ＆TDEnc2完結版（バージョン2.98）</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>つんでれんことTDEnc2の完結版（バージョン2.98）をリリースしました。</p>
+<ul>
+<li>Windows版は<a href="/TDEnc/">こちら</a>。</li>
+<li>macOS版は<a href="/TDEnc2/">こちら</a>。</li>
+</ul>
+<p>更新内容は以下のとおりです。</p>
+<h2 id="つんでれんこ">つんでれんこ</h2><ul>
+<li>1080p制限緩和(30分、3GB)に対応</li>
+<li>neroAACencをダウンロード出来なくなったので、ffmpegに変更</li>
+<li>それに伴い、音ズレの自動修正を無効に</li>
+<li>受け付ける動画形式にy4mとWebMを追加</li>
+<li>Zenza Watchサポート（user_setting.batで設定可能）</li>
+<li>Twitterの時間制限を削除</li>
+</ul>
+<h2 id="TDEnc2">TDEnc2</h2><ul>
+<li>1080p制限緩和(30分、3GB)に対応</li>
+<li>Zenza Watchサポート（user_settingで設定可能）</li>
+<li>Twitterの時間制限を削除</li>
+</ul>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
         <time datetime="2018-02-24T11:40:07.000Z"><a href="/blog/2018/02/24/mado/">2018-02-24</a></time>
       
       
@@ -455,46 +506,6 @@
 
 
 
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2017-02-02T11:35:46.000Z"><a href="/blog/2017/02/02/skill-duration/">2017-02-02</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/blog/2017/02/02/skill-duration/">デレステの特技継続時間 1万回シミュレーション</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>去年の夏にTwitterのフォロワーたちの陰謀でデレステを始めて，たまに長期に休んだり，ガチャガチャしながら遊んでる親指エンジョイ勢なんですが，特技の発動時間についてネット上に色んな情報が上がってはいるものの，じゃあ実際どんな感じで発動するのかという統計的なものは見つからなかったので，シミュレーションするプログラム（1万回試行）を書いて走らせてみました。その結果，なんとなくよさげなデータが得られたのでシェアします。たぶん人によってはそこそこ重宝するデータです（というか自分がすでに使いまくってます）。</p>
-<p><a href="https://docs.google.com/spreadsheets/d/127y-Gq9P_VfBsvq0q2ToM14maYSzLX4IsXj9rN3Pws4/edit#gid=0" target="_blank" rel="external">デレステ特技継続時間（楽曲125秒・タイプボーナスあり）</a></p>
-<p>こっそり自分だけ使ってもまあいいんですけど，どうせなら同じゲーム楽しんでる皆でシェアして皆で一緒にゲーム楽しめればいいかなーと。ちなみにリンク先はGoogle Driveです。このブログもリンク先もアフィリエイトとかは全然ないので誤クリック（タップ）で変なところに飛んだりとかしないので安心してください。</p>
-<p>スプレッドシートにあるデータは，特技レベルはすべてLv10まで上げている前提です。また楽曲のタイプボーナスも反映しています。プログラムを走らせるときにはオプションで指定してレベルもタイプボーナスも調整できるようになっているんですけど，多分ガチ勢がほしがってる情報はこれだと思うので。</p>
-<p>シートは全部で5枚で，それぞれ特技カード1枚だけ，2枚組み合わせ，3枚組み合わせ，4枚組み合わせ，5枚組み合わせになっています。同一特技の組み合わせもあります。色んなデータがありますが，ほとんどの人は「平均（ミリ秒）」のところを見ればいいと思います（データの並びはこの列でソートしてあります）。使い方としては，既に持っているカードの特技をどう組み合わせると特技時間が伸びやすいのかの参考にしたり，とかですかね。そういう場合は，GoogleスプレッドシートやMicrosoft Excelのフィルタ機能を使って自分が持ってる種類の特技だけ表示したりすると使いやすいです。あとは，平均が上位の方の特技を持つカードの入手を目指してガチャガチャしたり，スカウトチケット使うときに誰を選ぶ基準にしたり，とか。</p>
-<p>ちなみに同じタイプを5枚揃えた場合（例えばスコアアップ5枚）の上位陣の最大値が121000ミリ秒になっていますが，これはバグとかではなくて，特技間隔が最短でも4秒なので，曲始まりがどうしても4秒空いてしまうからです（つまり曲始まりの4秒だけ空いて，その後は終始発動しっぱなしという状況です）。</p>
-<p>それではよいデレステライフを。</p>
-<p><strong>限定飛鳥引けなくて吐きそう。カネが尽きた。</strong></p>
-
-      
-    </div>
-    <footer>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
-
 
 <nav id="pagination">
   
@@ -517,6 +528,10 @@
   <ul class="entry">
     
       <li>
+        <a href="/blog/2018/04/27/tdenc-tdenc2-298/">つんでれんこ＆TDEnc2完結版（バージョン2.98）</a>
+      </li>
+    
+      <li>
         <a href="/blog/2018/02/24/mado/">Amazonプライムのコンテンツを捕捉する「検索まど」を作りました</a>
       </li>
     
@@ -532,10 +547,6 @@
         <a href="/blog/2017/12/04/misdetect/">【つんでれんこ】アンチウイルスソフトの誤検知について</a>
       </li>
     
-      <li>
-        <a href="/blog/2017/11/28/tdencrescendo/">つんでれんこのニコニコ（く）対応について</a>
-      </li>
-    
   </ul>
 </div>
 
@@ -549,9 +560,7 @@
   
     <li><a href="/blog/categories/趣味/ゲーム/">ゲーム</a><small>2</small></li>
   
-    <li><a href="/blog/categories/リリース/">リリース</a><small>22</small></li>
-  
-    <li><a href="/blog/categories/開発/リリース/">リリース</a><small>0</small></li>
+    <li><a href="/blog/categories/リリース/">リリース</a><small>23</small></li>
   
     <li><a href="/blog/categories/趣味/">趣味</a><small>3</small></li>
   

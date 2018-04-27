@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2018-02-24T13:31:07.000Z</updated>
+  <updated>2018-04-27T08:08:38.714Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -16,11 +16,58 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>つんでれんこ＆TDEnc2完結版（バージョン2.98）</title>
+    <link href="https://tdenc.com/blog/2018/04/27/tdenc-tdenc2-298/"/>
+    <id>https://tdenc.com/blog/2018/04/27/tdenc-tdenc2-298/</id>
+    <published>2018-04-27T08:02:48.000Z</published>
+    <updated>2018-04-27T08:08:38.714Z</updated>
+    
+    <content type="html"><![CDATA[<p>つんでれんことTDEnc2の完結版（バージョン2.98）をリリースしました。</p>
+<ul>
+<li>Windows版は<a href="/TDEnc/">こちら</a>。</li>
+<li>macOS版は<a href="/TDEnc2/">こちら</a>。</li>
+</ul>
+<p>更新内容は以下のとおりです。</p>
+<h2 id="つんでれんこ">つんでれんこ</h2><ul>
+<li>1080p制限緩和(30分、3GB)に対応</li>
+<li>neroAACencをダウンロード出来なくなったので、ffmpegに変更</li>
+<li>それに伴い、音ズレの自動修正を無効に</li>
+<li>受け付ける動画形式にy4mとWebMを追加</li>
+<li>Zenza Watchサポート（user_setting.batで設定可能）</li>
+<li>Twitterの時間制限を削除</li>
+</ul>
+<h2 id="TDEnc2">TDEnc2</h2><ul>
+<li>1080p制限緩和(30分、3GB)に対応</li>
+<li>Zenza Watchサポート（user_settingで設定可能）</li>
+<li>Twitterの時間制限を削除</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;つんでれんことTDEnc2の完結版（バージョン2.98）をリリースしました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows版は&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;macOS版は&lt;a href=&quot;/TDEnc2/&quot;&gt;こちら&lt;/a&gt;。&lt;/li&gt;
+
+    
+    </summary>
+    
+      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
+    
+    
+      <category term="TDEnc2" scheme="https://tdenc.com/blog/tags/TDEnc2/"/>
+    
+      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Amazonプライムのコンテンツを捕捉する「検索まど」を作りました</title>
     <link href="https://tdenc.com/blog/2018/02/24/mado/"/>
     <id>https://tdenc.com/blog/2018/02/24/mado/</id>
     <published>2018-02-24T11:40:07.000Z</published>
-    <updated>2018-02-24T13:31:07.000Z</updated>
+    <updated>2018-02-24T13:31:06.000Z</updated>
     
     <content type="html"><![CDATA[<p>きっかけはこのツイート。</p>
 <p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Amazonのプライムビデオのアニメ配信まとめとかどっかにないかしら</p>&mdash; まどや＠がんばらない (@tdenc) <a href="https://twitter.com/tdenc/status/952397203460386816?ref_src=twsrc%5Etfw" target="_blank" rel="external">2018年1月14日</a></blockquote></p>
@@ -101,7 +148,7 @@
     <link href="https://tdenc.com/blog/2017/12/11/1080p/"/>
     <id>https://tdenc.com/blog/2017/12/11/1080p/</id>
     <published>2017-12-11T06:42:30.000Z</published>
-    <updated>2017-12-12T01:20:57.000Z</updated>
+    <updated>2017-12-12T01:20:56.000Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://blog.nicovideo.jp/niconews/54740.html" target="_blank" rel="external">【PC版ニコニコ動画】1080p動画のテスト運用開始</a></p>
 <p>急に1080p対応が来たので，とりあえず暫定対応版を置いておきます。</p>
@@ -139,7 +186,7 @@
     <link href="https://tdenc.com/blog/2017/12/04/misdetect/"/>
     <id>https://tdenc.com/blog/2017/12/04/misdetect/</id>
     <published>2017-12-04T10:45:35.000Z</published>
-    <updated>2017-12-04T11:02:37.000Z</updated>
+    <updated>2017-12-04T11:02:36.000Z</updated>
     
     <content type="html"><![CDATA[<p>一昨日（？）あたりからつんでれんこが急に使えなくなったというツイートをちらほら見かけるのですが，どうやらウイルス対策ソフトが誤検知を起こしているようです。つんでれんこにウイルスを仕込んでるとかは全くございませんので，安心してご使用下さい。</p>
 <p>今回はノートンのソフトで起きてるみたいですが，以前は他のソフトでもこういうことがありました。その時もすぐに治ったので，今回もすぐに治るんじゃないかと思います。それまでの対策方法ですが，ウイルス対策ソフトの例外機能などを使って，つんでれんこのフォルダを例外指定にすると，誤検知によるファイル削除などは起きなくなるはずです。</p>
@@ -241,7 +288,7 @@
     <link href="https://tdenc.com/blog/2017/06/16/8th_anniversary/"/>
     <id>https://tdenc.com/blog/2017/06/16/8th_anniversary/</id>
     <published>2017-06-16T13:47:01.000Z</published>
-    <updated>2017-06-16T14:24:51.000Z</updated>
+    <updated>2017-06-16T14:24:50.000Z</updated>
     
     <content type="html"><![CDATA[<p>6月20日で生誕8周年みたいです。というわけで（？）なんか出す予定です（開発を再開したというわけではなく，なんとなく気が向いた）。</p>
 <p>とりあえずテスト版はここにあります。使ってみて，なにか報告があれば反映するかもしれません（<a href="https://twitter.com/tdenc" target="_blank" rel="external">Twitter</a>にどうぞ）。<br><a href="https://github.com/tdenc/TDEnc/releases/tag/v2.97test" target="_blank" rel="external">つんでれんこ 2.97テスト版</a><br><a href="https://github.com/tdenc/TDEnc2/releases/tag/v2.30test" target="_blank" rel="external">TDEnc2 2.30テスト版</a></p>
@@ -293,7 +340,7 @@
     <link href="https://tdenc.com/blog/2017/02/18/score-simulation/"/>
     <id>https://tdenc.com/blog/2017/02/18/score-simulation/</id>
     <published>2017-02-18T10:54:24.000Z</published>
-    <updated>2017-02-18T12:04:49.000Z</updated>
+    <updated>2017-02-18T12:04:48.000Z</updated>
     
     <content type="html"><![CDATA[<p><a href="/blog/2017/02/02/skill-duration/">前回</a>の特技継続時間シミュレータを発展させて，実際にどんな特技の組み合わせでどれくらいのスコアが出るのかを計算するシミュレータを書いたので，例のごとく1万回試行した結果をGoogleスプレッドシートで公開します。</p>
 <p><strong>※組み合わせパターンが多いので読み込みに時間がかかります。低スペック端末（スマホとかも）だと固まります。</strong><br><a href="https://docs.google.com/spreadsheets/d/1Q4L0-t5g5_gKJQcTz8aqHhsYVmiAZvRfE0drUIQbG8I/edit?usp=sharing" target="_blank" rel="external">デレステスコアシミュレーション（1万回試行）</a></p>
@@ -358,7 +405,7 @@
     <link href="https://tdenc.com/blog/2017/02/02/skill-duration/"/>
     <id>https://tdenc.com/blog/2017/02/02/skill-duration/</id>
     <published>2017-02-02T11:35:46.000Z</published>
-    <updated>2017-02-02T12:31:35.000Z</updated>
+    <updated>2017-02-02T12:31:34.000Z</updated>
     
     <content type="html"><![CDATA[<p>去年の夏にTwitterのフォロワーたちの陰謀でデレステを始めて，たまに長期に休んだり，ガチャガチャしながら遊んでる親指エンジョイ勢なんですが，特技の発動時間についてネット上に色んな情報が上がってはいるものの，じゃあ実際どんな感じで発動するのかという統計的なものは見つからなかったので，シミュレーションするプログラム（1万回試行）を書いて走らせてみました。その結果，なんとなくよさげなデータが得られたのでシェアします。たぶん人によってはそこそこ重宝するデータです（というか自分がすでに使いまくってます）。</p>
 <p><a href="https://docs.google.com/spreadsheets/d/127y-Gq9P_VfBsvq0q2ToM14maYSzLX4IsXj9rN3Pws4/edit#gid=0" target="_blank" rel="external">デレステ特技継続時間（楽曲125秒・タイプボーナスあり）</a></p>
@@ -425,7 +472,7 @@
     <link href="https://tdenc.com/blog/2016/12/31/nicobookfree/"/>
     <id>https://tdenc.com/blog/2016/12/31/nicobookfree/</id>
     <published>2016-12-31T07:30:13.000Z</published>
-    <updated>2016-12-31T08:18:39.000Z</updated>
+    <updated>2016-12-31T08:18:38.000Z</updated>
     
     <content type="html"><![CDATA[<p>ユーザーが少ない電子書籍ストアの，ニッチな需要を満たすものなので誰が欲しがるのか謎ですが，ニコニコ書籍の無料本の新着をツイートするbotを作りました。</p>
 <p><a class="twitter-timeline" data-width="480" data-height="640" data-dnt="true" data-theme="dark" href="https://twitter.com/nicobookfree" target="_blank" rel="external">Tweets by nicobookfree</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
@@ -454,7 +501,7 @@
     <link href="https://tdenc.com/blog/2016/12/10/tdenc-296/"/>
     <id>https://tdenc.com/blog/2016/12/10/tdenc-296/</id>
     <published>2016-12-10T11:30:06.000Z</published>
-    <updated>2016-12-10T12:43:55.000Z</updated>
+    <updated>2016-12-10T12:43:54.000Z</updated>
     
     <content type="html"><![CDATA[<p>つんでれんこバージョン2.96をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
 <p>ニコニコのサーバエンコ新仕様が一般アカウントにも適用されたので，旧仕様向けのエンコードはデフォルトではできなくしました。一応settingフォルダ内のuser_setting.batの中のOLD_NICO_FEATUREをtrueにすると旧仕様向けのエンコードができますが，基本的には使用しないことをおすすめします。</p>
@@ -655,48 +702,6 @@
     
     
       <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【追記(12/14)】ニコニコ新仕様向けの動画作成方法について</title>
-    <link href="https://tdenc.com/blog/2016/10/22/nico-new-format-3/"/>
-    <id>https://tdenc.com/blog/2016/10/22/nico-new-format-3/</id>
-    <published>2016-10-22T10:19:42.000Z</published>
-    <updated>2016-12-14T11:06:43.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="http://blog.nicovideo.jp/niconews/ni064293.html" target="_blank" rel="external">ニコニコのエンコサーバの仕様変更が一気に拡大していっている</a>ので，なるべく劣化しないようにするにはどうすればいいのかを簡単にまとめます。動画をアップロードする際の参考にして下さい。</p>
-<h1 id="動画作成する段階に気をつけること">動画作成する段階に気をつけること</h1><p>動画作成のソフトウェアで動画を作成するときに，<strong>解像度（映像の縦幅と横幅）を高めに設定</strong>して下さい。もちろん解像度を高く設定すると，動画作成の際にソフトウェアの動作が重くなったり，出力したファイルの容量が大きくなったりするので，ほどほどに設定したほうがよいと思います。<strong>FullHD（1920x1080）やHD（1280x720）</strong>あたりが，一般的なパソコンで扱いやすい大きさかなと思います。</p>
-<p>AVIなどの形式でファイルを出力する際は，<strong>可逆圧縮コーデックを使用</strong>することをお勧めします。解像度が高いと映像のデータ量が多くなるので，非圧縮形式などだとファイル容量が非常に大きくなります（また，つんでれんこで読めないなどの問題にも繋がったりします）。<a href="http://umezawa.dyndns.info/wordpress/?cat=28" target="_blank" rel="external">Ut Video Codec</a>などの<strong>可逆圧縮コーデックをパソコンにインストールした後，動画作成ソフトウェアで動画を作成する際に，映像形式として（先程インストールした）可逆圧縮形式を選んで動画ファイルを書き出す</strong>と，劣化なしでファイル容量を大幅に減らすことができます。</p>
-<p>【追記(12/14)】この段階で<a href="/NNC/">NNC（ニコニコ新仕様チェッカー)</a>を使ってみて，エンコードしないでそのまま投稿してもよさそうだと判断したら，つんでれんこやTDEnc2を使わずにそのまま投稿してもよいかもしれません。</p>
-<h1 id="つんでれんこやTDEnc2を使う際に気をつけること">つんでれんこやTDEnc2を使う際に気をつけること</h1><p><a href="/TDEnc/">つんでれんこ</a>は<strong>バージョン2.79以降</strong>で，<a href="/TDEnc2/">TDEnc2（Mac版つんでれんこ）</a>は<strong>バージョン2.26以降</strong>でニコニコの新仕様に対応しています。バージョンが古い場合は，<strong>つんでれんこやTDEnc2を最新版にアップデート</strong>してください。</p>
-<p>つんでれんこやTDEnc2でニコニコ新仕様向けにエンコードするには，アップロード先のサイトを選ぶときに適切な選択肢を選んで下さい。<strong>つんでれんこは（小文字のnではなく）大文字のN</strong>，<strong>TDEnc2は選択肢2番</strong>が，新仕様向けの選択肢です（この選択肢は今後のバージョンアップで多少変わる可能性はありますが，とりあえずこの記事執筆時点ではこうなっています）。</p>
-<p>「ニコニコ側で1.5GBまで対応してくれるんだからエンコードしなくてもいいんじゃないか？」というように思うかもしれませんが，<strong>許容容量が大きいからと言ってエンコードしなくてもいいというような単純な話ではないことが，多くのユーザーの検証で明らかになっています</strong>。<a href="http://dic.nicovideo.jp/id/5439193" target="_blank" rel="external">ニコニコ大百科</a>に色々な情報がまとまっているので，気になる人は見てみて下さい。結構気をつけないと，思っている以上に低画質低音質な動画が作成されます。</p>
-<p>※以上はつんでれんこを用いた場合の動画作成方法です。つんでれんこ以外にニコニコの新仕様に対応したとものとしては<a href="http://rigaya34589.blog135.fc2.com/blog-category-5.html" target="_blank" rel="external">x264guiEx</a>がありますので，そちらを使いたい場合はそちらを利用してMP4を作成してください。</p>
-<h1 id="動画をアップロードした後に気をつけること">動画をアップロードした後に気をつけること</h1><p>仕様変更によって（これまでは一定条件を満たせばサーバ側で再エンコされなかったのですが）今後は必ずサーバで再エンコードされるようになります。なので，アップロード後にブラウザで画質や音質を確認することをお勧めします。どうしても画質や音質に納得が行かない場合は，運営に改善要望を出すか，他のサイトにアップロードするなどの対応も考える方が現実的かなと思います。</p>
-<p>気をつけることは，<strong>画質や音質は必ずブラウザで確認</strong>するという点です。ダウンロードツールなどを利用してニコニコのサーバから動画ファイルをダウンロードし，それを他の動画プレイヤーなどを用いて確認する方法では適切な確認ができません。ダウンロードツールが接続するサーバによっては，実際にブラウザで見るときとは異なるファイルが落ちてくる場合があるからです。</p>
-<h1 id="まとめ">まとめ</h1><ol>
-<li><strong>高解像度</strong>で動画を作成する（できれば可逆圧縮コーデックを用いて書き出す）。</li>
-<li>最新版のつんでれんこで<strong>大文字のN</strong>を選ぶ（TDEnc2の場合は<strong>選択肢2番</strong>を選ぶ）。</li>
-<li>アップロード後に画質と音質を<strong>ブラウザで確認</strong>する（サーバ再エンコによって必ず劣化するので）。</li>
-<li>（オプション）納得行かない場合は運営に改善要望を出したり他サイトにアップロードしたりする。</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://blog.nicovideo.jp/niconews/ni064293.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ニコニコのエンコサーバの仕様変更が一気に拡大していっている&lt;/a&gt;ので，なるべく劣化しないように
-    
-    </summary>
-    
-      <category term="雑談" scheme="https://tdenc.com/blog/categories/%E9%9B%91%E8%AB%87/"/>
-    
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-      <category term="エンコード" scheme="https://tdenc.com/blog/tags/%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%89/"/>
-    
-      <category term="ニコニコ" scheme="https://tdenc.com/blog/tags/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3/"/>
     
   </entry>
   
