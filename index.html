@@ -52,6 +52,65 @@
     <header>
       
         <div class="icon"></div>
+        <time datetime="2018-06-09T12:07:38.000Z"><a href="/blog/2018/06/09/mylist/">2018-06-09</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/blog/2018/06/09/mylist/">Amazon公式のウォッチリストが全然改善されないので「検索まど」にマイリスト機能を実装した</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h2 id="Amazon公式のウォッチリストが使いづらい！">Amazon公式のウォッチリストが使いづらい！</h2><p>Amazonプライムビデオにはウォッチリスト機能なるものがありますが，これが非常に使いづらい代物です。</p>
+<ul>
+<li>最初から用意されているウォッチリスト1つしか利用できない。</li>
+<li>動画が視聴期限間近なのかがわかりにくい（パソコン上でマウスオーバーしないとわからない）。</li>
+<li>ソートできないから探しにくい。</li>
+</ul>
+<h2 id="ウォッチリストより使いやすいマイリスト機能を実装した！">ウォッチリストより使いやすいマイリスト機能を実装した！</h2><p>そんなわけで，「検索まど」にもっと便利で使いやすい<a href="https://beta-mado.tdenc.com/#/mylist" target="_blank" rel="external">マイリスト機能</a>をつけました。現在はまだ<a href="https://beta-mado.tdenc.com" target="_blank" rel="external">ベータ版</a>のみで利用できる機能ですが，そのうち<a href="https://mado.tdenc.com" target="_blank" rel="external">安定版</a>にも実装予定です。まだUIを調整中で，実装したばかりでバグも出てくる可能性があるので，しばらくはベータ版でのみ提供します。<br>※ベータ版で作ったマイリストは正式版でも利用可能です（メールアドレスが同じアカウントでデータは共有されます）。</p>
+<h2 id="マイページのマイリスト管理画面">マイページのマイリスト管理画面</h2><p><img src="/blog/images/mylist.png" alt=""></p>
+<h2 id="マイリストページ">マイリストページ</h2><p><img src="/blog/images/mylist2.png" alt=""></p>
+<h2 id="検索まどのマイリストの特徴">検索まどのマイリストの特徴</h2><ul>
+<li><strong>何個でも</strong>マイリストを作れ，<strong>名前もつけられて整理できる</strong>。</li>
+<li>マイリストの中身をソートできる。</li>
+<li>自分用の非公開マイリストだけでなく<strong>他の人にも閲覧を許可できる公開マイリスト</strong>も作れる。</li>
+<li>お気に入り機能を使ってよく見るマイリストを簡単に選択できる（「お気に入り登録数が多い人気の公開マイリスト」みたいなのもわかります）。</li>
+</ul>
+<p>また，もともと「検索まど」は視聴期限や更新日時をわかりやすく表示しているので，以下の特徴はマイリスト機能でもそのまま引き継いでいます。</p>
+<ul>
+<li>視聴期限間近（30日以内）の動画にはきちんとタグが表示される。</li>
+<li>シリーズもの（アニメとか）の更新日時がひと目で分かる。</li>
+</ul>
+<p>詳しい使い方は<a href="https://beta-mado.tdenc.com/#/mypage" target="_blank" rel="external">マイページ</a>の各項目にヘルプを書いています。マイページを使うにはメールアドレスを用いたアカウント登録が必要ですが，捨てアドで登録しても構いません（メールアドレスが有効かどうかの判断のためにメールでの認証はしないといけませんが）。有料機能とかではなくてすべて無料でどなたでもご利用できます。</p>
+<p>マイリストの使用に際して一つだけ注意点を。マイリストにはビデオ用・ミュージック用・リーディング用の3タイプが作れますが，ビデオ用には動画だけ，ミュージック用には音楽だけ，リーディング用には本だけ登録できます。また，例えばジャンルに「アニメ（日本）」を選んだ場合はアニメ作品だけ登録できる仕様になっています。</p>
+<p>実は「すべて」というジャンルのもあって，これにはどんなジャンルのものも登録できるのですが，表示するのがすごく重くなってしまうのでおすすめしません。各ジャンル用にマイリストを用意するのをおすすめします。</p>
+<p>ちなみにマイリスト機能と同時に「検索メモ」機能もつけています。例えばプライムビデオからビデオクリップ作品を除く検索メモは以下のように書けます。</p>
+<h2 id="検索メモ機能実装画像">検索メモ機能実装画像</h2><p><img src="/blog/images/memo.png" alt=""></p>
+<p>検索メモは（ログインしていれば）検索ページから登録することもできますし，マイページから登録することも可能です。</p>
+<h2 id="たくさん使ってね！">たくさん使ってね！</h2><p>試しに2018年の春アニメを公開マイリスト「2018春アニメ」として作成してみました。こんな感じでみんなで使える機能が欲しかったんですよね。他にも「おすすめの海外ドラマ」みたいなのを誰か作って公開マイリストとして公開してくれないかなあとか妄想したりしています。マイリストページのマイリスト欄はデフォルトでは<strong>お気に入り登録数順にソート</strong>されていますので「公開リスト」のところにはお気に入り登録数が多い公開マイリストが上位に表示されます。いい公開マイリストを探す目安になればうれしいです（そもそもみんなが使ってくれないと機能しないんですけどね！）。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
         <time datetime="2018-04-27T08:11:31.000Z"><a href="/blog/2018/04/27/recharge/">2018-04-27</a></time>
       
       
@@ -445,39 +504,6 @@
 
 
 
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2017-05-26T13:49:33.000Z"><a href="/blog/2017/05/26/nnc-103/">2017-05-26</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/blog/2017/05/26/nnc-103/">NicoNico NewFormat Checker バージョン 1.0.3</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>NNCのバージョン1.0.3を公開しました。ダウンロードは<a href="/NNC/">こちら</a>。<br><a href="http://blog.nicovideo.jp/niconews/24412.html" target="_blank" rel="external">投稿動画の高画質（720p）生成条件緩和について</a>への対応です。</p>
-
-      
-    </div>
-    <footer>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
-
 
 <nav id="pagination">
   
@@ -500,6 +526,10 @@
   <ul class="entry">
     
       <li>
+        <a href="/blog/2018/06/09/mylist/">Amazon公式のウォッチリストが全然改善されないので「検索まど」にマイリスト機能を実装した</a>
+      </li>
+    
+      <li>
         <a href="/blog/2018/04/27/recharge/">しばらく活動休止します</a>
       </li>
     
@@ -513,10 +543,6 @@
     
       <li>
         <a href="/blog/2017/12/12/nnc-104/">NicoNico NewFormat Checker バージョン 1.0.4</a>
-      </li>
-    
-      <li>
-        <a href="/blog/2017/12/11/1080p/">ニコニコ動画1080p仕様への暫定対応版</a>
       </li>
     
   </ul>
@@ -536,7 +562,7 @@
   
     <li><a href="/blog/categories/趣味/">趣味</a><small>3</small></li>
   
-    <li><a href="/blog/categories/開発/">開発</a><small>13</small></li>
+    <li><a href="/blog/categories/開発/">開発</a><small>14</small></li>
   
     <li><a href="/blog/categories/雑談/">雑談</a><small>2</small></li>
   
@@ -548,7 +574,7 @@
 <div class="widget tagcloud">
   <h3 class="title">Tag Cloud</h3>
   <div class="entry">
-    <a href="/blog/tags/Amazon/" style="font-size: 10px;">Amazon</a> <a href="/blog/tags/GitHub/" style="font-size: 12.5px;">GitHub</a> <a href="/blog/tags/GitHub-Pages/" style="font-size: 10px;">GitHub Pages</a> <a href="/blog/tags/Google-App-Engine/" style="font-size: 10px;">Google App Engine</a> <a href="/blog/tags/Heroku/" style="font-size: 10px;">Heroku</a> <a href="/blog/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/blog/tags/NNC/" style="font-size: 15px;">NNC</a> <a href="/blog/tags/TDEnc2/" style="font-size: 17.5px;">TDEnc2</a> <a href="/blog/tags/Twitter/" style="font-size: 10px;">Twitter</a> <a href="/blog/tags/つんでれんこ/" style="font-size: 20px;">つんでれんこ</a> <a href="/blog/tags/イヤホン/" style="font-size: 10px;">イヤホン</a> <a href="/blog/tags/エンコード/" style="font-size: 10px;">エンコード</a> <a href="/blog/tags/デレステ/" style="font-size: 12.5px;">デレステ</a> <a href="/blog/tags/ニコニコ/" style="font-size: 12.5px;">ニコニコ</a> <a href="/blog/tags/ニコニコ書籍/" style="font-size: 12.5px;">ニコニコ書籍</a> <a href="/blog/tags/プライム/" style="font-size: 10px;">プライム</a> <a href="/blog/tags/リリース/" style="font-size: 10px;">リリース</a> <a href="/blog/tags/休みたい/" style="font-size: 10px;">休みたい</a> <a href="/blog/tags/検索まど/" style="font-size: 10px;">検索まど</a> <a href="/blog/tags/開発/" style="font-size: 10px;">開発</a>
+    <a href="/blog/tags/Amazon/" style="font-size: 12.5px;">Amazon</a> <a href="/blog/tags/GitHub/" style="font-size: 12.5px;">GitHub</a> <a href="/blog/tags/GitHub-Pages/" style="font-size: 10px;">GitHub Pages</a> <a href="/blog/tags/Google-App-Engine/" style="font-size: 10px;">Google App Engine</a> <a href="/blog/tags/Heroku/" style="font-size: 10px;">Heroku</a> <a href="/blog/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/blog/tags/NNC/" style="font-size: 15px;">NNC</a> <a href="/blog/tags/TDEnc2/" style="font-size: 17.5px;">TDEnc2</a> <a href="/blog/tags/Twitter/" style="font-size: 10px;">Twitter</a> <a href="/blog/tags/つんでれんこ/" style="font-size: 20px;">つんでれんこ</a> <a href="/blog/tags/イヤホン/" style="font-size: 10px;">イヤホン</a> <a href="/blog/tags/エンコード/" style="font-size: 10px;">エンコード</a> <a href="/blog/tags/デレステ/" style="font-size: 12.5px;">デレステ</a> <a href="/blog/tags/ニコニコ/" style="font-size: 12.5px;">ニコニコ</a> <a href="/blog/tags/ニコニコ書籍/" style="font-size: 12.5px;">ニコニコ書籍</a> <a href="/blog/tags/プライム/" style="font-size: 12.5px;">プライム</a> <a href="/blog/tags/リリース/" style="font-size: 10px;">リリース</a> <a href="/blog/tags/休みたい/" style="font-size: 10px;">休みたい</a> <a href="/blog/tags/検索まど/" style="font-size: 12.5px;">検索まど</a> <a href="/blog/tags/開発/" style="font-size: 10px;">開発</a>
   </div>
 </div>
 
