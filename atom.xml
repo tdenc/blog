@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2018-06-09T13:31:13.708Z</updated>
+  <updated>2018-06-19T11:09:08.868Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>チップ（メッセージ，投げ銭，ギフトなど）の受け取り件数の公開</title>
+    <link href="https://tdenc.com/blog/2018/06/19/tip-log/"/>
+    <id>https://tdenc.com/blog/2018/06/19/tip-log/</id>
+    <published>2018-06-19T10:38:46.000Z</published>
+    <updated>2018-06-19T11:09:08.868Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="/tip/">チップ受け付けのページ</a>で受け取ったもの（メッセージ，投げ銭，ギフトなど）の件数についてGoogleスプレッドシートで公開します。</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1YIURtLaMAu0abeo_84sPeg912gWgY-5y-3d7TXn5juc/edit?usp=sharing" target="_blank" rel="external">チップ受け取り履歴</a></p>
+<p>もともと受付開始から1年後にはデータを公開するつもりでしたが，少し様子見をしていました。種類，金額の多寡に関係なくすべてのチップは「窓屋」の励みとなっており，いつも感謝しております。昔も今も変わらずに長文のメッセージを送ってくださる方がいて，とても幸せなことです。</p>
+<p>こちらから個別にお返事を送ることはできないのですが，チップを送ってくださった方々全員にこの場をもってお礼申し上げます。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;/tip/&quot;&gt;チップ受け付けのページ&lt;/a&gt;で受け取ったもの（メッセージ，投げ銭，ギフトなど）の件数についてGoogleスプレッドシートで公開します。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets
+    
+    </summary>
+    
+      <category term="報告" scheme="https://tdenc.com/blog/categories/%E5%A0%B1%E5%91%8A/"/>
+    
+    
+      <category term="ギフト" scheme="https://tdenc.com/blog/tags/%E3%82%AE%E3%83%95%E3%83%88/"/>
+    
+      <category term="チップ" scheme="https://tdenc.com/blog/tags/%E3%83%81%E3%83%83%E3%83%97/"/>
+    
+      <category term="メッセージ" scheme="https://tdenc.com/blog/tags/%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/"/>
+    
+      <category term="投げ銭" scheme="https://tdenc.com/blog/tags/%E6%8A%95%E3%81%92%E9%8A%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>Amazon公式のウォッチリストが全然改善されないので「検索まど」にマイリスト機能を実装した</title>
@@ -711,32 +744,6 @@
     </summary>
     
       <category term="開発" scheme="https://tdenc.com/blog/categories/%E9%96%8B%E7%99%BA/"/>
-    
-    
-      <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>つんでれんこバージョン2.95</title>
-    <link href="https://tdenc.com/blog/2016/11/10/tdenc-295/"/>
-    <id>https://tdenc.com/blog/2016/11/10/tdenc-295/</id>
-    <published>2016-11-09T21:59:06.000Z</published>
-    <updated>2016-12-06T11:14:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>つんでれんこバージョン2.95をリリースしました。ダウンロードは<a href="/TDEnc/">こちら</a>。</p>
-<p>動画の長さが30分を越える場合の自動リサイズで，高さ320ピクセルだったのを360ピクセルに変更しました（サーバの仕様を勘違いしていました）。度重なる更新すみません。今度こそ最後です（そう思いたい…）。</p>
-<p>つんでれんこを用いたニコニコ新仕様対策は<a href="/blog/2016/10/22/nico-new-format-3/">こちら</a>を参考にして下さい。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;つんでれんこバージョン2.95をリリースしました。ダウンロードは&lt;a href=&quot;/TDEnc/&quot;&gt;こちら&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;動画の長さが30分を越える場合の自動リサイズで，高さ320ピクセルだったのを360ピクセルに変更しました（サーバの仕様を勘違いしていました）。
-    
-    </summary>
-    
-      <category term="リリース" scheme="https://tdenc.com/blog/categories/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/"/>
     
     
       <category term="つんでれんこ" scheme="https://tdenc.com/blog/tags/%E3%81%A4%E3%82%93%E3%81%A7%E3%82%8C%E3%82%93%E3%81%93/"/>
