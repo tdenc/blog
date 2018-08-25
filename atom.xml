@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://tdenc.com/blog/"/>
-  <updated>2018-08-25T12:07:45.957Z</updated>
+  <updated>2018-08-25T12:51:48.470Z</updated>
   <id>https://tdenc.com/blog/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="https://tdenc.com/blog/2018/08/25/tagbottle/"/>
     <id>https://tdenc.com/blog/2018/08/25/tagbottle/</id>
     <published>2018-08-25T11:26:42.000Z</published>
-    <updated>2018-08-25T12:07:45.957Z</updated>
+    <updated>2018-08-25T12:51:48.470Z</updated>
     
     <content type="html"><![CDATA[<p>新しいSNS「<a href="https://alpha.tagbottle.com" target="_blank" rel="external">タグボトル</a>」をオープンソースで作っています。そんなお話。</p>
+<h2 id="サンプル画像">サンプル画像</h2><p><img src="/blog/images/tagbottle6.jpg" alt=""></p>
 <h2 id="情報発信者の多様化">情報発信者の多様化</h2><p>SNSが持つ役割は時代によって変遷してきました。現在はインターネットの普及によって個人が情報発信することが容易になっています。従来マスメディアに依存していた情報の希少性が低下する一方で、SNSによる個人（企業）による発信はますます盛んになってきています。</p>
 <p>そのような風潮の中でSNSが1つの「メディア」の役割を担いつつあります。企業アカウントの急増、大量に増える宣伝と共有機能による情報過多、運営の「認証バッジ」によるお墨付きなどがこのメディア化をますます促進します。</p>
 <h2 id="アカウントの肥大化">アカウントの肥大化</h2><p>1つの「アカウント」が持つ意味や役割が大きくなればなるほど、そのアカウント同士を結びつけることがSNSにおいては重要になります。どのSNSもパーソナライズに苦心し、レコメンドの工夫に余念がありません。おすすめアカウントを頻繁に表示したり、自分とつながりがある人がどんな話題にいいねを押したのかを他人に通知したりするのもその一環でしょう。</p>
@@ -40,7 +41,7 @@
     <summary type="html">
     
       &lt;p&gt;新しいSNS「&lt;a href=&quot;https://alpha.tagbottle.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;タグボトル&lt;/a&gt;」をオープンソースで作っています。そんなお話。&lt;/p&gt;
-&lt;h2 id=&quot;情報発信者の多様化&quot;&gt;情報発信者
+&lt;h2 id=&quot;サンプル画像&quot;&gt;サンプル画像&lt;/
     
     </summary>
     
